@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Templates/Team Template.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Team Template"
+              "title": "Home"
             }
           }
         ]
@@ -236,15 +236,34 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "03-People/DevOps Members.md",
+    "03-People/DevOps Members.md.tmp.34949.89bc6152b87d",
     "Home.md",
-    "10-Templates/Team Template.md",
-    "10-Templates/Product Template.md",
-    "10-Templates/Research Template.md",
-    "10-Templates/Project Template.md",
-    "10-Templates/Daily Note Template.md",
-    "10-Templates/Meeting Template.md",
-    "10-Templates/SOP Template.md",
     "10-Templates/Client Template.md",
+    "00-Inbox.md",
+    "08-Documentation.md",
+    "09-Research.md",
+    "10-Templates/Daily Note Template.md",
+    "10-Templates/Product Template.md",
+    "02-Teams/Teams Index.md",
+    "02-Teams/Sales Team.md",
+    "02-Teams/QA Team.md",
+    "02-Teams/Marketing Team.md",
+    "02-Teams/Leadership Team.md",
+    "02-Teams/HR Team.md",
+    "02-Teams/Engineering Team.md",
+    "02-Teams/DevOps Team.md",
+    "02-Teams/Design Team.md",
+    "01-Company/Business Processes.md",
+    "01-Company/Company Values.md",
+    "01-Company/Technology Stack.md",
+    "01-Company/Organization Structure.md",
+    "01-Company/Mission Vision.md",
+    "01-Company/Departments.md",
+    "01-Company/Company Policies.md",
+    "02-Teams/Product Team.md",
+    "03-People/QA Members.md",
+    "03-People",
     "11-Archive",
     "10-Templates",
     "09-Research",
@@ -253,15 +272,6 @@
     "06-Meetings",
     "05-Clients",
     "04-Products",
-    "03-Projects",
-    "02-Teams",
-    "90-meta/README.md",
-    "40-skills/README.md",
-    "30-project/README.md",
-    "10-context/README.md",
-    "20-wiki/README.md",
-    "00-inbox/README.md",
-    "Untitled.canvas",
-    "Welcome.md"
+    "Untitled.canvas"
   ]
 }
