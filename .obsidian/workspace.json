@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Company/Business Processes.md",
+                "file": "04-Projects/Completed Projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Business Processes"
+              "title": "Completed Projects"
             }
           }
         ]
@@ -236,6 +236,17 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "05-Products/Product Template.md",
+    "05-Products/Product Template.md.tmp.35826.ca1f92fbc3a5",
+    "05-Products/Release Notes.md",
+    "05-Products/Feature Requests.md",
+    "05-Products/Product Roadmap.md",
+    "05-Products/Product Catalog.md",
+    "05-Products/Products Index.md",
+    "05-Products",
+    "04-Projects/Completed Projects.md",
+    "04-Projects/Active Projects.md",
+    "10-Templates/Daily Note Template.md",
     "01-Company/Business Processes.md",
     "01-Company/Company Overview.md",
     "01-Company/Technology Stack.md",
@@ -245,9 +256,7 @@
     "01-Company/Company Policies.md",
     "01-Company/Company Values.md",
     "04-Projects/Project Template.md",
-    "04-Projects/Completed Projects.md",
     "04-Projects/Project Ideas.md",
-    "04-Projects/Active Projects.md",
     "04-Projects/Projects Index.md",
     "04-Projects",
     "03-People/DevOps Members.md",
@@ -257,21 +266,12 @@
     "00-Inbox.md",
     "08-Documentation.md",
     "09-Research.md",
-    "10-Templates/Daily Note Template.md",
-    "10-Templates/Product Template.md",
-    "02-Teams/Teams Index.md",
-    "02-Teams/Sales Team.md",
-    "02-Teams/QA Team.md",
-    "02-Teams/Marketing Team.md",
-    "02-Teams/Leadership Team.md",
     "03-People",
     "11-Archive",
     "10-Templates",
     "09-Research",
     "08-Documentation",
     "07-SOPs",
-    "06-Meetings",
-    "05-Clients",
     "Untitled.canvas"
   ]
 }
