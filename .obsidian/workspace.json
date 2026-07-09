@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c81192a9ab4158ce",
+        "id": "5eb8f7944a88a31d",
         "type": "tabs",
         "children": [
           {
-            "id": "86ba3a1a97667291",
+            "id": "a41ff0912f081a08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "10-Templates/Team Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e42283574267002b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "03d53f6ff73cf156",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Team Template"
             }
           }
         ]
@@ -101,8 +85,61 @@
     "type": "split",
     "children": [
       {
+        "id": "46c62f0047cadeb6",
+        "type": "tabs",
+        "dimension": 77.77777777777779,
+        "children": [
+          {
+            "id": "07b26fe1e264d51b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "terminal:terminal",
+              "state": {
+                "terminal:terminal": {
+                  "cwd": "/Users/varunsai/mcp-obsidian/second brain",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "environment": [],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "profileSourceId": "darwinIntegratedDefault",
+                  "serial": null,
+                  "userTitle": ""
+                }
+              },
+              "pinned": true,
+              "icon": "terminal",
+              "title": "Terminal: zsh"
+            }
+          }
+        ]
+      },
+      {
         "id": "6882008082780c34",
         "type": "tabs",
+        "dimension": 22.22222222222222,
         "children": [
           {
             "id": "e2e80200215d0273",
@@ -110,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +156,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +165,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,21 +207,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 560.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +230,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "86ba3a1a97667291",
+  "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "Home.md",
+    "10-Templates/Team Template.md",
+    "10-Templates/Product Template.md",
+    "10-Templates/Research Template.md",
+    "10-Templates/Project Template.md",
+    "10-Templates/Daily Note Template.md",
+    "10-Templates/Meeting Template.md",
+    "10-Templates/SOP Template.md",
+    "10-Templates/Client Template.md",
+    "11-Archive",
+    "10-Templates",
+    "09-Research",
+    "08-Documentation",
+    "07-SOPs",
+    "06-Meetings",
+    "05-Clients",
+    "04-Products",
+    "03-Projects",
+    "02-Teams",
+    "90-meta/README.md",
+    "40-skills/README.md",
+    "30-project/README.md",
+    "10-context/README.md",
+    "20-wiki/README.md",
+    "00-inbox/README.md",
+    "Untitled.canvas",
     "Welcome.md"
   ]
 }
