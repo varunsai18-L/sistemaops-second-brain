@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "15-Automation/Offboarding Workflow.md",
+                "file": "16-Navigation/Navigation Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Offboarding Workflow"
+              "title": "Navigation Index"
             }
           }
         ]
@@ -236,6 +236,12 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "16-Navigation/Navigation Index.md",
+    "16-Navigation/Getting Started.md",
+    "16-Navigation/Quick Links.md",
+    "16-Navigation/Knowledge Map.md",
+    "16-Navigation/Department Map.md",
+    "16-Navigation",
     "15-Automation/Offboarding Workflow.md",
     "15-Automation/Monthly Workflow.md",
     "15-Automation/Daily Workflow.md",
@@ -259,11 +265,6 @@
     "13-Assets/Engineering Assets.md",
     "13-Assets/Assets Index.md",
     "13-Assets/Brand Assets.md",
-    "13-Assets/Marketing Assets.md",
-    "13-Assets/Design Assets.md",
-    "Home.md",
-    "Meetings - Executive Leadership.md",
-    "08-Documentation.md",
     "13-Assets",
     "second brain/12-Governance",
     "second brain",
@@ -271,7 +272,6 @@
     "09-Documentation",
     "08-SOPs",
     "07-Meetings/Meeting Template.md.tmp.36988.4c37584747c4",
-    "07-Meetings",
     "Untitled.canvas"
   ]
 }
