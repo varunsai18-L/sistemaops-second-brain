@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5eb8f7944a88a31d",
+        "id": "7138f5c8dc78cb19",
         "type": "tabs",
         "children": [
           {
-            "id": "a41ff0912f081a08",
+            "id": "1574efb19edee28a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09-Documentation/Coding Standards.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Coding Standards"
+              "title": "New tab"
             }
           }
         ]
@@ -236,32 +232,33 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "12-Governance/05-Retention and Disposal Policy.md",
+    "12-Governance/04-Compliance and Legal.md",
+    "12-Governance/03-Privacy and Security Policy.md",
+    "12-Governance/02-Data Management Policy.md",
+    "12-Governance/01-Governance Framework.md",
+    "06-Clients/Client Directory.md",
+    "06-Clients/Clients Index.md",
+    "08-SOPs/HR SOP.md",
+    "08-SOPs/Engineering SOP.md",
+    "08-SOPs/SOP Index.md",
+    "07-Meetings/Meetings Index.md",
+    "07-Meetings/Meeting Template.md",
+    "07-Meetings/Meeting Calendar.md",
+    "07-Meetings/Client Meetings.md",
+    "09-Documentation/Architecture.md",
+    "09-Documentation/Coding Standards.md",
+    "11-Archive/Archive Index.md",
+    "11-Archive/Archive Policy.md",
+    "11-Archive/Archived Meetings.md",
+    "12-Governance",
+    "Meetings - Executive Leadership.md",
     "11-Archive/Archived Documentation.md",
     "11-Archive/Archived Research.md",
-    "11-Archive/Archived Meetings.md",
     "11-Archive/Archived Products.md",
     "11-Archive/Archived Clients.md",
     "11-Archive/Archived Projects.md",
-    "11-Archive/Archive Policy.md",
-    "11-Archive/Archive Index.md",
     "09-Research/Research Template.md",
-    "09-Research/Research Notes.md",
-    "09-Research/Technology Research.md",
-    "09-Research/Market Research.md",
-    "09-Research/Competitor Research.md",
-    "09-Research/Research Topics.md",
-    "09-Research/Research Index.md",
-    "09-Documentation/Coding Standards.md",
-    "09-Documentation/Architecture.md",
-    "07-Meetings/Client Meetings.md",
-    "07-Meetings/Meeting Calendar.md",
-    "07-Meetings/Meeting Template.md",
-    "07-Meetings/Meetings Index.md",
-    "09-Documentation/Documentation Template.md",
-    "09-Documentation/Troubleshooting.md",
-    "09-Documentation/Deployment Guide.md",
-    "09-Documentation/Development Guide.md",
-    "09-Documentation/API Documentation.md",
     "09-Documentation",
     "08-SOPs",
     "07-Meetings/Meeting Template.md.tmp.36988.4c37584747c4",
@@ -271,7 +268,6 @@
     "05-Products",
     "04-Projects",
     "03-People/DevOps Members.md.tmp.34949.89bc6152b87d",
-    "03-People",
     "Untitled.canvas"
   ]
 }
