@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-Clients/Client Directory.md",
+                "file": "09-Documentation/Coding Standards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Client Directory"
+              "title": "Coding Standards"
             }
           }
         ]
@@ -236,17 +236,26 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
-    "08-SOPs/HR SOP.md",
-    "08-SOPs/Engineering SOP.md",
-    "08-SOPs/SOP Index.md",
-    "08-SOPs",
+    "09-Documentation/Coding Standards.md",
+    "09-Documentation/Architecture.md",
+    "07-Meetings/Client Meetings.md",
+    "07-Meetings/Meeting Calendar.md",
     "07-Meetings/Meeting Template.md",
+    "07-Meetings/Meetings Index.md",
+    "09-Documentation/Documentation Template.md",
+    "09-Documentation/Troubleshooting.md",
+    "09-Documentation/Deployment Guide.md",
+    "09-Documentation/Development Guide.md",
+    "09-Documentation/API Documentation.md",
+    "09-Documentation/Documentation Index.md",
+    "09-Documentation",
+    "08-SOPs/SOP Index.md",
+    "08-SOPs/Engineering SOP.md",
+    "08-SOPs/HR SOP.md",
+    "08-SOPs",
     "07-Meetings/Meeting Template.md.tmp.36988.4c37584747c4",
     "07-Meetings/One-on-One Meetings.md",
-    "07-Meetings/Client Meetings.md",
     "07-Meetings/Team Meetings.md",
-    "07-Meetings/Meeting Calendar.md",
-    "07-Meetings/Meetings Index.md",
     "07-Meetings",
     "06-Clients/Client Template.md",
     "06-Clients/Client Meetings.md",
@@ -257,21 +266,12 @@
     "04-Projects/Completed Projects.md",
     "04-Projects/Active Projects.md",
     "03-People/Sales Members.md",
-    "02-Teams/Design Team.md",
-    "02-Teams/DevOps Team.md",
-    "02-Teams/Engineering Team.md",
-    "02-Teams/HR Team.md",
-    "02-Teams/Product Team.md",
-    "02-Teams/QA Team.md",
-    "02-Teams/Teams Index.md",
-    "02-Teams/Sales Team.md",
     "06-Clients",
     "05-Products/Product Template.md.tmp.35826.ca1f92fbc3a5",
     "05-Products",
     "04-Projects",
     "03-People/DevOps Members.md.tmp.34949.89bc6152b87d",
     "03-People",
-    "11-Archive",
     "Untitled.canvas"
   ]
 }
