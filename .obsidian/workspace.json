@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13-Assets/Assets Index.md",
+                "file": "14-Dashboards/Executive Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assets Index"
+              "title": "Executive Dashboard"
             }
           }
         ]
@@ -236,6 +236,14 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "14-Dashboards/Executive Dashboard.md",
+    "14-Dashboards/Knowledge Dashboard.md",
+    "14-Dashboards/Meetings Dashboard.md",
+    "14-Dashboards/Clients Dashboard.md",
+    "14-Dashboards/Products Dashboard.md",
+    "14-Dashboards/Teams Dashboard.md",
+    "14-Dashboards/Projects Dashboard.md",
+    "14-Dashboards",
     "13-Assets/External Resources.md",
     "13-Assets/Templates Library.md",
     "13-Assets/Product Assets.md",
@@ -255,13 +263,6 @@
     "03-People/Employee Template.md",
     "03-People/DevOps Members.md",
     "03-People/Design Members.md",
-    "05-Products/Release Notes.md",
-    "05-Products/Products Index.md",
-    "05-Products/Product Template.md",
-    "05-Products/Product Catalog.md",
-    "05-Products/Feature Requests.md",
-    "12-Governance/05-Retention and Disposal Policy.md",
-    "12-Governance/04-Compliance and Legal.md",
     "13-Assets",
     "second brain/12-Governance",
     "second brain",
@@ -271,7 +272,6 @@
     "07-Meetings/Meeting Template.md.tmp.36988.4c37584747c4",
     "07-Meetings",
     "06-Clients",
-    "05-Products/Product Template.md.tmp.35826.ca1f92fbc3a5",
     "Untitled.canvas"
   ]
 }
