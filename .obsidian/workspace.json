@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-Dashboards/Executive Dashboard.md",
+                "file": "15-Automation/Offboarding Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Executive Dashboard"
+              "title": "Offboarding Workflow"
             }
           }
         ]
@@ -236,6 +236,15 @@
   },
   "active": "07b26fe1e264d51b",
   "lastOpenFiles": [
+    "15-Automation/Offboarding Workflow.md",
+    "15-Automation/Monthly Workflow.md",
+    "15-Automation/Daily Workflow.md",
+    "15-Automation/Automation Index.md",
+    "15-Automation/Automation Ideas.md",
+    "15-Automation/Onboarding Workflow.md",
+    "15-Automation/Workflow Library.md",
+    "15-Automation/Weekly Workflow.md",
+    "15-Automation",
     "14-Dashboards/Executive Dashboard.md",
     "14-Dashboards/Knowledge Dashboard.md",
     "14-Dashboards/Meetings Dashboard.md",
@@ -255,14 +264,6 @@
     "Home.md",
     "Meetings - Executive Leadership.md",
     "08-Documentation.md",
-    "00-Inbox.md",
-    "03-People/People Index.md",
-    "03-People/Marketing Members.md",
-    "03-People/HR Members.md",
-    "03-People/Engineering Members.md",
-    "03-People/Employee Template.md",
-    "03-People/DevOps Members.md",
-    "03-People/Design Members.md",
     "13-Assets",
     "second brain/12-Governance",
     "second brain",
@@ -271,7 +272,6 @@
     "08-SOPs",
     "07-Meetings/Meeting Template.md.tmp.36988.4c37584747c4",
     "07-Meetings",
-    "06-Clients",
     "Untitled.canvas"
   ]
 }
