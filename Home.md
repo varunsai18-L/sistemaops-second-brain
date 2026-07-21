@@ -1,46 +1,64 @@
-# Company Second Brain
+---
+title: SystemsOps — Second Brain
+type: home
+tags: [home, dashboard]
+---
 
-Welcome to your company's central knowledge repository. Use this dashboard to navigate, capture information quickly, and stay updated on active work and recent notes.
+# 🧠 SystemsOps Second Brain
 
-## Navigation
+> Last Odoo sync: run `python sync_odoo.py` in 15-Automation to refresh
 
-- [[00-Inbox]]
-- [[01-Company]]
-- [[02-Teams]]
-- [[03-Projects]]
-- [[04-Products]]
-- [[05-Clients]]
-- [[06-Meetings]]
-- [[07-SOPs]]
-- [[08-Documentation]]
-- [[09-Research]]
-- [[10-Templates]]
-- [[11-Archive]]
+---
 
-## Quick Capture
+## 🔍 Quick CEO Search
+> Press `Cmd + Shift + F` and type any keyword below
 
-- [[New Meeting]]
-- [[New Project]]
-- [[New SOP]]
-- [[New Research]]
-- [[New Client]]
-- [[New Product]]
+| Need | Search Term |
+|------|-------------|
+| All active tasks | `tag:#odoo/task` |
+| In-progress work | `stage:"In Progress"` |
+| What's in backlog | `stage:"Backlog"` |
+| AI/ML projects | `project:"AI ML review"` |
+| Odoo ERP work | `Prototypes DEVOPS` |
+| N8N automation | `N8N` |
+| Any task by name | just type the name |
 
-## Active Work
+---
 
-*Placeholder for active projects, tasks, or priorities.*
+## 📁 Projects (click to see all tasks)
 
-## Recent Notes
+| Project | Tasks |
+|---------|-------|
+| [[04-Projects/Odoo Projects/AI ML review\|🤖 AI ML Review]] | 18 tasks |
+| [[04-Projects/Odoo Projects/Prototypes DEVOPS - Odoo ERP\|⚙️ Prototypes DEVOPS: Odoo ERP]] | 17 tasks |
+| [[04-Projects/Odoo Projects/Internal\|🏢 Internal]] | 12 tasks |
+| [[04-Projects/Odoo Projects/Home Construction\|🏗️ Home Construction]] | 10 tasks |
+| [[04-Projects/Odoo Projects/odysseus\|🚀 Odysseus]] | 7 tasks |
+| [[04-Projects/Odoo Projects/RFQ Analzser\|📋 RFQ Analyser]] | 7 tasks |
+| [[04-Projects/Odoo Projects/Lead gen Tool\|🎯 Lead Gen Tool]] | 7 tasks |
+| [[04-Projects/Odoo Projects/App deployment\|📦 App Deployment]] | 7 tasks |
+| [[04-Projects/Odoo Projects/AI Workflow Automation - N8N\|🔄 AI Workflow Automation N8N]] | 6 tasks |
+| [[04-Projects/Odoo Projects/Miscellaneous\|📌 Miscellaneous]] | 4 tasks |
+| [[04-Projects/Odoo Projects/AMD hackathon\|💡 AMD Hackathon]] | 3 tasks |
+| [[04-Projects/Odoo Projects/Server management\|🖥️ Server Management]] | 3 tasks |
+| [[04-Projects/Odoo Projects/ERP & Sales Application Prototypes\|💼 ERP & Sales Prototypes]] | 3 tasks |
+| [[04-Projects/Odoo Projects/Video Editing\|🎬 Video Editing]] | 2 tasks |
+| [[04-Projects/Odoo Projects/Boring Apps\|📱 Boring Apps]] | 2 tasks |
+| [[04-Projects/Odoo Projects/Digital Presence - Presentations\|🎨 Digital Presence]] | 2 tasks |
 
-*Placeholder for recently created or modified notes.*
+---
 
-## Important Links
+## 📂 Vault Sections
 
-*Placeholder for frequently used external links or resources.*
+- [[09-Documentation/Documentation Index|📚 Documentation]]
+- [[06-Clients/Clients Index|👥 Clients]]
+- [[15-Automation/Automation Index|⚡ Automation]]
 
-## Search Tips
+---
 
-- **Wikilinks**: Type `[[` to link to existing notes or create new ones.
-- **Tags**: Use `#tag` to categorize notes and click tags to find related content.
-- **Search**: Use `Ctrl+Shift+F` (or Cmd+Shift+F on Mac) to search across all notes.
-- **Graph View**: Click the graph icon in the left sidebar to visualize connections between notes.
+## 🔄 Data Sources
+
+| Source | What's Synced | How to Refresh |
+|--------|--------------|----------------|
+| **Odoo** | 113 Project Tasks | `python sync_odoo.py` |
+| **XWiki** | openDesk wiki pages | `python sync_xwiki.py` |

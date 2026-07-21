@@ -1,0 +1,105 @@
+---
+id: xwiki-xwiki:LDAPUserImport.LDAPUserImportTranslations
+type: XWiki Page
+space: "LDAPUserImport"
+author: "XWiki.superadmin"
+version: "1.1"
+last_modified: 1781907378000
+sync_date: 2026-07-21 11:03:27
+tags:
+  - xwiki/documentation
+  - space/ldapuserimport
+---
+# LDAPUserImportTranslations
+
+- **Space:** LDAPUserImport
+- **Author:** XWiki.superadmin
+- **Last Modified:** 1781907378000
+- **Source:** [LDAPUserImportTranslations](https://wiki.systemaops.in/bin/view/LDAPUserImport/xwiki:LDAPUserImport.LDAPUserImportTranslations)
+
+---
+
+importUsers.title=Import User
+importUsers.info=Import user from LDAP
+importUsers.error.expand=Click to get more details about the error.
+importUsers.error.invalidCSRF=Bad CSRF token, try to reload the page.
+importUsers.modal.form.description=There are more results for this search. Please provide a more precise query.
+importUsers.modal.field.label=Field to search in
+importUsers.modal.fieldValue.label=Search text
+importUsers.modal.fieldValue.search=Search
+importUsers.modal.fieldValue.associationType.label=Association type
+importUsers.modal.group.fieldValue.label=Search LDAP groups
+importUsers.modal.group.fieldValue.placeholder=Type in the name of a group..
+importUsers.modal.group.fieldValue.search=Search groups
+importUsers.modal.ou.fieldValue.label=Search LDAP Organizational Units
+importUsers.modal.ou.fieldValue.placeholder=Type in the name of an organizational unit..
+importUsers.modal.ou.fieldValue.search=Search OUs
+importUsers.modal.filter.fieldValue.label=LDAP Filter
+importUsers.modal.filter.fieldValue.placeholder=Type in filter that will be associated to the group
+importUsers.modal.fieldValue.noResults=No users were found for the searched value!
+importUsers.modal.fieldValue.loadingResults=Loading results ...
+importUsers.modal.fieldValue.importingResults=Importing users ...
+importUsers.modal.searchType.label=Search inside values (slower) 
+importUsers.modal.user.failedImport=Failed to import users!
+importUsers.modal.user.alreadyImported={0} already imported in
+importUsers.modal.user.created={0} user profile has been created in
+importUsers.modal.user.toImport={0} to import in
+importUsers.modal.group.search.type.group=LDAP Group
+importUsers.modal.group.search.type.ou=LDAP Organizational Unit
+importUsers.modal.group.search.type.filter=LDAP Filter
+importUsers.modal.close=Close
+
+admin.ldapuserimport=LDAP User Import
+
+LDAPUserImport.LDAPUserImportConfigClass_ldapUserAttributes=LDAP user fields
+LDAPUserImport.LDAPUserImportConfigClass_enableSingleFieldSearch=Search by field
+LDAPUserImport.LDAPUserImportConfigClass_addOIDCObject=Add OIDC object in user profile
+LDAPUserImport.LDAPUserImportConfigClass_usersAllowedToImport=Users allowed to create accounts from LDAP
+LDAPUserImport.LDAPUserImportConfigClass_usersAllowedToImport_globalAdmin=Global administrators
+LDAPUserImport.LDAPUserImportConfigClass_usersAllowedToImport_localAdmin=Local administrators
+LDAPUserImport.LDAPUserImportConfigClass_usersAllowedToImport_groupEditor=Users allowed to edit a Group
+LDAPUserImport.LDAPUserImportConfigClass_ldapUserAttributes.hint=The list of the LDAP user fields to be available for custom search. The fields added in this list will be available in the Import User modal only if the "SEARCH BY FIELD" option is checked.
+LDAPUserImport.LDAPUserImportConfigClass_enableSingleFieldSearch.hint=If this option is checked, then a select input will be displayed in the Import User modal, allowing to select and to search only in one LDAP field (e.g.: mail). If the option is not checked, the search will be performed in all the fields defined in the "LDAP USER FIELDS" list.
+LDAPUserImport.LDAPUserImportConfigClass_addOIDCObject.hint=If this option is checked, then an OpenID Connect related object will be added in the profile of the new created user, in case any OpenID Connect Authenticator is installed in the main wiki.
+LDAPUserImport.LDAPUserImportConfigClass_usersAllowedToImport.hint=Use this option to specify who is able to import users from LDAP. By default, this is restricted only to Global admin users.
+LDAPUserImport.LDAPUserImportConfigClass_pageNameFormatter.hint=The XWiki page name pattern. Default value is ${uid}, see the documentation for more details.
+LDAPUserImport.LDAPUserImportConfigClass_triggerGroupsUpdate=Trigger groups update
+LDAPUserImport.LDAPUserImportConfigClass_triggerGroupsUpdate.hint=If this option is checked, an update on the XWiki groups that are part of the LDAP groups mapping will be executed at a given time (4:30 AM, by default).
+LDAPUserImport.LDAPUserImportConfigClass_forceXWikiUsersGroupMembershipUpdate=Force XWiki users group membership update
+LDAPUserImport.LDAPUserImportConfigClass_forceXWikiUsersGroupMembershipUpdate.hint=This is a dangerous operation as it can remove admin users from the XWikiAdminGroup, if the LDAP groups mapping contains this group.
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchDN=LDAP Group import search DN
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchDN.hint=The default DN under which LDAP groups should be searched during imports
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchFilter=LDAP Group import search filter
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchFilter.hint=The filter that should be used to search for groups to import. It should follow RFC 2554. i.e. (|(objectClass=groupOfNames)(objectClass=customGroupName))
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchAttributes=LDAP Group import search attributes
+LDAPUserImport.LDAPUserImportConfigClass_ldapGroupImportSearchAttributes.hint=A hint of attributes to be fetched from LDAP groups. These attributes can be used to compute the group page name.
+LDAPUserImport.LDAPUserImportConfigClass_groupPageNameFormat=Group page name format
+LDAPUserImport.LDAPUserImportConfigClass_groupPageNameFormat.hint=Define the name format of imported group pages. By default, the group name is defined as "${uid}Group".
+LDAPUserImport.LDAPUserImportConfigClass_triggerGroupImport=Trigger group import
+LDAPUserImport.LDAPUserImportConfigClass_triggerGroupImport.hint=If this option is checked, enable the daily automated import of LDAP groups. By default, this import is executed at 3:30 AM.
+LDAPUserImport.LDAPUserImportConfigClass_groupMembershipAttribute=User attribute that denotes group membership
+LDAPUserImport.LDAPUserImportConfigClass_groupMembershipAttribute.hint=Use this parameter when users in the LDAP server have attributes that denote membership to groups (such as `memberOf`). If this parameter is filled, the group update job will also look for users that have the attribute value equal to a group in the LDAP groups mapping.
+LDAPUserImport.LDAPUserImportConfigClass_resultsNumber=Results Number
+LDAPUserImport.LDAPUserImportConfigClass_resultsNumber.hint=The maximum number of entries displayed when searching for LDAP users to import or LDAP groups to associate.
+LDAPUserImport.LDAPUserImportConfigClass_OIDCIssuer=OIDC Issuer
+LDAPUserImport.LDAPUserImportConfigClass_OIDCIssuer.hint=The URI of the OIDC Issuer. All the users imported using LDAP User Import will be associated to this issuer.
+
+importUsers.groupUpdate.livetableActionButton=Update
+importUsers.groupUpdate.livetableActionButton.hint=Synchronize the group if it is part of LDAP group mapping.
+importUsers.groupUpdate.title=Import/update group
+importUsers.groupUpdate.confirmationModal.info={0} users have been found in the LDAP group and will be imported or updated.
+importUsers.groupUpdate.confirmationModal.confirm=Confirm
+importUsers.groupUpdate.loadingMembersSize=Checking users ...
+importUsers.groupUpdate.updatingGroup=Updating group ...
+importUsers.groupUpdate.updatingGroup.success=Group successfully updated.
+importUsers.groupUpdate.updatingGroup.fail=Group update failed.
+
+importUsers.associateGroups.title=Associate LDAP Group
+importUsers.associateGroups.livetableActionButton=Associate
+importUsers.associateGroups.livetableActionButton.hint=Associate this group with one ore many LDAP groups to synchronize users from them.
+importUsers.associateGroups.modal.alreadyAssociated={0} ({1}) is already assigned.
+importUsers.associateGroups.modal.toAssociate={0} ({1})
+importUsers.associateGroups.modal.associateButton=Associate
+importUsers.associateGroups.modal.fieldValue.noResults=No groups were found for the searched value!
+importUsers.associateGroups.modal.associationFail=Groups association failed!
+importUsers.associateGroups.modal.associationSuccess=Groups successfully associated!

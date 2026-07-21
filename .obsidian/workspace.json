@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "815442e9500ff729",
+        "id": "1c711f566cd7c12d",
         "type": "tabs",
         "children": [
           {
-            "id": "ae34b8c0716a3231",
+            "id": "e18579444c6f99b4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -203,12 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Home.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Home"
             }
           }
         ],
@@ -216,7 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 560.5
+    "width": 533.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,44 +235,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "07b26fe1e264d51b",
+  "active": "e18579444c6f99b4",
   "lastOpenFiles": [
-    "17-System/System Health.md",
-    "17-System/System Health.md.tmp.40571.396da5e50a4d",
-    "17-System/02-Naming Conventions.md",
-    "17-System/03-Linking Guidelines.md",
-    "17-System/Naming Conventions.md",
-    "17-System/Version History.md",
-    "17-System/Maintenance Checklist.md",
-    "17-System/Changelog.md",
-    "17-System/04-Template Standards.md",
-    "17-System/05-Maintenance Procedures.md",
-    "17-System/Folder Structure.md",
-    "08-Documentation.md",
-    "16-Navigation/Quick Links.md",
-    "17-System/Vault Guide.md",
-    "17-System/README.md",
-    "15-Automation/Daily Workflow.md",
-    "07-Meetings/Meeting Template.md",
-    "09-Research/Technology Research.md",
-    "16-Navigation/Getting Started.md",
-    "10-Templates/Team Template.md",
-    "17-System/01-System Architecture.md",
-    "17-System",
-    "16-Navigation/Navigation Index.md",
-    "16-Navigation/Knowledge Map.md",
-    "16-Navigation/Department Map.md",
-    "16-Navigation",
-    "15-Automation/Offboarding Workflow.md",
-    "15-Automation/Monthly Workflow.md",
-    "15-Automation/Automation Index.md",
-    "15-Automation",
-    "14-Dashboards",
-    "13-Assets",
-    "second brain/12-Governance",
-    "second brain",
-    "12-Governance",
-    "09-Documentation",
-    "Untitled.canvas"
+    "04-Projects/Odoo Projects/AI ML review.md",
+    "Home.md",
+    "Untitled.base",
+    "Video Editing.md",
+    "AI Workflow Automation - N8N.md",
+    "2026-07-21.md",
+    "04-Projects/Projects Index.md",
+    "04-Projects/Project Template.md",
+    "04-Projects/Project Ideas.md",
+    "04-Projects/Completed Projects.md",
+    "04-Projects/Active Projects.md",
+    "04-Projects/Odoo Projects/Miscellaneous.md",
+    "04-Projects/Odoo Projects/No Project.md",
+    "04-Projects/Odoo Tasks/Task - set up the environment for the Odysseus while downloading the dependencies (459).md",
+    "04-Projects/Odoo Projects/odysseus.md",
+    "04-Projects/Odoo Projects/Prototypes DEVOPS - Odoo ERP.md",
+    "04-Projects/Odoo Projects/Video Editing.md",
+    "04-Projects/Odoo Tasks/Task - research Claude for video editing (299).md",
+    "04-Projects/Odoo Tasks/Task - Alternatives in budget   eng kimi (300).md",
+    "04-Projects/Odoo Tasks/Task - N8N Installation (279).md",
+    "04-Projects/Odoo Projects/Server management.md",
+    "04-Projects/Odoo Tasks/Task - all Odoo models (278).md",
+    "04-Projects/Odoo Tasks/Task - Linux review (360).md",
+    "04-Projects/Odoo Tasks/Task - Review and Implement (280).md",
+    "04-Projects/Odoo Projects/SEO Optimization.md",
+    "04-Projects/Odoo Projects/RFQ Analzser.md",
+    "04-Projects/Odoo Projects/Lead gen Tool.md",
+    "Untitled.canvas",
+    "04-Projects/Odoo Projects",
+    "04-Projects/Odoo Tasks",
+    "06-Clients/Odoo Leads",
+    "_Archive/09-Documentation-unrelated",
+    "_Archive",
+    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/LICENSE",
+    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/NOTICE",
+    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/top_level.txt",
+    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses"
   ]
 }

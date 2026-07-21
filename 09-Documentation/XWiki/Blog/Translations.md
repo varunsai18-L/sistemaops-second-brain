@@ -1,0 +1,261 @@
+---
+id: xwiki-xwiki:Blog.Translations
+type: XWiki Page
+space: "Blog"
+author: "XWiki.superadmin"
+version: "1.1"
+last_modified: 1781907769000
+sync_date: 2026-07-21 11:03:56
+tags:
+  - xwiki/documentation
+  - space/blog
+---
+# Translations
+
+- **Space:** Blog
+- **Author:** XWiki.superadmin
+- **Last Modified:** 1781907769000
+- **Source:** [Translations](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.Translations)
+
+---
+
+blog.application.name=Blog
+blog.archive.paneltitle=Blog Archive
+blog.archive.pagetitle=Archive
+blog.archive.noarticle=No articles yet...
+blog.archive.postsyear=posts for {0}
+blog.archive.unpublished=(unpublished)
+blog.archive.hidden=(hidden)
+blog.archive.noarticlesyear=No articles in this year...
+blog.archive.postsfor=posts for
+blog.archive.noarticlesmonth=No articles in this month...
+blog.code.blogsheet=Blog sheet
+blog.code.sheetexplanation=This sheet should be used to display blog pages.
+blog.code.notblog=This is not a blog page!
+blog.code.published=This blog post is not published yet.
+blog.code.hidden=This blog post is hidden.
+blog.code.notpublished=This blog post is not published yet. Publish it.
+blog.code.madevisible=Made entry visible
+blog.code.hid=Hidden entry
+blog.code.makevisible=This blog post is not visible to other users. Make it visible.
+blog.code.hide=Hide this blog post from other users.
+blog.code.loading=Loading...
+blog.code.failedToChangeBlogPostVisibility=Failed to change blog post visibility.
+blog.code.editpost=Edit this blog post
+blog.code.deletepost=Delete this blog post
+blog.code.readpost=Read the full entry
+blog.code.postedin=Posted in
+blog.code.postedby=Posted by
+blog.code.createdby=Created by
+blog.code.modifiedby=Modified by
+blog.code.comments=Comments
+blog.code.permalink=Permalink
+blog.code.categories=Categories:
+blog.code.in=in
+blog.code.previousweek=Previous week
+blog.code.nextweek=Next week
+blog.code.previousmonth=Previous month
+blog.code.nextmonth=Next month
+blog.code.olderposts=Older posts
+blog.code.newerposts=Newer posts
+blog.code.blogcategories=Blog categories
+blog.code.description.category=Most recent blog posts in the {0} category
+blog.code.description.space=Most recent blog posts in the {0} space
+blog.code.description.wiki=Most recent blog posts in the wiki
+blog.code.title=Blog
+blog.code.warning=Warning:
+blog.sheet.notpost=This is not a blog post!
+blog.sheet.category=Category:
+blog.sheet.summary=Summary (optional):
+blog.sheet.content=Content:
+blog.sheet.title=Title:
+blog.sheet.publicationdate=This article was published on {0}
+blog.sheet.hidearticle=Hide article {0}
+blog.sheet.notpublished=This article is not published yet.
+blog.sheet.publish=Publish
+blog.sheet.setdate=Set the publication date to:
+blog.sheet.image=Image
+blog.sheet.image.info=The image field is used to attach a thumbnail to each blog post. The post thumbnails will be visible only in cases where the blog is configured to use the {0}, {1} or {2} layout.
+blog.sheet.choose_image=Choose an image
+blog.category.created=The {0} category has been created.
+blog.category.exists=The {0} category already exists.
+blog.categories.paneltitle=Blog Categories
+blog.categories.name=Name:
+blog.categories.parentcategory=Parent category:
+blog.categories.description=Description:
+blog.categories.add=Add
+blog.categories.new=New category:
+blog.categories.newName=New category name:
+blog.categories.parent=Parent:
+blog.categories.none=None
+blog.categories.remove=Remove deleted category
+blog.categories.edit=Edit Categories
+blog.categories.subcategories=Subcategories
+blog.categories.addsubcategory=Add new subcategory
+blog.categories.articles=Articles from this category
+blog.categories.sheet=Category sheet
+blog.categories.sheetmessage=This sheet should be used to display blog categories.
+blog.categories.webhome_sheetmessage=Implement the display of blog posts inside the categories home page (Blog.CategoriesSheet).
+blog.categories.notcategory=This is not a blog category!
+blog.categories.noentries=No entries in this category
+blog.manageCategories.title=Manage blog categories
+blog.manageCategories.create.error.emptyName=Please enter a valid category name
+blog.manageCategories.create.error.alreadyExists=Target page already exists, please choose a different name
+blog.manageCategories.create.error.notExists=The requested page could not be found.
+blog.manageCategories.create.error.targetNotWritable=You don't have the right to create the target page.
+blog.manageCategories.rename.error.emptyName=Please enter a valid category name
+blog.manageCategories.js.fetchingForm=Fetching form...
+blog.manageCategories.js.error.noServer=Server not responding
+blog.manageCategories.js.rename.inProgress=Renaming category...
+blog.manageCategories.js.rename.error.403=You are not allowed to create the target page
+blog.manageCategories.js.rename.error.404=Invalid category, please refresh the page to update the category tree
+blog.manageCategories.js.rename.error.409=Target page already exists, please choose a different name
+blog.manageCategories.js.add.inProgress=Adding category...
+blog.manageCategories.js.add.error.401=You have been logged out, please refresh and log in
+blog.manageCategories.js.add.error.403=You are not allowed to create the target page
+blog.manageCategories.js.add.error.409=Target page already exists, please choose a different name
+blog.manageCategories.js.delete.confirm=Are you sure you want to delete this category? This action is not reversible.
+blog.manageCategories.js.delete.inProgress=Deleting category...
+blog.manageCategories.js.delete.done=Deleted
+blog.manageCategories.js.delete.failed=Failed to delete category
+blog.manageCategories.comment.updatedParent=Updated category parent
+blog.manageCategories.comment.removedDeletedCategory=Removed deleted category
+blog.manageCategories.comment.updatedRenamedCategory=Updated renamed category
+blog.manageCategories.comment.updatedCategory=Updated category name
+blog.manageCategories.forms.add_button_label=Add
+blog.manageCategories.forms.cancel_button_label=Cancel
+blog.manageCategories.forms.select_none=None
+blog.manageCategories.forms.sub_cat_of=Subcategory of:
+blog.manageCategories.forms.rename_button_label=Rename
+blog.post.createpost=Create a new post
+blog.post.title=Post title
+blog.post.titleEmptyError=The post title should not be empty!
+blog.post.create=Create
+blog.post.sheet=Blog post sheet
+blog.categories.existingcategories=Existing categories
+blog.categories.addcategory=Add a category
+blog.categories.deleteselected=Delete selected categories
+blog.manage.existing=Existing blogs
+blog.manage.createnew=Create a new blog
+blog.manage.nospace=No space provided. Please enter a valid space where the blog should be created.
+blog.manage.space=Space:
+blog.manage.title=Title:
+blog.manage.blogtitle=Blog title
+blog.manage.inside=blog inside an existing space
+blog.manage.main=blog as the main content of a space
+blog.manage.create=Create
+blog.migration.migrated=Migrated old blog article to the new blog application
+blog.migration.updated=Updated
+blog.migration.inspace=in space
+blog.migration.skipping=Skipping protected page
+blog.migration.done=Done.
+blog.migration.backtoblog=Back to the blog
+blog.migration.pleaseconfirm=Please confirm that you want to migrate old articles to the new blog application:
+blog.migration.confirm=Confirm
+blog.publisher.published=Published article
+blog.recentposts.paneltitle=Recent Blog Posts
+blog.unpublished.entries=Unpublished articles
+blog.unpublished.viewall=View all
+blog.relatedblogspanel.title=Related Blogs
+blog.allblogspanel.title=All Blogs
+blog.allblogspanel.manage=Manage Blogs
+
+blog.templateProvider.blogpost.name=Blog Post
+blog.templateProvider.blogpost.description=Communicate news
+blog.categories.all=All
+blog.changeVisibility.changing=Changing the visibility
+blog.changeVisibility.success=The visibility of the blog entry has been successfully changed
+
+blog.manage.pagetitle=Manage blogs on this wiki
+blog.manage.notitle=No blog title provided. Please enter the blog title.
+blog.manage.nopage=No page provided. Please enter a valid page where the blog should be created.
+blog.manage.unallowed_page=The blog location is already used, please enter another location.
+blog.manage.location.title=Blog title
+blog.manage.location.title.hint=Title of the new blog
+blog.manage.location.title.placeholder=New blog
+blog.manage.categories_location=Categories location
+blog.manage.enable_panels=Enable blog panels
+blog.manage.create_default_categories=Create default categories
+blog.manage.locationPreview.hint=Location in the page hierarchy where this new blog will be created.
+blog.manage.categoriesLocationPreview.hint=Location in the page hierarchy where this new blog categories will be created.
+blog.manage.post.layout=Posts layout
+blog.blogpostlist.descriptor_not_found=Unable to found a blog descriptor in document [{0}]
+blog.categories.webhome.title=All categories
+blog.category.posts.count={0} {0,choice,0#posts|1#post|1<posts}
+blog.blogpostlayout.notpost=[{0}] is not a blog post!
+blog.blogpostlayout.post_view_not_allowed=You are not allowed to view the blog post [{0}]
+blog.blogpostcreate.wrong_blog=Wrong blog descriptor
+
+# Blog class list property values.
+Blog.BlogClass_displayType_paginated=Paginated
+Blog.BlogClass_displayType_weekly=Group posts weekly
+Blog.BlogClass_displayType_monthly=Group posts monthly
+Blog.BlogClass_displayType_all=Show all posts
+Blog.BlogClass_postsLayout_image=Image thumbnail
+Blog.BlogClass_postsLayout_full=Calendar
+Blog.BlogClass_postsLayout_cards=Cards
+Blog.BlogClass_postsLayout_compact=Compact
+
+# Blogs macro
+blog.livetable.title=Title
+blog.livetable._actions=Actions
+rendering.macro.blogs.name=All Blogs Livetable
+rendering.macro.blogs.description=The blogs macro is used to list on a livetable all the blog available on the wiki.
+
+# Notifications
+blog.applicationName=Blog
+blog.events.blogpostpublished.description=A blog post is published
+blog.events.blogpostpublished.displayer=A new blog post has been posted: {0}
+blog.events.blogpostpublished.by=by {0}.
+notifications.events.BlogPostPublishedEvent.description.by.1user=published by {0}
+notifications.events.BlogPostPublishedEvent.description=published the blog post
+
+# Blog Menu UIX
+blog.uixMenu.name=Blog configuration
+blog.uixMenu.title=Wizard to configure Blog panels
+blog.uixMenu.title.hint=Choose a Blog and enable its panels in the current page and children.
+blog.uixMenu.blog.hint=Start typing to get the Blog suggestions. Only one should be selected.
+blog.uixMenu.panels.hint=Select from the following list the Blog panels that needs to be displayed.
+blog.uixMenu.inheritPanels.hint=In order to keep the existing displayed panels, make sure this option in checked. Otherwise they will be removed.
+blog.uixMenu.panelsPosition.hint=In case keep the existing panels, select if the Blog panels should be displayed before or after.
+Blog.EnablePanelsConfigurationClass_panels_Blog.AllBlogsPanel=All Blogs Panel
+Blog.EnablePanelsConfigurationClass_panels_Blog.ArchivePanel=Blog Archive Panel
+Blog.EnablePanelsConfigurationClass_panels_Blog.CategoriesPanel=Blog Categories Panel
+Blog.EnablePanelsConfigurationClass_panels_Blog.RecentPostsPanel=Recent Blog Posts Panel
+Blog.EnablePanelsConfigurationClass_panels_Blog.RelatedBlogsPanel=Related Blogs Panel
+Blog.EnablePanelsConfigurationClass_panels_Blog.UnpublishedPanel=Unpublished Blog Posts Panel
+
+# Blog Post Cards Layout
+blog.post.layout.cards.pinnedposts.edit=Manage pinned blog posts
+blog.post.layout.cards.pinnedposts.save=Save
+
+# Blog Post Compact Layout
+blog.post.layout.compact.linktoblog=Direct access to blog
+
+# Panels page title
+blog.panel.blogArchive.pageTitle=Blog Archive Panel
+blog.panel.allBlogs.pageTitle=All Blogs Panel
+blog.panel.blogCategories.pageTitle=Blog Categories Panel
+blog.panel.recentBlogPosts.pageTitle=Recent Blog Posts Panel
+blog.panel.relatedBlogs.pageTitle=Related Blogs Panel
+blog.panel.unpublishedBlogPosts.pageTitle=Unpublished Blog Posts Panel
+
+blog.modal.checkCategorySelection.header=Select a Category
+blog.modal.checkCategorySelection.body=You have not selected any categories for your blog post. Selection of a category makes it easier to find your post later on. Do you want to select a category?
+blog.modal.checkCategorySelection.footer.no=No, save without
+
+blog.migraiton.uix.notification=**Blog Categories Migration (Recommended)**\nYou can migrate your existing blog categories from the old location Blog to the new location Blog.Categories.\n\nThis update enhances permission control, improves category management, and eliminates naming conflicts between blog posts and categories.\nMigrating ensures your blog continues to run smoothly and takes full advantage of these improvements.\n\nNavigate to the {0}//Categories Location Migrator//{1} in order to start the migration process.
+blog.migration.status.categories=In the **{0}** wiki there are {1} categories to migrate.
+blog.migration.status.blogPosts=In the **{0}** wiki there are {1} blog posts that need category update.
+blog.migration.start=Start migration
+
+## Used to indicate where deprecated keys start
+#@deprecatedstart
+#######################################
+## until 9.9
+#######################################
+
+blog.manage.blogtype=Blog type:
+
+## Used to indicate where deprecated keys end
+#@deprecatedend

@@ -1,0 +1,22 @@
+---
+id: odoo-task-458
+type: Project Task
+project: "odysseus"
+stage: "Brainstorm"
+assignees: "72"
+last_updated: 2026-06-13 06:52:53
+sync_date: 2026-07-21 20:33:13
+tags:
+  - odoo/task
+  - project/odysseus
+  - status/brainstorm
+---
+# Task: cloned it on my own environment
+
+- **Project:** [[04-Projects/Odoo Projects/odysseus|odysseus]]
+- **Odoo Stage:** Brainstorm
+- **Assignees:** 72
+- **Last Sync:** 2026-07-21 20:33:13
+
+## Description
+Run the following command in your gitbash one by one :-git clone https://github.com/pewdiepie-archdaemon/odysseus.git      2. cd odysseuswhat is does :- Downloads the repo to your machine and moves into the folder.

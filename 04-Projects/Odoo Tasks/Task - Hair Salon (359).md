@@ -1,0 +1,22 @@
+---
+id: odoo-task-359
+type: Project Task
+project: "App deployment"
+stage: "local testing and verification"
+assignees: "15"
+last_updated: 2026-06-06 06:03:34
+sync_date: 2026-07-21 20:33:13
+tags:
+  - odoo/task
+  - project/app-deployment
+  - status/local-testing-and-verification
+---
+# Task: Hair Salon
+
+- **Project:** [[04-Projects/Odoo Projects/App deployment|App deployment]]
+- **Odoo Stage:** local testing and verification
+- **Assignees:** 15
+- **Last Sync:** 2026-07-21 20:33:13
+
+## Description
+Hair Salonhttp://10.99.0.9:8093

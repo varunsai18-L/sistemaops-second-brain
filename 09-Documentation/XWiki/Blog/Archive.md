@@ -1,0 +1,234 @@
+---
+id: xwiki-xwiki:Blog.ArchiveSheet
+type: XWiki Page
+space: "Blog"
+author: "XWiki.superadmin"
+version: "1.1"
+last_modified: 1781907600000
+sync_date: 2026-07-21 11:03:49
+tags:
+  - xwiki/documentation
+  - space/blog
+---
+# Archive
+
+- **Space:** Blog
+- **Author:** XWiki.superadmin
+- **Last Modified:** 1781907600000
+- **Source:** [Archive](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.ArchiveSheet)
+
+---
+
+{{include reference="Blog.BlogCode"/}}
+
+{{velocity}}
+##
+##
+##
+#macro(displayBlogFullArchive $targetDocument)
+  #getAllBlogPostsQueryBasedOnDisplayContext($targetDocument $query $queryParams)
+  #set ($discard = $queryParams.put('creator', $xcontext.user))
+  #set ($query = "$!{query} and (doc.creator = :creator or (isPublished.value = 1 and hidden.value = 0))")
+  ## Create a Jodatime date formatter that will be used to format dates
+  #set($monthFormatter = $xwiki.jodatime.getDateTimeFormatterForPattern('MMMM').withLocale($xcontext.locale))
+  #set($tempDate = $xwiki.jodatime.mutableDateTime)
+  #set($currentYear = $xwiki.formatDate($datetool.date, 'yyyy'))
+  #set($currentMonth = $xwiki.formatDate($datetool.date, 'M'))
+  #set($firstYear = '')
+  #set($lastYear = '')
+  #set ($firstYearQueryObj = $services.query.hql("${query} order by year(publishDate.value)").setLimit(1).addFilter('unique'))
+  #bindQueryParameters($firstYearQueryObj $queryParams)
+  #foreach($firstEntry in $firstYearQueryObj.execute())
+    #set($discard = $xwiki.getDocument($firstEntry))
+    #getEntryObject($discard $entryObj)
+    #getEntryDate($discard $entryObj $firstYear)
+    #set($firstYear = $numbertool.toNumber($xwiki.formatDate($firstYear, 'yyyy')).intValue())
+  #end
+  #set ($lastYearQueryObj = $services.query.hql("${query} order by year(publishDate.value) desc").setLimit(1).addFilter('unique'))
+  #bindQueryParameters($lastYearQueryObj $queryParams)
+  #foreach($lastEntry in $lastYearQueryObj.execute())
+    #set($discard = $xwiki.getDocument($lastEntry))
+    #getEntryObject($discard $entryObj)
+    #getEntryDate($discard $entryObj $lastYear)
+    #set($lastYear = $numbertool.toNumber($xwiki.formatDate($lastYear, 'yyyy')).intValue())
+  #end
+  #if("$!{firstYear}" != '') ## At least one entry exists
+    #foreach($year in [$firstYear..$lastYear])
+      #set ($yearArticleCountQueryObj = $services.query.hql("${query} and year(publishDate.value) = $year").addFilter('unique'))
+      #bindQueryParameters($yearArticleCountQueryObj $queryParams)
+      #set($yearArticleCount = $yearArticleCountQueryObj.count())
+      #if($yearArticleCount > 0)
+        #set ($queryString = "sheet=Blog.ArchiveSheet&year=${year}")
+        * [[$year ($yearArticleCount)>>${targetDocument.fullName}||queryString="${queryString}"]]
+        #foreach($month in [1..12])
+          #set ($statement = "${query} and year(publishDate.value) = $year and month(publishDate.value) = $month")
+          #set ($monthArticleCountQueryObj = $services.query.hql($statement).addFilter('unique'))
+          #bindQueryParameters($monthArticleCountQueryObj $queryParams)
+          #set ($monthArticleCount = $monthArticleCountQueryObj.count())
+          #if($monthArticleCount > 0)
+            $tempDate.setMonthOfYear($month)
+            #set($queryString = "sheet=Blog.ArchiveSheet&year=${year}&month=${month}")
+            ** [[$monthFormatter.print($tempDate) (${monthArticleCount})>>${targetDocument.fullName}||queryString="${queryString}"]]
+          #end
+        #end
+      #end
+    #end
+  #else
+    #info($services.localization.render('blog.archive.noarticle'))
+  #end
+#end
+##
+##
+##
+#macro(displayBlogYearArchive $targetDocument $year)
+  #displayBlogYearArchiveSubTitle($targetDocument $year)
+  #getAllBlogPostsQueryBasedOnDisplayContext($targetDocument $query $queryParams)
+  #set ($discard = $queryParams.put('creator', $xcontext.user))
+  #set ($query = "$!{query} and (doc.creator = :creator or (isPublished.value = 1 and hidden.value = 0))")
+  #set($query = "${query} and year(publishDate.value) = :year")
+  #set ($discard = $queryParams.put('year', $numbertool.toNumber($year).intValue()))
+  ## Create a Jodatime date formatter that will be used to format dates
+  #set($monthFormatter = $xwiki.jodatime.getDateTimeFormatterForPattern('MMMM').withLocale($xcontext.locale))
+  #set($tempDate = $xwiki.jodatime.mutableDateTime)
+  #set ($yearArticleCountQueryObj = $services.query.hql($query).addFilter('unique'))
+  #bindQueryParameters($yearArticleCountQueryObj $queryParams)
+  #set($yearArticleCount = $yearArticleCountQueryObj.count())
+  #if($yearArticleCount > 0)
+    #foreach($month in [1..12])
+      #set ($monthArticleCountQueryObj = $services.query.hql("${query} and month(publishDate.value) = $month").addFilter('unique'))
+      #bindQueryParameters($monthArticleCountQueryObj $queryParams)
+      #set($monthArticleCount = $monthArticleCountQueryObj.count())
+      #if($monthArticleCount > 0)
+        $tempDate.setMonthOfYear($month)
+        #set($queryString = "sheet=Blog.ArchiveSheet&year=${year}&month=${month}")
+(% class="blog-sub-title" %)
+=== [[$monthFormatter.print($tempDate) (${monthArticleCount})>>${targetDocument.fullName}||queryString="${queryString}"]] ===
+        #set ($monthArticleQueryObj = $services.query.hql("${query} and month(publishDate.value) = $month order by publishDate.value").addFilter('unique'))
+        #bindQueryParameters($monthArticleQueryObj $queryParams)
+        #foreach($entryDoc in $xwiki.wrapDocs($monthArticleQueryObj.execute()))
+          #getEntryObject($entryDoc $entryObj)
+          #isPublished($entryObj $isPublished)
+          #isHidden($entryObj $isHidden)
+          * [[$entryDoc.getValue('title')>>$entryDoc]]#if(!$isPublished) $services.localization.render('blog.archive.unpublished')#elseif($isHidden) $services.localization.render('blog.archive.hidden')#end
+
+        #end
+      #end
+    #end
+  #else
+    #info($services.localization.render('blog.archive.noarticlesyear'))
+  #end
+#end
+##
+##
+##
+#macro(displayBlogMonthArchive $targetDocument $year $month)
+  #set($dateFormatter = $xwiki.jodatime.getDateTimeFormatterForPattern('MMMM yyyy'))
+  #set($tempDate = $xwiki.jodatime.mutableDateTime)
+  #set($discard = $tempDate.setYear($numbertool.toNumber($year).intValue()))
+  #set($discard = $tempDate.setMonthOfYear($numbertool.toNumber($month).intValue()))
+  #displayBlogMonthArchiveSubTitle($targetDocument $tempDate)
+  #getAllBlogPostsQueryBasedOnDisplayContext($targetDocument $query $queryParams)
+  #set ($discard = $queryParams.put('creator', $xcontext.user))
+  #set ($query = "$!{query} and (doc.creator = :creator or (isPublished.value = 1 and hidden.value = 0))")
+  #set($query = "${query} and year(publishDate.value) = :year and month(publishDate.value) = :month")
+  #set ($discard = $queryParams.put('year', $numbertool.toNumber($year).intValue()))
+  #set ($discard = $queryParams.put('month', $numbertool.toNumber($month).intValue()))
+  #set ($monthArticleCountQueryObj = $services.query.hql($query).addFilter('unique'))
+  #bindQueryParameters($monthArticleCountQueryObj $queryParams)
+  #set($monthArticleCount = $monthArticleCountQueryObj.count())
+  #if($monthArticleCount > 0)
+    #set ($fromDate = "${year}-${month}-01")
+    #set ($toDate =$datetool.toDate('yyyy-M-d', "$fromDate"))
+    #set ($cal = $datetool.getCalendar())
+    #set ($discard = $cal.setTime($toDate))
+    ## Get the last day of the month
+    #set ($discard = $cal.add(2, 1))## +1 month
+    #set ($discard = $cal.add(5, -1))## -1 day
+    #set ($toDate = $cal.getTime())
+    #set ($toDate = $datetool.format('yyyy-M-d', $toDate))
+
+    #set ($layoutParams = "useSummary=true|displayTitle=true")
+    #if ($targetDocument.space == $defaultBlogSpace && !$targetDocument.getObject($blogCategoryClassname))
+      #getBlogPostsLayout($xwiki.getDocument("${defaultBlogSpace}.WebHome") $postsLayout)
+      {{blogpostlist blog="${defaultBlogSpace.replaceAll('~', '~~').replaceAll('"', '~"')}.WebHome" fromDate="$fromDate" toDate="$toDate" layout="$postsLayout" layoutParams="$!layoutParams" paginated='yes' /}}
+    #elseif($targetDocument.getObject($blogCategoryClassname))
+      #getBlogDocumentForCategoriesSpace($targetDocument.space $blogDoc)
+      #getBlogPostsLayout($blogDoc $postsLayout)
+      {{blogpostlist category="$targetDocument.fullName.replaceAll('~', '~~').replaceAll('"', '~"')" fromDate="$fromDate" toDate="$toDate" layout="$postsLayout" layoutParams="$!layoutParams" paginated='yes' /}}
+    #elseif($targetDocument.getObject('XWiki.DocumentSheetBinding').sheet == 'Blog.CategoriesSheet')
+      #getBlogDocumentForCategoriesSpace($targetDocument.space $blogDoc)
+      #getBlogPostsLayout($blogDoc $postsLayout)
+      {{blogpostlist category="$targetDocument.space.replaceAll('~', '~~').replaceAll('"', '~"')" fromDate="$fromDate" toDate="$toDate" layout="$postsLayout" layoutParams="$!layoutParams" paginated='yes' /}}
+    #else
+      #getBlogDocument($targetDocument.space $blogDoc)
+      #getBlogPostsLayout($blogDoc $postsLayout)
+      {{blogpostlist blog="$blogDoc.fullName.replaceAll('~', '~~').replaceAll('"', '~"')" fromDate="$fromDate" toDate="$toDate" layout="$postsLayout" layoutParams="$!layoutParams" paginated='yes' /}}
+    #end
+  #else
+    #info($services.localization.render('blog.archive.noarticlesmonth'))
+  #end
+#end
+##
+##
+##
+##
+#macro(getPageTitleBasedOnDisplayContext $targetDocument $theTitle)
+  #if($targetDocument.getObject($blogCategoryClassname) || $targetDocument.getObject('XWiki.DocumentSheetBinding').sheet == 'Blog.CategoriesSheet')
+    #getBlogDocumentForCategoriesSpace($targetDocument.space $blogDoc)
+    #set ($categoryTitle = $targetDocument.display('name'))
+    #if ("$!categoryTitle" == '' && !$targetDocument.getObject($blogCategoryClassname))## Categories space WebHome
+      #set ($categoryTitle = $services.localization.render('blog.categories.webhome.title'))
+    #end
+  #else
+    #getBlogDocument($targetDocument.space $blogDoc)
+  #end
+  #set ($macro.title = $blogDoc.display('title'))
+  #if ($blogDoc.fullName == 'Blog.WebHome')
+    #set($macro.title = $services.localization.render('blog.code.title'))
+  #end
+  #if ("$!categoryTitle" != '')
+    #set ($macro.title = "$!{macro.title} - ${categoryTitle}")
+  #end
+  #setVariable("$theTitle" $macro.title)
+#end
+##
+##
+##
+##
+#macro(displayBlogYearArchiveSubTitle $targetDocument $theYear)
+  #getPageTitleBasedOnDisplayContext($targetDocument $theTitle)
+  
+ (% class="blog-sub-title" %)
+  == #if("$!theTitle" != '')${theTitle} -#end $services.localization.render('blog.archive.postsyear', [$theYear]) ==
+#end
+##
+##
+##
+##
+#macro(displayBlogMonthArchiveSubTitle $targetDocument $theDate)
+  #getPageTitleBasedOnDisplayContext($targetDocument $theTitle)
+  
+ (% class="blog-sub-title" %)
+  == #if("$!theTitle" != '')${theTitle} -#end $services.localization.render('blog.archive.postsfor') $dateFormatter.print($tempDate) ==
+#end
+##
+##
+##
+##
+#set ($month = "$!numbertool.toNumber($request.month).intValue()")
+#set ($year = "$!numbertool.toNumber($request.year).intValue()")
+#if ($year == '')
+  ## Show a brief history of the blog, a tree with first level = years, second level = months, and the number of entries from that year/month in every node.
+  #displayBlogFullArchive($doc)
+#else
+  #if ($month == '')
+    ## Show an index of all posts in this year (titles only), with month names as subtitles
+    #displayBlogYearArchive($doc $year)
+  #else
+    ## Show all entries in the month (extract)
+    (% class="hfeed index" %)(((
+    #displayBlogMonthArchive($doc $year $month)
+    )))
+  #end
+#end
+{{/velocity}}

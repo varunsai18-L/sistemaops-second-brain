@@ -1,0 +1,22 @@
+---
+id: odoo-task-338
+type: Project Task
+project: "ERP & Sales Application Prototypes"
+stage: "Tests"
+assignees: "64"
+last_updated: 2026-06-25 13:50:06
+sync_date: 2026-07-21 20:33:13
+tags:
+  - odoo/task
+  - project/erp-&-sales-application-prototypes
+  - status/tests
+---
+# Task: German Lang QA - Clinic Porta
+
+- **Project:** [[04-Projects/Odoo Projects/ERP & Sales Application Prototypes|ERP & Sales Application Prototypes]]
+- **Odoo Stage:** Tests
+- **Assignees:** 64
+- **Last Sync:** 2026-07-21 20:33:13
+
+## Description
+Website: https://clinicappointmentportal.systemaops.com/Scope of Work:1. Add German language option to dropdown selector2. Verify all German translations against English content3. Review UI text, buttons, forms, and error messages for accuracy4. Fix incorrect/missing translationsDeliverable: Fully functional German version of clinic portal

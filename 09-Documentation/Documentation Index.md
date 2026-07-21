@@ -13,11 +13,22 @@ This is the main index for all documentation in the second brain.
 
 - [[API Documentation]]
 - [[Architecture]]
-- [[Development Guide]]
-- [[Deployment Guide]]
+- [[Backend]]
+- [[Clinical Guidelines]]
+- [[Clinical terminology]]
+- [[Clinical trial and scientific literature]]
 - [[Coding Standards]]
-- [[Troubleshooting]]
+- [[Data Collection and Processing]]
+- [[Deployment Guide]]
+- [[Development Guide]]
+- [[Diagnosis Triage]]
 - [[Documentation Template]]
+- [[Golden Test case]]
+- [[Infrastructure]]
+- [[Medication data]]
+- [[Public-health data]]
+- [[Symptoms and triage data]]
+- [[Troubleshooting]]
 
 ## How to Use This Documentation
 
