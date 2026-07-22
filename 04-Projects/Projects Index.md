@@ -4,27 +4,28 @@ date: 2026-07-09
 tags: [index, projects]
 ---
 
-# Projects Index
+# 🚀 Projects Dashboard
 
-## Overview
-This is the central index for all projects in the knowledge base. It provides links to active projects, project ideas, completed projects, and project templates.
+Welcome to the **SystemsOps Projects Dashboard**. This folder manages all our active projects, internal tasks, and initiatives. The data here is synced directly from our Odoo ERP.
 
-## Objectives
-- Maintain a centralized view of all projects
-- Facilitate easy navigation between project states
-- Track project progress and history
+## 📊 Live Projects Overview
 
-## Stakeholders
-- <Fill Later>
+> This table automatically pulls all active projects synced from Odoo.
 
-## Timeline
-- <Fill Later>
+```dataview
+TABLE length(file.inlinks) AS "Total Tasks", source AS "Source"
+FROM "04-Projects/Odoo Projects"
+SORT file.name ASC
+```
 
-## Tasks
-- <Fill Later>
+## 🏃‍♂️ Tasks in Progress (Company-Wide)
 
-## Related Notes
-- [[Active Projects]]
-- [[Project Ideas]]
-- [[Completed Projects]]
+```dataview
+TABLE project AS "Project", assignees AS "Assignees"
+FROM "04-Projects/Odoo Tasks"
+WHERE stage = "In Progress" OR stage = "Development"
+SORT last_updated DESC
+```
+
+## 📁 Related Notes
 - [[Project Template]]

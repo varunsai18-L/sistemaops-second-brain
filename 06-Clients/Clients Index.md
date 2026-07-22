@@ -1,30 +1,22 @@
 ---
 title: Clients Index
-aliases: 
 created: 2026-07-09
-updated: 2026-07-09
-status: 
-tags: 
-owner: 
-department: 
-priority: 
-related_notes: 
+tags: [index, clients]
 ---
 
-# Overview
+# 👥 Clients Dashboard
 
-# Contacts
+Welcome to the **SystemsOps Clients Dashboard**. This folder is the central hub for managing client relationships, CRM leads, and prospect information synced directly from Odoo.
 
-# Engagement
+## 🎯 Active CRM Leads
 
-# Projects
+> This table automatically lists all active CRM leads imported from Odoo.
 
-# Meetings
+```dataview
+TABLE customer AS "Customer", stage AS "Stage", last_updated AS "Last Updated"
+FROM "06-Clients/Odoo Leads"
+SORT last_updated DESC
+```
 
-# Documents
-
-# Risks
-
-# Opportunities
-
-# Related Notes
+## 📁 Related Notes
+- [[Client Template]]

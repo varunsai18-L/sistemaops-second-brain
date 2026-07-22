@@ -5,33 +5,20 @@ type: documentation
 tags: [documentation, index]
 ---
 
-# Documentation Index
+# 📚 Documentation Dashboard
 
-This is the main index for all documentation in the second brain.
+Welcome to the **SystemsOps Documentation Hub**. This folder contains our technical guides, internal standard operating procedures (SOPs), and pages synced from our **openDesk (XWiki)** environment.
 
-## Documentation Files
+## 🌟 Important Resources
 
-- [[API Documentation]]
-- [[Architecture]]
-- [[Backend]]
-- [[Clinical Guidelines]]
-- [[Clinical terminology]]
-- [[Clinical trial and scientific literature]]
-- [[Coding Standards]]
-- [[Data Collection and Processing]]
-- [[Deployment Guide]]
-- [[Development Guide]]
-- [[Diagnosis Triage]]
-- [[Documentation Template]]
-- [[Golden Test case]]
-- [[Infrastructure]]
-- [[Medication data]]
-- [[Public-health data]]
-- [[Symptoms and triage data]]
-- [[Troubleshooting]]
+- [[Troubleshooting]] — General troubleshooting guide for common issues.
+- [[Documentation Template]] — Template for writing new documentation.
 
-## How to Use This Documentation
+## 🌐 openDesk (XWiki) Spaces
 
-This documentation is organized to help you quickly find information about the system. Use the links above to navigate to specific documentation topics.
+The `XWiki/` folder contains all pages synced from our company wiki. Here are the main entry points:
+- [[09-Documentation/XWiki/WikiManager/WebHome|Wiki Manager]]
+- [[09-Documentation/XWiki/Main/WebHome|Main Dashboard]]
+- [[09-Documentation/XWiki/Blog/WebHome|Company Blog]]
 
-For general questions, start with the [[Development Guide]] or [[Architecture]] documents.
+> **Tip:** You can use the search bar (`Cmd + Shift + F`) to search across all downloaded XWiki documentation instantly!

@@ -25,6 +25,26 @@ tags: [home, dashboard]
 
 ---
 
+## 📊 Live CEO Dashboards (Dataview)
+
+### 🏃‍♂️ In Progress Tasks
+```dataview
+TABLE project, assignees, last_updated AS "Last Updated"
+FROM "04-Projects/Odoo Tasks"
+WHERE stage = "In Progress"
+SORT last_updated DESC
+```
+
+### 📋 Backlog Tasks
+```dataview
+TABLE project, assignees, last_updated AS "Last Updated"
+FROM "04-Projects/Odoo Tasks"
+WHERE stage = "Backlog"
+SORT project ASC
+```
+
+---
+
 ## 📁 Projects (click to see all tasks)
 
 | Project | Tasks |

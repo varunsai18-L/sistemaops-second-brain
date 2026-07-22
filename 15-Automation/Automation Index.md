@@ -6,12 +6,25 @@ type: index
 tags: [automation, workflow, index]
 ---
 
-# Automation Index
+# ⚡ Automation Dashboard
 
-## Purpose
-Central index for all automation workflows, processes, and automation initiatives within the organization. Provides overview and navigation to all automation-related documentation.
+Welcome to the **SystemsOps Automation Hub**. This folder contains scripts and workflows designed to automate repetitive tasks and sync our data across tools.
 
-## Table of Contents
+## 🔄 Sync Scripts
+
+We have two primary Python scripts in this folder that sync our company data directly into this Obsidian Second Brain.
+
+### 1. Odoo Sync (`sync_odoo.py`)
+Pulls **Project Tasks** and **CRM Leads** directly from our Odoo ERP.
+- **How to run:** Open a terminal in the `15-Automation` folder, activate the `venv`, and run `python sync_odoo.py`.
+- **Note:** Ensure your API key is correctly set in the `.env` file.
+
+### 2. XWiki Sync (`sync_xwiki.py`)
+Pulls pages from our **openDesk (XWiki)** environment into the `09-Documentation/XWiki/` folder.
+- **How to run:** Open a terminal in the `15-Automation` folder, activate the `venv`, and run `python sync_xwiki.py`.
+
+## 📋 Standard Workflows
+
 - [[Workflow Library]]
 - [[Daily Workflow]]
 - [[Weekly Workflow]]
@@ -19,43 +32,3 @@ Central index for all automation workflows, processes, and automation initiative
 - [[Onboarding Workflow]]
 - [[Offboarding Workflow]]
 - [[Automation Ideas]]
-
-## Purpose
-To provide a centralized repository for all automation documentation, enabling easy discovery and reference of standardized processes.
-
-## Trigger
-This document serves as the primary entry point for the automation knowledge base.
-
-## Workflow Steps
-1. Review this index to understand available automation documentation
-2. Navigate to specific workflow documents as needed
-3. Reference [[Automation Ideas]] for potential improvement opportunities
-
-## Inputs
-- Organizational process documentation
-- Team feedback and improvement suggestions
-- Automation initiative proposals
-
-## Outputs
-- Clear understanding of available automation workflows
-- Access to detailed process documentation
-- Reference for automation improvement initiatives
-
-## Responsibilities
-- Knowledge Management Team: Maintain and update this index
-- Process Owners: Ensure their workflow documentation is linked and current
-- All Employees: Reference this index when seeking automation documentation
-
-## Related Documents
-- [[Workflow Library]]
-- [[Daily Workflow]]
-- [[Weekly Workflow]]
-- [[Monthly Workflow]]
-- [[Onboarding Workflow]]
-- [[Offboarding Workflow]]
-- [[Automation Ideas]]
-
-## Automation Opportunities
-- Regular review and update of all workflow documentation
-- Identification of manual processes suitable for automation
-- Integration of new automation tools and technologies
