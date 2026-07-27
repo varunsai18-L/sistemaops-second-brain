@@ -2,106 +2,29 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index\"",
+      "query": "path:\"04-Projects/Odoo Tasks\"  ",
       "color": {
         "a": 1,
-        "rgb": 16766720
-      }
-    },
-    {
-      "query": "path:\"04-Projects/rfq-knowledge/00 - Project Overview & README\"",
-      "color": {
-        "a": 1,
-        "rgb": 61695
-      }
-    },
-    {
-      "query": "path:\"04-Projects/rfq-knowledge/diagrams-notes\"",
-      "color": {
-        "a": 1,
-        "rgb": 12540658
-      }
-    },
-    {
-      "query": "path:\"04-Projects/rfq-knowledge/attachments\"",
-      "color": {
-        "a": 1,
-        "rgb": 16723285
-      }
-    },
-    {
-      "query": "path:\"Module\" OR path:\"module\"",
-      "color": {
-        "a": 1,
-        "rgb": 16749824
-      }
-    },
-    {
-      "query": "path:\"architecture\" OR path:\"system_architecture\" OR path:\"rfq_data_schema\"",
-      "color": {
-        "a": 1,
-        "rgb": 3200344
-      }
-    },
-    {
-      "query": "path:\"PVMS_2_0_IMPLEMENTATION_STATUS\" OR path:\"testing_results\"",
-      "color": {
-        "a": 1,
-        "rgb": 5789398
-      }
-    },
-    {
-      "query": "path:\"04-Projects/rfq-knowledge\"",
-      "color": {
-        "a": 1,
-        "rgb": 16752768
-      }
-    },
-    {
-      "query": "path:\"04-Projects/Odoo Tasks\"",
-      "color": {
-        "a": 1,
-        "rgb": 51134
-      }
-    },
-    {
-      "query": "path:\"06-Clients\"",
-      "color": {
-        "a": 1,
-        "rgb": 16739179
-      }
-    },
-    {
-      "query": "path:\"09-Documentation\"",
-      "color": {
-        "a": 1,
-        "rgb": 10741301
-      }
-    },
-    {
-      "query": "path:\"15-Automation\"",
-      "color": {
-        "a": 1,
-        "rgb": 9133302
+        "rgb": 15042
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": -0.8,
-  "nodeSizeMultiplier": 1.2,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.42960089414313496,
+  "scale": 0.06788885837312467,
   "close": true
 }
