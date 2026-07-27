@@ -4,21 +4,88 @@
     "type": "split",
     "children": [
       {
-        "id": "1c711f566cd7c12d",
+        "id": "0844edff7ffe7d47",
         "type": "tabs",
         "children": [
           {
-            "id": "e18579444c6f99b4",
+            "id": "45fed18b7181fe0d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
               "state": {
-                "file": "09-Documentation/Documentation Index.md",
-                "mode": "source",
-                "source": false
+                "collapse-filter": false,
+                "search": "",
+                "showTags": false,
+                "showAttachments": true,
+                "hideUnresolved": false,
+                "showOrphans": true,
+                "collapse-color-groups": false,
+                "colorGroups": [
+                  {
+                    "query": "path:rfq-knowledge",
+                    "color": {
+                      "a": 1,
+                      "rgb": 16749824
+                    }
+                  },
+                  {
+                    "query": "path:diagrams-notes",
+                    "color": {
+                      "a": 1,
+                      "rgb": 12540658
+                    }
+                  },
+                  {
+                    "query": "path:attachments",
+                    "color": {
+                      "a": 1,
+                      "rgb": 16723285
+                    }
+                  },
+                  {
+                    "query": "path:\"04-Projects/Odoo Tasks\"",
+                    "color": {
+                      "a": 1,
+                      "rgb": 51134
+                    }
+                  },
+                  {
+                    "query": "path:06-Clients",
+                    "color": {
+                      "a": 1,
+                      "rgb": 16739179
+                    }
+                  },
+                  {
+                    "query": "path:09-Documentation",
+                    "color": {
+                      "a": 1,
+                      "rgb": 10741301
+                    }
+                  },
+                  {
+                    "query": "path:15-Automation",
+                    "color": {
+                      "a": 1,
+                      "rgb": 9133302
+                    }
+                  }
+                ],
+                "collapse-display": false,
+                "showArrow": true,
+                "textFadeMultiplier": -0.8,
+                "nodeSizeMultiplier": 1.2,
+                "lineSizeMultiplier": 1,
+                "collapse-forces": true,
+                "centerStrength": 0.518713248970312,
+                "repelStrength": 10,
+                "linkStrength": 1,
+                "linkDistance": 250,
+                "scale": 0.42960089414313496,
+                "close": true
               },
-              "icon": "lucide-file",
-              "title": "Documentation Index"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -207,13 +274,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09-Documentation/Documentation Index.md",
+                "file": "09-Documentation/Untitled.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Documentation Index"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -221,7 +288,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,36 +303,46 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4676bf7f2705ec00",
+  "active": "45fed18b7181fe0d",
   "lastOpenFiles": [
-    "15-Automation/Automation Index.md",
-    "15-Automation/Automation Ideas.md",
-    "15-Automation/Daily Workflow.md",
-    "09-Documentation/XWiki/AppWithinMinutes/ClassTemplate.md",
-    "_Archive/redundant-templates/Prospective Clients.md",
-    "_Archive/redundant-templates/Project Ideas.md",
-    "_Archive/redundant-templates/Completed Projects.md",
-    "_Archive/redundant-templates/Client Meetings.md",
-    "_Archive/redundant-templates/Client Directory.md",
-    "_Archive/redundant-templates/Active Projects.md",
-    "_Archive/redundant-templates/Active Clients.md",
-    "_Archive/redundant-templates",
-    "09-Documentation/XWiki/AppWithinMinutes/ClassSheetGenerator.md",
-    "09-Documentation/XWiki/AppWithinMinutes/ClassEditSheet.md",
-    "09-Documentation/XWiki/AppWithinMinutes/AppsLiveTableResults.md",
-    "09-Documentation/XWiki/AppWithinMinutes/App Within Minutes.md",
-    "04-Projects/Odoo Tasks/Task - ai app planning and backend (307).md",
-    "04-Projects/Odoo Projects/Server management.md",
-    "04-Projects/Odoo Projects/SEO Optimization.md",
-    "04-Projects/Odoo Projects/odysseus.md",
-    "04-Projects/Odoo Projects/ERP & Sales Application Prototypes.md",
-    "04-Projects/Odoo Projects/AI ML review.md",
-    "04-Projects/Odoo Tasks/Task - Neurofeedback (269).md",
-    "04-Projects/Odoo Projects/Miscellaneous.md",
-    "04-Projects/Odoo Tasks/Task - Linkedin Scrapper (272).md",
+    "09-Documentation/XWiki/XWiki/DocumentClass.md",
+    "04-Projects/rfq-knowledge/local-deployment.md",
+    "04-Projects/rfq-knowledge/diagrams-notes/04 - Deployment Diagram Note.md",
+    "04-Projects/rfq-knowledge/diagrams-notes/02 - System Architecture Diagram Note.md",
+    "04-Projects/rfq-knowledge/diagrams-notes/01 - AI Architecture Diagram Note.md",
+    "04-Projects/rfq-knowledge/attachments/integration_diagram.svg",
+    "04-Projects/rfq-knowledge/attachments/security_diagram.png",
+    "04-Projects/rfq-knowledge/attachments/integration_diagram.png",
+    "04-Projects/rfq-knowledge/attachments/deployment_diagram.png",
+    "04-Projects/rfq-knowledge/attachments/deployment_diagram.svg",
+    "04-Projects/rfq-knowledge/attachments/dataflow_diagram.png",
+    "04-Projects/rfq-knowledge/attachments/architecture_diagram.svg",
+    "04-Projects/rfq-knowledge/attachments/architecture_diagram.png",
+    "04-Projects/rfq-knowledge/attachments/ai_diagram.png",
+    "09-Documentation/Untitled.md",
+    "09-Documentation/Troubleshooting.md",
+    "09-Documentation/RFQ",
+    "09-Documentation/Documentation Index.md",
     "Home.md",
+    "09-Documentation/XWiki/AppWithinMinutes/Database List.md",
+    "04-Projects/Odoo Tasks/Task - Lead generation (480).md",
+    "04-Projects/Odoo Projects/Lead gen Tool.md",
+    "04-Projects/Odoo Tasks/Task - Linkedin email (293).md",
+    "04-Projects/Odoo Tasks/Task - Personal Details (295).md",
     "04-Projects/Odoo Tasks/Task - Phone number (294).md",
+    "04-Projects/Odoo Tasks/Task - Linkedin Scrapper (272).md",
     "Untitled.base",
+    "04-Projects/Odoo Tasks/Task - Odoo Industry Clothing Store (214).md",
+    "04-Projects/Odoo Tasks/Task - Odoo Industry Software reseller (215).md",
+    "04-Projects/Odoo Tasks/Task - Odoo Template (Do not Delete) (232).md",
+    "04-Projects/Odoo Tasks/Task - LLM + RAG pipeline, 4-level urgency output (371).md",
+    "04-Projects/Odoo Tasks/Task - Dashboard (471).md",
+    "04-Projects/Odoo Tasks/Task - Dashboard For Lead gen (479).md",
+    "04-Projects/Odoo Tasks/Task - Configuring Email Marketing Module for Bulk Mails (467).md",
+    "04-Projects/Odoo Tasks/Task - Brouchure (289).md",
+    "04-Projects/Odoo Tasks/Task - cloned it on my own environment (458).md",
+    "04-Projects/Odoo Tasks/Task - Alternatives in budget   eng kimi (300).md",
+    "_Archive/redundant-templates",
     "Untitled.canvas",
     "04-Projects/Odoo Projects",
     "04-Projects/Odoo Tasks",
@@ -272,7 +350,6 @@
     "_Archive/09-Documentation-unrelated",
     "_Archive",
     "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/LICENSE",
-    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/NOTICE",
-    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/top_level.txt"
+    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/NOTICE"
   ]
 }
