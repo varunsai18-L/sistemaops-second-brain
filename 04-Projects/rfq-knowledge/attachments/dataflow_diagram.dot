@@ -1,0 +1,159 @@
+digraph "Data Flow Diagram" {
+  graph [
+    label="Data Flow Diagram"
+    labelloc="t"
+    labeljust="c"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=20
+    fontcolor="#0f172a"
+    bgcolor="white"
+    rankdir=LR
+    ranksep=1.2
+    nodesep=0.6
+    splines=ortho
+    pad=0.8
+    compound=true
+  ]
+  node [
+    shape=roundedbox
+    style="filled,rounded"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    margin="0.2,0.12"
+    penwidth=1.8
+  ]
+  edge [
+    color="#94a3b8"
+    penwidth=1.5
+    arrowsize=0.8
+    arrowhead=vee
+  ]
+
+  subgraph cluster_frontend {
+    label="🖥 Frontend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#3b82f6"
+    style="rounded,dashed"
+    color="#3b82f6"
+    bgcolor="#dbeafe22"
+    margin=16
+
+    user [label="User" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    analytics_dashboard [label="Analytics Dashboard" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+  }
+
+  subgraph cluster_gateway {
+    label="⚡ Gateway"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#0284c7"
+    style="rounded,dashed"
+    color="#0284c7"
+    bgcolor="#e0f2fe22"
+    margin=16
+
+    api_gateway [label="API Gateway" fillcolor="#e0f2fe" color="#0284c7" fontcolor="#0c4a6e"]
+  }
+
+  subgraph cluster_security {
+    label="🛡 Security"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#db2777"
+    style="rounded,dashed"
+    color="#db2777"
+    bgcolor="#fce7f322"
+    margin=16
+
+    auth_service [label="Auth Service" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+  }
+
+  subgraph cluster_backend {
+    label="⚙️ Backend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#7c3aed"
+    style="rounded,dashed"
+    color="#7c3aed"
+    bgcolor="#ede9fe22"
+    margin=16
+
+    project_module [label="Project Module" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    task_module [label="Task Module" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    attendance_module [label="Attendance Module" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    payroll_module [label="Payroll Module" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    document_module [label="Document Module" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+  }
+
+  subgraph cluster_queue {
+    label="📨 Message Queue"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#65a30d"
+    style="rounded,dashed"
+    color="#65a30d"
+    bgcolor="#ecfccb22"
+    margin=16
+
+    queue_kafka [label="Message Queue (Kafka)" fillcolor="#ecfccb" color="#65a30d" fontcolor="#1a2e05"]
+  }
+
+  subgraph cluster_data {
+    label="🗄 Data"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#10b981"
+    style="rounded,dashed"
+    color="#10b981"
+    bgcolor="#d1fae522"
+    margin=16
+
+    database_postgresql [label="Database (PostgreSQL)" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+    database_mongodb [label="Database (MongoDB)" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+  }
+
+  subgraph cluster_cache {
+    label="💾 Cache"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#ca8a04"
+    style="rounded,dashed"
+    color="#ca8a04"
+    bgcolor="#fefce822"
+    margin=16
+
+    cache_redis [label="Cache (Redis)" fillcolor="#fefce8" color="#ca8a04" fontcolor="#422006"]
+  }
+
+  subgraph cluster_integration {
+    label="🔗 Integration"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#f59e0b"
+    style="rounded,dashed"
+    color="#f59e0b"
+    bgcolor="#fef3c722"
+    margin=16
+
+    notification_service [label="Notification Service" fillcolor="#fef3c7" color="#f59e0b" fontcolor="#78350f"]
+  }
+
+  // Connections
+  user -> api_gateway
+  api_gateway -> auth_service
+  auth_service -> project_module
+  project_module -> database_postgresql
+  project_module -> cache_redis
+  project_module -> queue_kafka
+  project_module -> notification_service
+  task_module -> database_mongodb
+  attendance_module -> database_postgresql
+  payroll_module -> database_postgresql
+  document_module -> database_mongodb
+  cache_redis -> project_module
+  queue_kafka -> notification_service
+  notification_service -> user
+  database_postgresql -> analytics_dashboard
+  database_mongodb -> analytics_dashboard
+}

@@ -1,0 +1,128 @@
+digraph "Security Architecture" {
+  graph [
+    label="Security Architecture"
+    labelloc="t"
+    labeljust="c"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=20
+    fontcolor="#0f172a"
+    bgcolor="white"
+    rankdir=TB
+    ranksep=1.2
+    nodesep=0.6
+    splines=ortho
+    pad=0.8
+    compound=true
+  ]
+  node [
+    shape=roundedbox
+    style="filled,rounded"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    margin="0.2,0.12"
+    penwidth=1.8
+  ]
+  edge [
+    color="#94a3b8"
+    penwidth=1.5
+    arrowsize=0.8
+    arrowhead=vee
+  ]
+
+  subgraph cluster_frontend {
+    label="🖥 Frontend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#3b82f6"
+    style="rounded,dashed"
+    color="#3b82f6"
+    bgcolor="#dbeafe22"
+    margin=16
+
+    waf [label="WAF (Web Application Firewall)" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+  }
+
+  subgraph cluster_gateway {
+    label="⚡ Gateway"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#0284c7"
+    style="rounded,dashed"
+    color="#0284c7"
+    bgcolor="#e0f2fe22"
+    margin=16
+
+    api_gateway [label="API Gateway" fillcolor="#e0f2fe" color="#0284c7" fontcolor="#0c4a6e"]
+  }
+
+  subgraph cluster_security {
+    label="🛡 Security"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#db2777"
+    style="rounded,dashed"
+    color="#db2777"
+    bgcolor="#fce7f322"
+    margin=16
+
+    ddos_protection [label="DDoS Protection" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    mfa_service [label="MFA Service" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    sso_identity_provider [label="SSO/Identity Provider" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    oauth_2_0 [label="OAuth 2.0" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    jwt_service [label="JWT Service" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    rbac_engine [label="RBAC Engine" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    auth_service [label="Auth Service" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    secrets_vault [label="Secrets Vault" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    data_encryption [label="Data Encryption" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    audit_logger [label="Audit Logger" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+    siem [label="SIEM (Security Information and Event Management)" fillcolor="#fce7f3" color="#db2777" fontcolor="#831843"]
+  }
+
+  subgraph cluster_backend {
+    label="⚙️ Backend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#7c3aed"
+    style="rounded,dashed"
+    color="#7c3aed"
+    bgcolor="#ede9fe22"
+    margin=16
+
+    session_manager [label="Session Manager" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+  }
+
+  subgraph cluster_infrastructure {
+    label="☁️ Infrastructure"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#64748b"
+    style="rounded,dashed"
+    color="#64748b"
+    bgcolor="#f1f5f922"
+    margin=16
+
+    internet [label="Internet" fillcolor="#f1f5f9" color="#64748b" fontcolor="#1e293b"]
+  }
+
+  // Connections
+  internet -> ddos_protection
+  ddos_protection -> waf
+  waf -> api_gateway
+  api_gateway -> mfa_service
+  mfa_service -> sso_identity_provider
+  sso_identity_provider -> oauth_2_0
+  oauth_2_0 -> jwt_service
+  jwt_service -> rbac_engine
+  rbac_engine -> auth_service
+  auth_service -> secrets_vault
+  api_gateway -> audit_logger
+  mfa_service -> audit_logger
+  sso_identity_provider -> audit_logger
+  oauth_2_0 -> audit_logger
+  jwt_service -> audit_logger
+  rbac_engine -> audit_logger
+  auth_service -> audit_logger
+  secrets_vault -> audit_logger
+  data_encryption -> secrets_vault
+  session_manager -> auth_service
+}

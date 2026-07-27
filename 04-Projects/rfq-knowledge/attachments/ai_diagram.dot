@@ -1,0 +1,93 @@
+digraph "AI/ML Architecture" {
+  graph [
+    label="AI/ML Architecture"
+    labelloc="t"
+    labeljust="c"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=20
+    fontcolor="#0f172a"
+    bgcolor="white"
+    rankdir=TB
+    ranksep=1.2
+    nodesep=0.6
+    splines=ortho
+    pad=0.8
+    compound=true
+  ]
+  node [
+    shape=roundedbox
+    style="filled,rounded"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    margin="0.2,0.12"
+    penwidth=1.8
+  ]
+  edge [
+    color="#94a3b8"
+    penwidth=1.5
+    arrowsize=0.8
+    arrowhead=vee
+  ]
+
+  subgraph cluster_ai {
+    label="🤖 AI / ML"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#ef4444"
+    style="rounded,dashed"
+    color="#ef4444"
+    bgcolor="#fee2e222"
+    margin=16
+
+    data_ingestion [label="Data Ingestion" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    feature_engineering [label="Feature Engineering" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    training_pipeline [label="Training Pipeline" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    model_registry [label="Model Registry" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    workflow_automation_engine [label="Workflow Automation Engine" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    analytics_engine [label="Analytics Engine" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    prediction_service [label="Prediction Service" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    inference_api [label="Inference API" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+    feedback_loop [label="Feedback Loop" fillcolor="#fee2e2" color="#ef4444" fontcolor="#991b1b"]
+  }
+
+  subgraph cluster_data {
+    label="🗄 Data"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#10b981"
+    style="rounded,dashed"
+    color="#10b981"
+    bgcolor="#d1fae522"
+    margin=16
+
+    data_lake [label="Data Lake" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+    vector_db [label="Vector DB" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+  }
+
+  subgraph cluster_monitoring {
+    label="📊 Monitoring"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#be123c"
+    style="rounded,dashed"
+    color="#be123c"
+    bgcolor="#fff1f222"
+    margin=16
+
+    model_monitor [label="Model Monitor" fillcolor="#fff1f2" color="#be123c" fontcolor="#4c0519"]
+  }
+
+  // Connections
+  data_lake -> data_ingestion
+  data_ingestion -> feature_engineering
+  feature_engineering -> training_pipeline
+  training_pipeline -> model_registry
+  model_registry -> workflow_automation_engine
+  model_registry -> analytics_engine
+  model_registry -> prediction_service
+  prediction_service -> inference_api
+  inference_api -> feedback_loop
+  feedback_loop -> training_pipeline
+  model_registry -> model_monitor
+  training_pipeline -> model_monitor
+}

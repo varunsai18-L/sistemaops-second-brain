@@ -1,0 +1,166 @@
+digraph "System Architecture" {
+  graph [
+    label="System Architecture"
+    labelloc="t"
+    labeljust="c"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=20
+    fontcolor="#0f172a"
+    bgcolor="white"
+    rankdir=TB
+    ranksep=1.2
+    nodesep=0.6
+    splines=ortho
+    pad=0.8
+    compound=true
+  ]
+  node [
+    shape=roundedbox
+    style="filled,rounded"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    margin="0.2,0.12"
+    penwidth=1.8
+  ]
+  edge [
+    color="#94a3b8"
+    penwidth=1.5
+    arrowsize=0.8
+    arrowhead=vee
+  ]
+
+  subgraph cluster_frontend {
+    label="🖥 Frontend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#3b82f6"
+    style="rounded,dashed"
+    color="#3b82f6"
+    bgcolor="#dbeafe22"
+    margin=16
+
+    employee_portal [label="Employee Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    doctor_portal [label="Doctor Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    hospital_portal [label="Hospital Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    pharmacy_portal [label="Pharmacy Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    insurance_portal [label="Insurance Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+    citizen_portal [label="Citizen Portal" fillcolor="#dbeafe" color="#3b82f6" fontcolor="#1e40af"]
+  }
+
+  subgraph cluster_gateway {
+    label="⚡ Gateway"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#0284c7"
+    style="rounded,dashed"
+    color="#0284c7"
+    bgcolor="#e0f2fe22"
+    margin=16
+
+    api_gateway [label="API Gateway" fillcolor="#e0f2fe" color="#0284c7" fontcolor="#0c4a6e"]
+    load_balancer [label="Load Balancer" fillcolor="#e0f2fe" color="#0284c7" fontcolor="#0c4a6e"]
+  }
+
+  subgraph cluster_backend {
+    label="⚙️ Backend"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#7c3aed"
+    style="rounded,dashed"
+    color="#7c3aed"
+    bgcolor="#ede9fe22"
+    margin=16
+
+    appointments_service [label="Appointments Service" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    labs_service [label="Labs Service" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    billing_service [label="Billing Service" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+    notifications_service [label="Notifications Service" fillcolor="#ede9fe" color="#7c3aed" fontcolor="#4c1d95"]
+  }
+
+  subgraph cluster_queue {
+    label="📨 Message Queue"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#65a30d"
+    style="rounded,dashed"
+    color="#65a30d"
+    bgcolor="#ecfccb22"
+    margin=16
+
+    rabbitmq_queue [label="RabbitMQ Message Queue" fillcolor="#ecfccb" color="#65a30d" fontcolor="#1a2e05"]
+  }
+
+  subgraph cluster_data {
+    label="🗄 Data"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#10b981"
+    style="rounded,dashed"
+    color="#10b981"
+    bgcolor="#d1fae522"
+    margin=16
+
+    emr_service [label="Electronic Medical Records (EMR) Service" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+    postgres_database [label="PostgreSQL Database" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+    mongo_database [label="MongoDB Database" fillcolor="#d1fae5" color="#10b981" fontcolor="#064e3b"]
+  }
+
+  subgraph cluster_cache {
+    label="💾 Cache"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#ca8a04"
+    style="rounded,dashed"
+    color="#ca8a04"
+    bgcolor="#fefce822"
+    margin=16
+
+    redis_cache [label="Redis Cache" fillcolor="#fefce8" color="#ca8a04" fontcolor="#422006"]
+  }
+
+  subgraph cluster_search {
+    label="🔍 Search"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#6d28d9"
+    style="rounded,dashed"
+    color="#6d28d9"
+    bgcolor="#f5f3ff22"
+    margin=16
+
+    search_engine [label="Search Engine" fillcolor="#f5f3ff" color="#6d28d9" fontcolor="#2e1065"]
+  }
+
+  subgraph cluster_integration {
+    label="🔗 Integration"
+    fontname="Helvetica Neue, Arial, sans-serif"
+    fontsize=13
+    fontcolor="#f59e0b"
+    style="rounded,dashed"
+    color="#f59e0b"
+    bgcolor="#fef3c722"
+    margin=16
+
+    notification_service [label="Notification Service" fillcolor="#fef3c7" color="#f59e0b" fontcolor="#78350f"]
+  }
+
+  // Connections
+  employee_portal -> api_gateway
+  doctor_portal -> api_gateway
+  hospital_portal -> api_gateway
+  pharmacy_portal -> api_gateway
+  insurance_portal -> api_gateway
+  citizen_portal -> api_gateway
+  api_gateway -> load_balancer
+  appointments_service -> postgres_database
+  emr_service -> mongo_database
+  labs_service -> postgres_database
+  billing_service -> postgres_database
+  notifications_service -> rabbitmq_queue
+  notifications_service -> notification_service
+  appointments_service -> redis_cache
+  emr_service -> redis_cache
+  labs_service -> redis_cache
+  billing_service -> redis_cache
+  notifications_service -> search_engine
+}
