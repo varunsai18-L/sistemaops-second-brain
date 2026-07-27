@@ -11,7 +11,7 @@ type: Diagram Note
 # 🏗️ System Architecture Diagram Note
 
 ## Diagram View
-![[architecture_diagram.png]]
+![System Architecture Diagram](../attachments/architecture_diagram.png)
 
 ## Description & Scope
 Overview of the high-level System Architecture for the RFQ Project Viability Management System (PVMS 2.0).

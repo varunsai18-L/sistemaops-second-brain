@@ -11,7 +11,7 @@ type: Diagram Note
 # 🔌 Integration Diagram Note
 
 ## Diagram View
-![[integration_diagram.png]]
+![Integration Diagram](../attachments/integration_diagram.png)
 
 ## Integration Details
 Details inter-module interfaces and third-party software integration points.

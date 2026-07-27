@@ -12,7 +12,7 @@ type: Diagram Note
 # 🚀 Deployment Diagram Note
 
 ## Diagram View
-![[deployment_diagram.png]]
+![Deployment Diagram](../attachments/deployment_diagram.png)
 
 ## Infrastructure Overview
 Shows the containerized multi-service deployment layout using Docker and Docker Compose.

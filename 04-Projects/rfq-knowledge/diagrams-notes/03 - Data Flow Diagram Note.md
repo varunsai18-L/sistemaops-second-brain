@@ -11,7 +11,7 @@ type: Diagram Note
 # 🔄 Data Flow Diagram Note
 
 ## Diagram View
-![[dataflow_diagram.png]]
+![Data Flow Diagram](../attachments/dataflow_diagram.png)
 
 ## Description & Pipeline
 Illustrates end-to-end data progression from initial RFQ intake through automated assessment to final report export.

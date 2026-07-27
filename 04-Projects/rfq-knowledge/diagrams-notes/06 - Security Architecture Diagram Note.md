@@ -11,7 +11,7 @@ type: Diagram Note
 # 🔒 Security Architecture Diagram Note
 
 ## Diagram View
-![[security_diagram.png]]
+![Security Architecture Diagram](../attachments/security_diagram.png)
 
 ## Security Model
 Outlines data protection, authentication, and access control mechanisms across the RFQ system.

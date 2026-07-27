@@ -11,7 +11,7 @@ type: Diagram Note
 # 🤖 AI Architecture Diagram Note
 
 ## Diagram View
-![[ai_diagram.png]]
+![AI Architecture Diagram](../attachments/ai_diagram.png)
 
 ## Description & Purpose
 This diagram details the AI processing pipeline for the RFQ (Request for Quotation) Viability Management System (PVMS). 
