@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Suresh Kumar** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Finance & Administration]]** |
-| **Manager / Supervisor** | **[[None]]** |
+| **Department** | **Finance & Administration** |
+| **Manager / Supervisor** | **None** |
 | **Work Email** | [N/A](mailto:N/A) |
 | **Work Phone** | `N/A` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Suresh Kumar"`
-- **Search Department Notes:** `path:"07-Employees" [[Finance & Administration]]`
+- **Department:** `Finance & Administration`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

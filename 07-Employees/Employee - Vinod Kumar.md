@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Vinod Kumar** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Product & Technology]]** |
-| **Manager / Supervisor** | **[[Rohit Thumu]]** |
+| **Department** | **Product & Technology** |
+| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
 | **Work Email** | [vinodkumarkorivi1@gmail.com](mailto:vinodkumarkorivi1@gmail.com) |
 | **Work Phone** | `N/A` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Vinod Kumar"`
-- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
+- **Department:** `Product & Technology`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

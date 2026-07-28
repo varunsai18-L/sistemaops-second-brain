@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Sravan Dandu** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Product & Technology]]** |
-| **Manager / Supervisor** | **[[Sravan Dandu]]** |
+| **Department** | **Product & Technology** |
+| **Manager / Supervisor** | **[Sravan Dandu](./Employee%20-%20Sravan%20Dandu.md)** |
 | **Work Email** | [sravandandu456@gmail.com](mailto:sravandandu456@gmail.com) |
 | **Work Phone** | `N/A` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Sravan Dandu"`
-- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
+- **Department:** `Product & Technology`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

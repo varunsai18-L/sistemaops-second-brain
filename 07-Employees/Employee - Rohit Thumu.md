@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Rohit Thumu** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Leadership & Operations]]** |
-| **Manager / Supervisor** | **[[None]]** |
+| **Department** | **Leadership & Operations** |
+| **Manager / Supervisor** | **None** |
 | **Work Email** | [thumurohit@systemaops.com](mailto:thumurohit@systemaops.com) |
 | **Work Phone** | `'+4917685248689` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Rohit Thumu"`
-- **Search Department Notes:** `path:"07-Employees" [[Leadership & Operations]]`
+- **Department:** `Leadership & Operations`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

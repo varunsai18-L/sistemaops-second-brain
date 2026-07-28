@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Hruthwik Thota** |
 | **Job Position** | `AI Research & Automation Engineer` |
-| **Department** | **[[Product & Technology]]** |
-| **Manager / Supervisor** | **[[Rohit Thumu]]** |
+| **Department** | **Product & Technology** |
+| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
 | **Work Email** | [thotahruthwik007@gmail.com](mailto:thotahruthwik007@gmail.com) |
 | **Work Phone** | `6303326883` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Hruthwik Thota"`
-- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
+- **Department:** `Product & Technology`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

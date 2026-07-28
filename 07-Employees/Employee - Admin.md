@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Admin** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Finance & Administration]]** |
-| **Manager / Supervisor** | **[[None]]** |
+| **Department** | **Finance & Administration** |
+| **Manager / Supervisor** | **None** |
 | **Work Email** | [admin@systemaops.com](mailto:admin@systemaops.com) |
 | **Work Phone** | `N/A` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Admin"`
-- **Search Department Notes:** `path:"07-Employees" [[Finance & Administration]]`
+- **Department:** `Finance & Administration`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

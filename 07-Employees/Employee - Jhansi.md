@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Jhansi** |
 | **Job Position** | `Technical Project manager` |
-| **Department** | **[[Administration]]** |
-| **Manager / Supervisor** | **[[Rohit Thumu]]** |
+| **Department** | **Administration** |
+| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
 | **Work Email** | [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com) |
 | **Work Phone** | `7013017215` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Jhansi"`
-- **Search Department Notes:** `path:"07-Employees" [[Administration]]`
+- **Department:** `Administration`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*

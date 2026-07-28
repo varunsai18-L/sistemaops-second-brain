@@ -21,8 +21,8 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Blesson** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[Leadership & Operations]]** |
-| **Manager / Supervisor** | **[[Admin]]** |
+| **Department** | **Leadership & Operations** |
+| **Manager / Supervisor** | **[Admin](./Employee%20-%20Admin.md)** |
 | **Work Email** | [blessonkr@gmail.com](mailto:blessonkr@gmail.com) |
 | **Work Phone** | `N/A` |
 | **Work Status** | Out of Working Hours |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Blesson"`
-- **Search Department Notes:** `path:"07-Employees" [[Leadership & Operations]]`
+- **Department:** `Leadership & Operations`
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
+*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
