@@ -1,10 +1,10 @@
 ---
 tags:
   - employee
-  - department/general
+  - department/product-&-technology
   - job/developer-associate
 name: "Pradeepkonda"
-department: "General"
+department: "Product & Technology"
 job_position: "Developer Associate"
 manager: "Rohit Thumu"
 email: "pradeepkonda1418@gmail.com"
@@ -21,7 +21,7 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Pradeepkonda** |
 | **Job Position** | `Developer Associate` |
-| **Department** | **[[General]]** |
+| **Department** | **[[Product & Technology]]** |
 | **Manager / Supervisor** | **[[Rohit Thumu]]** |
 | **Work Email** | [pradeepkonda1418@gmail.com](mailto:pradeepkonda1418@gmail.com) |
 | **Work Phone** | `N/A` |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Pradeepkonda"`
-- **Search Department Notes:** `path:"07-Employees" [[General]]`
+- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
 
 ---
-*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
+*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*

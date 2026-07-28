@@ -1,10 +1,10 @@
 ---
 tags:
   - employee
-  - department/general
+  - department/product-&-technology
   - job/team-member
 name: "Shashank Gowtham"
-department: "General"
+department: "Product & Technology"
 job_position: "Team Member"
 manager: "Rohit Thumu"
 email: "shashankgowthamjula@gmail.com"
@@ -21,7 +21,7 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Shashank Gowtham** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[General]]** |
+| **Department** | **[[Product & Technology]]** |
 | **Manager / Supervisor** | **[[Rohit Thumu]]** |
 | **Work Email** | [shashankgowthamjula@gmail.com](mailto:shashankgowthamjula@gmail.com) |
 | **Work Phone** | `N/A` |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Shashank Gowtham"`
-- **Search Department Notes:** `path:"07-Employees" [[General]]`
+- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
 
 ---
-*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
+*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*

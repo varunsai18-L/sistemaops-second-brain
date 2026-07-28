@@ -1,10 +1,10 @@
 ---
 tags:
   - employee
-  - department/general
+  - department/product-&-technology
   - job/team-member
 name: "Maharshini"
-department: "General"
+department: "Product & Technology"
 job_position: "Team Member"
 manager: "Rohit Thumu"
 email: "maharshini09@gmail.com"
@@ -21,7 +21,7 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **Maharshini** |
 | **Job Position** | `Team Member` |
-| **Department** | **[[General]]** |
+| **Department** | **[[Product & Technology]]** |
 | **Manager / Supervisor** | **[[Rohit Thumu]]** |
 | **Work Email** | [maharshini09@gmail.com](mailto:maharshini09@gmail.com) |
 | **Work Phone** | `N/A` |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"Maharshini"`
-- **Search Department Notes:** `path:"07-Employees" [[General]]`
+- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
 
 ---
-*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
+*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*

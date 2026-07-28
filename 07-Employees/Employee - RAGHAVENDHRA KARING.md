@@ -1,10 +1,10 @@
 ---
 tags:
   - employee
-  - department/general
+  - department/product-&-technology
   - job/ai-research-&-automation-associate
 name: "RAGHAVENDHRA KARING"
-department: "General"
+department: "Product & Technology"
 job_position: "AI Research & Automation Associate"
 manager: "Rohit Thumu"
 email: "raghavendhrakaring@gmail.com"
@@ -21,7 +21,7 @@ type: Employee Profile
 |---|---|
 | **Full Name** | **RAGHAVENDHRA KARING** |
 | **Job Position** | `AI Research & Automation Associate` |
-| **Department** | **[[General]]** |
+| **Department** | **[[Product & Technology]]** |
 | **Manager / Supervisor** | **[[Rohit Thumu]]** |
 | **Work Email** | [raghavendhrakaring@gmail.com](mailto:raghavendhrakaring@gmail.com) |
 | **Work Phone** | `7032909996` |
@@ -31,7 +31,7 @@ type: Employee Profile
 
 ## 🔗 Quick Actions & Connections
 - **Search Assigned Tasks:** `assignees:"RAGHAVENDHRA KARING"`
-- **Search Department Notes:** `path:"07-Employees" [[General]]`
+- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
 
 ---
-*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
+*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*

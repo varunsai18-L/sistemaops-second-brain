@@ -34,4 +34,4 @@ type: Employee Profile
 - **Search Department Notes:** `path:"07-Employees" [[Leadership & Operations]]`
 
 ---
-*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
+*Verified & Synced from Odoo HR Module on 2026-07-28 21:12:10*
