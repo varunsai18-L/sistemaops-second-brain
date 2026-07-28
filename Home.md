@@ -3,7 +3,7 @@ title: SystemsOps — Second Brain
 type: home
 tags: [home, dashboard]
 ---
-
+-
 # 🧠 SystemsOps Second Brain
 
 > Last Odoo sync: run `python sync_odoo.py` in 15-Automation to refresh

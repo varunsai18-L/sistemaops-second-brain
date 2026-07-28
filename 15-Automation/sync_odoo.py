@@ -36,31 +36,24 @@ def validate_config():
     return True
 
 def safe_filename(name):
-    # Strip characters that are invalid in filenames
     invalid_chars = '<>:"/\\|?*'
     clean_name = ''.join(c for c in name if c not in invalid_chars)
     return clean_name.strip()
 
 def strip_html(text):
-    """Remove HTML tags and decode basic entities for clean Obsidian markdown."""
     if not text:
         return "No description provided."
-    # Remove HTML tags
     clean = re.sub(r'<[^>]+>', '', text)
-    # Decode common HTML entities
     clean = clean.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>') \
                  .replace('&nbsp;', ' ').replace('&quot;', '"').replace('&#39;', "'")
-    # Collapse excessive whitespace/newlines
     clean = re.sub(r'\n{3,}', '\n\n', clean.strip())
     return clean or "No description provided."
 
 def sync_crm_leads(models, uid):
     print("Syncing CRM Leads from Odoo...")
-    # Place Odoo leads in the 06-Clients folder
     leads_folder = os.path.join(VAULT_PATH, "06-Clients", "Odoo Leads")
     os.makedirs(leads_folder, exist_ok=True)
     
-    # Filter active leads (opportunities)
     domain = [('type', '=', 'opportunity'), ('active', '=', True)]
     fields = ['name', 'partner_id', 'description', 'stage_id', 'write_date']
     
@@ -83,7 +76,6 @@ def sync_crm_leads(models, uid):
         description = strip_html(lead['description'])
         last_updated = lead['write_date']
 
-        # Format as clean Obsidian Markdown with frontmatter tags
         md_content = f"""---
 id: odoo-lead-{lead_id}
 type: CRM Lead
@@ -115,11 +107,9 @@ tags:
 
 def sync_project_tasks(models, uid):
     print("Syncing Project Tasks from Odoo...")
-    # Place Odoo tasks in the 04-Projects folder
     tasks_folder = os.path.join(VAULT_PATH, "04-Projects", "Odoo Tasks")
     os.makedirs(tasks_folder, exist_ok=True)
     
-    # Filter active tasks
     domain = [('active', '=', True)]
     fields = ['name', 'project_id', 'description', 'stage_id', 'write_date', 'user_ids']
     
@@ -139,12 +129,10 @@ def sync_project_tasks(models, uid):
         title = safe_filename(task['name'])
         project = task['project_id'][1] if task['project_id'] else "No Project"
         stage = task['stage_id'][1] if task['stage_id'] else "None"
-        # user_ids is a list of integer record IDs — convert to strings before joining
         assignees = ", ".join(str(uid_) for uid_ in task['user_ids']) if task.get('user_ids') else "Unassigned"
         description = strip_html(task['description'])
         last_updated = task['write_date']
 
-        # Format as clean Obsidian Markdown
         md_content = f"""---
 id: odoo-task-{task_id}
 type: Project Task
@@ -177,6 +165,112 @@ tags:
         
     print(f"Synced {synced_count} Project Tasks to 04-Projects/Odoo Tasks/")
 
+def sync_employees(models, uid):
+    print("Syncing Employee Directory from Odoo...")
+    emp_folder = os.path.join(VAULT_PATH, "07-Employees")
+    os.makedirs(emp_folder, exist_ok=True)
+    
+    domain = [('active', '=', True)]
+    fields = ['name', 'work_email', 'work_phone', 'mobile_phone', 'job_title', 'department_id', 'parent_id', 'work_location_id', 'write_date']
+    
+    try:
+        employees = models.execute_kw(
+            DB_NAME, uid, API_KEY, 
+            'hr.employee', 'search_read', 
+            [domain], {'fields': fields}
+        )
+    except Exception as e:
+        print(f"Failed to fetch Employees: {e}")
+        return
+
+    synced_count = 0
+    emp_list = []
+    
+    for emp in employees:
+        emp_id = emp['id']
+        name = safe_filename(emp['name'])
+        job_title = emp['job_title'] or "Team Member"
+        department = emp['department_id'][1] if emp.get('department_id') else "General"
+        manager = emp['parent_id'][1] if emp.get('parent_id') else "None"
+        email = emp.get('work_email') or "N/A"
+        phone = emp.get('work_phone') or emp.get('mobile_phone') or "N/A"
+        location = emp['work_location_id'][1] if emp.get('work_location_id') else "Office"
+        last_updated = emp.get('write_date', 'N/A')
+
+        emp_list.append({
+            "id": emp_id,
+            "name": name,
+            "job_title": job_title,
+            "department": department,
+            "email": email,
+            "phone": phone
+        })
+
+        md_content = f"""---
+id: odoo-emp-{emp_id}
+type: Employee Profile
+name: "{name}"
+job_title: "{job_title}"
+department: "{department}"
+manager: "{manager}"
+email: "{email}"
+phone: "{phone}"
+location: "{location}"
+last_updated: {last_updated}
+sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+tags:
+  - employee
+  - department/{department.lower().replace(" ", "-")}
+---
+# 👤 Employee Profile: {name}
+
+## 📋 A to Z Details
+- **Full Name:** {name}
+- **Job Title:** {job_title}
+- **Department:** [[{department}]]
+- **Manager / Supervisor:** [[{manager}]]
+- **Work Email:** [{email}](mailto:{email})
+- **Work Phone:** {phone}
+- **Location:** {location}
+
+---
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"{name}"` or `[[{name}]]`
+
+---
+*Synced from Odoo HR Module on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
+"""
+        filename = f"Employee - {name}.md"
+        file_path = os.path.join(emp_folder, filename)
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(md_content)
+        synced_count += 1
+
+    # Create Master Index for 1-click access
+    index_md = f"""---
+tags:
+  - employee/index
+  - directory
+type: Master Directory
+---
+# 📁 Master Employee Directory Index (A to Z)
+
+Click any employee below to view their complete A to Z details:
+
+| Employee Name | Job Title | Department | Email | Phone | Profile Link |
+|---|---|---|---|---|---|
+"""
+    for e in sorted(emp_list, key=lambda x: x['name']):
+        index_md += f"| {e['name']} | {e['job_title']} | {e['department']} | {e['email']} | {e['phone']} | [[Employee - {e['name']}]] |\n"
+
+    index_md += f"\n---\n*Total Active Employees: {synced_count} | Last Synced: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
+    
+    with open(os.path.join(emp_folder, "00 - Master Employee Directory Index.md"), "w", encoding="utf-8") as f:
+        f.write(index_md)
+
+    print(f"Synced {synced_count} Employee Profiles to 07-Employees/ and built Master Index!")
+
 def main():
     if not validate_config():
         return
@@ -185,7 +279,6 @@ def main():
     try:
         common = xmlrpc.client.ServerProxy(f"{ODOO_URL}/xmlrpc/2/common")
         
-        # Try to get server version first (doesn't need DB name)
         try:
             version = common.version()
             print(f"Odoo server reachable: {version.get('server_version', 'unknown')}")
@@ -206,14 +299,14 @@ def main():
         
         sync_crm_leads(models, uid)
         sync_project_tasks(models, uid)
-        print("\n✅ Sync complete!")
+        sync_employees(models, uid)
+        print("\n✅ All Odoo Data (Leads, Tasks, Employees) Synced Successfully!")
         
     except Exception as e:
         err = str(e)
         if "does not exist" in err or "Database not found" in err or "AccessError" in err:
             print(f"\n❌ Database '{DB_NAME}' not found on the Odoo server.")
             print("Fix: Update DB_NAME in .env with the correct database name.")
-            print("Tip: Ask your Odoo admin or check the Odoo server config for the DB name.")
         else:
             print(f"\n❌ An error occurred: {e}")
 

@@ -8,10 +8,52 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"04-Projects/Odoo Tasks\"  ",
+      "query": "path:rfq-knowledge",
       "color": {
         "a": 1,
-        "rgb": 15042
+        "rgb": 14891778
+      }
+    },
+    {
+      "query": "path:diagrams-notes",
+      "color": {
+        "a": 1,
+        "rgb": 8914911
+      }
+    },
+    {
+      "query": "path:attachments",
+      "color": {
+        "a": 1,
+        "rgb": 13637278
+      }
+    },
+    {
+      "query": "path:\"04-Projects/Odoo Tasks\"",
+      "color": {
+        "a": 1,
+        "rgb": 570068
+      }
+    },
+    {
+      "query": "path:06-Clients",
+      "color": {
+        "a": 1,
+        "rgb": 14750740
+      }
+    },
+    {
+      "query": "path:09-Documentation",
+      "color": {
+        "a": 1,
+        "rgb": 321321
+      }
+    },
+    {
+      "query": "path:15-Automation",
+      "color": {
+        "a": 1,
+        "rgb": 2098096
       }
     }
   ],
@@ -25,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.06788885837312467,
-  "close": true
+  "scale": 0.5365209168046011,
+  "close": false
 }
