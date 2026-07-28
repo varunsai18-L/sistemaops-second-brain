@@ -1,0 +1,37 @@
+---
+tags:
+  - employee
+  - department/product-&-technology
+  - job/intern
+name: "Dev Dharmesh Patel"
+department: "Product & Technology"
+job_position: "Intern"
+manager: "Rohit Thumu"
+email: "devdpatel0005@gmail.com"
+phone: "N/A"
+status: "Out of Working Hours"
+type: Employee Profile
+---
+
+# 👤 Employee Profile: Dev Dharmesh Patel
+
+## 📋 Complete A to Z Details
+
+| Attribute | Details |
+|---|---|
+| **Full Name** | **Dev Dharmesh Patel** |
+| **Job Position** | `Intern` |
+| **Department** | **[[Product & Technology]]** |
+| **Manager / Supervisor** | **[[Rohit Thumu]]** |
+| **Work Email** | [devdpatel0005@gmail.com](mailto:devdpatel0005@gmail.com) |
+| **Work Phone** | `N/A` |
+| **Work Status** | Out of Working Hours |
+
+---
+
+## 🔗 Quick Actions & Connections
+- **Search Assigned Tasks:** `assignees:"Dev Dharmesh Patel"`
+- **Search Department Notes:** `path:"07-Employees" [[Product & Technology]]`
+
+---
+*Imported into Obsidian Second Brain on 2026-07-28 21:09:03*
