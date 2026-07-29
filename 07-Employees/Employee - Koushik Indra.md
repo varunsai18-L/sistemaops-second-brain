@@ -10,28 +10,34 @@ manager: "Rohit Thumu"
 email: "indrakoushik1@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Koushik Indra
+# 👤 Employee Node: Koushik Indra
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Koushik Indra** |
-| **Job Position** | `AI Research & Automation Associate` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [indrakoushik1@gmail.com](mailto:indrakoushik1@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Koushik Indra**
+- **Job Position:** `AI Research & Automation Associate`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [indrakoushik1@gmail.com](mailto:indrakoushik1@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Koushik Indra"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[AI Research & Automation]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - VoxGuard Audio Deepfake Detection (314)]]
+- 📋 [[Task - Smart Diagnosis Through Cough Sounds (303)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Audio AI & Deepfake Detection]]
+- 💡 [[Machine Learning]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

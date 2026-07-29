@@ -10,28 +10,33 @@ manager: "Rohit Thumu"
 email: "N/A"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Srilalita
+# 👤 Employee Node: Srilalita
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Srilalita** |
-| **Job Position** | `Team Member` |
-| **Department** | **Finance & Administration** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [N/A](mailto:N/A) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Srilalita**
+- **Job Position:** `Team Member`
+- **Department:** [[Finance & Administration]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [N/A](mailto:N/A)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Srilalita"`
-- **Department:** `Finance & Administration`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Company Operations]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Team Member]]
+- 💡 [[Finance & Administration]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

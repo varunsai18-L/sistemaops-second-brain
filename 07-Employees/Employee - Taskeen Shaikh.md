@@ -10,28 +10,33 @@ manager: "Rohit Thumu"
 email: "taskeen.shaikh2026@gmail.com"
 phone: "7400962780"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Taskeen Shaikh
+# 👤 Employee Node: Taskeen Shaikh
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Taskeen Shaikh** |
-| **Job Position** | `Intern` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [taskeen.shaikh2026@gmail.com](mailto:taskeen.shaikh2026@gmail.com) |
-| **Work Phone** | `7400962780` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Taskeen Shaikh**
+- **Job Position:** `Intern`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [taskeen.shaikh2026@gmail.com](mailto:taskeen.shaikh2026@gmail.com)
+- **Work Phone:** `7400962780`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Taskeen Shaikh"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Intern]]
+- 💡 [[Product & Technology]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

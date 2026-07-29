@@ -6,32 +6,41 @@ tags:
 name: "Rohit Thumu"
 department: "Leadership & Operations"
 job_position: "Team Member"
-manager: "None"
+manager: "Rohit Thumu"
 email: "thumurohit@systemaops.com"
 phone: "'+4917685248689"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Rohit Thumu
+# 👤 Employee Node: Rohit Thumu
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Rohit Thumu** |
-| **Job Position** | `Team Member` |
-| **Department** | **Leadership & Operations** |
-| **Manager / Supervisor** | **None** |
-| **Work Email** | [thumurohit@systemaops.com](mailto:thumurohit@systemaops.com) |
-| **Work Phone** | `'+4917685248689` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Rohit Thumu**
+- **Job Position:** `Team Member`
+- **Department:** [[Leadership & Operations]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [thumurohit@systemaops.com](mailto:thumurohit@systemaops.com)
+- **Work Phone:** `'+4917685248689`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Rohit Thumu"`
-- **Department:** `Leadership & Operations`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+- 🚀 [[Lead gen Tool]]
+- 🚀 [[Odoo ERP Integration]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Review AI projects (308)]]
+- 📋 [[Task - Review RFQ (364)]]
+- 📋 [[Task - AI Assisted Medical Triage Platform (361)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Leadership & Engineering Management]]
+- 💡 [[System Architecture]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

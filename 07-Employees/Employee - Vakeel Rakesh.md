@@ -10,28 +10,35 @@ manager: "Rohit Thumu"
 email: "rakeshvakeel000@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Vakeel Rakesh
+# 👤 Employee Node: Vakeel Rakesh
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Vakeel Rakesh** |
-| **Job Position** | `Workflow & Process Automation Associate` |
-| **Department** | **Administration** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [rakeshvakeel000@gmail.com](mailto:rakeshvakeel000@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Vakeel Rakesh**
+- **Job Position:** `Workflow & Process Automation Associate`
+- **Department:** [[Administration]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [rakeshvakeel000@gmail.com](mailto:rakeshvakeel000@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Vakeel Rakesh"`
-- **Department:** `Administration`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Workflow & Process Automation]]
+- 🚀 [[N8N Integration]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Automation reminders (349)]]
+- 📋 [[Task - N8N Installation (279)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[N8N & Workflow Automation]]
+- 💡 [[Process Optimization]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

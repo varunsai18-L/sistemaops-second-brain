@@ -10,28 +10,33 @@ manager: "Sravan Dandu"
 email: "sravandandu456@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Sravan Dandu
+# 👤 Employee Node: Sravan Dandu
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Sravan Dandu** |
-| **Job Position** | `Team Member` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Sravan Dandu](./Employee%20-%20Sravan%20Dandu.md)** |
-| **Work Email** | [sravandandu456@gmail.com](mailto:sravandandu456@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Sravan Dandu**
+- **Job Position:** `Team Member`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Sravan Dandu]]
+- **Work Email:** [sravandandu456@gmail.com](mailto:sravandandu456@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Sravan Dandu"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Team Member]]
+- 💡 [[Product & Technology]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

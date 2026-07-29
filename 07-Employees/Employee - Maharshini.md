@@ -10,28 +10,33 @@ manager: "Rohit Thumu"
 email: "maharshini09@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Maharshini
+# 👤 Employee Node: Maharshini
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Maharshini** |
-| **Job Position** | `Team Member` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [maharshini09@gmail.com](mailto:maharshini09@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Maharshini**
+- **Job Position:** `Team Member`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [maharshini09@gmail.com](mailto:maharshini09@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Maharshini"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Team Member]]
+- 💡 [[Product & Technology]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

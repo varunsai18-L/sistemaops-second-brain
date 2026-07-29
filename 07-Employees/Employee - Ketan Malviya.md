@@ -10,28 +10,33 @@ manager: "Rohit Thumu"
 email: "ketanmalviya9424840@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Ketan Malviya
+# 👤 Employee Node: Ketan Malviya
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Ketan Malviya** |
-| **Job Position** | `Intern` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [ketanmalviya9424840@gmail.com](mailto:ketanmalviya9424840@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Ketan Malviya**
+- **Job Position:** `Intern`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [ketanmalviya9424840@gmail.com](mailto:ketanmalviya9424840@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Ketan Malviya"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Intern]]
+- 💡 [[Product & Technology]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

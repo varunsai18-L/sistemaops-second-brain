@@ -10,28 +10,35 @@ manager: "Rohit Thumu"
 email: "thotahruthwik007@gmail.com"
 phone: "6303326883"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Hruthwik Thota
+# 👤 Employee Node: Hruthwik Thota
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Hruthwik Thota** |
-| **Job Position** | `AI Research & Automation Engineer` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [thotahruthwik007@gmail.com](mailto:thotahruthwik007@gmail.com) |
-| **Work Phone** | `6303326883` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Hruthwik Thota**
+- **Job Position:** `AI Research & Automation Engineer`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [thotahruthwik007@gmail.com](mailto:thotahruthwik007@gmail.com)
+- **Work Phone:** `6303326883`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Hruthwik Thota"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[AI Research & Automation]]
+- 🚀 [[Medical AI Platform]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - LLM + RAG pipeline, 4-level urgency output (371)]]
+- 📋 [[Task - STT and TTS (368)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[AI & LLM Pipelines]]
+- 💡 [[RAG & Vector Databases]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

@@ -10,28 +10,35 @@ manager: "Rohit Thumu"
 email: "jhansichintapalli5757@gmail.com"
 phone: "7013017215"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Jhansi
+# 👤 Employee Node: Jhansi
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Jhansi** |
-| **Job Position** | `Technical Project manager` |
-| **Department** | **Administration** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com) |
-| **Work Phone** | `7013017215` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Jhansi**
+- **Job Position:** `Technical Project manager`
+- **Department:** [[Administration]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com)
+- **Work Phone:** `7013017215`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Jhansi"`
-- **Department:** `Administration`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Technical Project Management]]
+- 🚀 [[00 - RFQ Project Knowledge Base Index]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
+- 📋 [[Task - Project (313)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Project Management & Agile]]
+- 💡 [[Technical Documentation]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

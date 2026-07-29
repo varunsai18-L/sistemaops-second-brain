@@ -10,28 +10,35 @@ manager: "Rohit Thumu"
 email: "96523793dhanu@gmail.com"
 phone: "9014411267"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Dhanush
+# 👤 Employee Node: Dhanush
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Dhanush** |
-| **Job Position** | `Full Stack Software Engineer` |
-| **Department** | **Product & Technology** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [96523793dhanu@gmail.com](mailto:96523793dhanu@gmail.com) |
-| **Work Phone** | `9014411267` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Dhanush**
+- **Job Position:** `Full Stack Software Engineer`
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [96523793dhanu@gmail.com](mailto:96523793dhanu@gmail.com)
+- **Work Phone:** `9014411267`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Dhanush"`
-- **Department:** `Product & Technology`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Lead gen Tool]]
+- 🚀 [[Full Stack Development]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Lead generation (480)]]
+- 📋 [[Task - Dashboard For Lead gen (479)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Full Stack Engineering]]
+- 💡 [[Python & React]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

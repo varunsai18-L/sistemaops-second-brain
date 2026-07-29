@@ -10,28 +10,33 @@ manager: "Admin"
 email: "shirshendu.baral@gmail.com"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Shirshendu Baral
+# 👤 Employee Node: Shirshendu Baral
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Shirshendu Baral** |
-| **Job Position** | `Team Member` |
-| **Department** | **Leadership & Operations** |
-| **Manager / Supervisor** | **[Admin](./Employee%20-%20Admin.md)** |
-| **Work Email** | [shirshendu.baral@gmail.com](mailto:shirshendu.baral@gmail.com) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Shirshendu Baral**
+- **Job Position:** `Team Member`
+- **Department:** [[Leadership & Operations]]
+- **Manager / Supervisor:** [[Employee - Admin]]
+- **Work Email:** [shirshendu.baral@gmail.com](mailto:shirshendu.baral@gmail.com)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Shirshendu Baral"`
-- **Department:** `Leadership & Operations`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Company Operations]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Team Member]]
+- 💡 [[Leadership & Operations]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

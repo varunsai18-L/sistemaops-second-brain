@@ -10,28 +10,34 @@ manager: "Rohit Thumu"
 email: "bainasiddhartha@gmail.com"
 phone: "9390898383"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Siddarth Baina
+# 👤 Employee Node: Siddarth Baina
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Siddarth Baina** |
-| **Job Position** | `Team Member` |
-| **Department** | **DevOps** |
-| **Manager / Supervisor** | **[Rohit Thumu](./Employee%20-%20Rohit%20Thumu.md)** |
-| **Work Email** | [bainasiddhartha@gmail.com](mailto:bainasiddhartha@gmail.com) |
-| **Work Phone** | `9390898383` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Siddarth Baina**
+- **Job Position:** `Team Member`
+- **Department:** [[DevOps]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [bainasiddhartha@gmail.com](mailto:bainasiddhartha@gmail.com)
+- **Work Phone:** `9390898383`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Siddarth Baina"`
-- **Department:** `DevOps`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[DevOps Infrastructure]]
+- 🚀 [[Server Management]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Dockerized it so that instead of running all the command just need to run command to activate the chatbot (461)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Docker & Containerization]]
+- 💡 [[CI/CD & Server Deployment]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*

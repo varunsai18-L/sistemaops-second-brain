@@ -6,32 +6,37 @@ tags:
 name: "Suresh Kumar"
 department: "Finance & Administration"
 job_position: "Team Member"
-manager: "None"
+manager: "Rohit Thumu"
 email: "N/A"
 phone: "N/A"
 status: "Out of Working Hours"
-type: Employee Profile
+type: Employee Profile Note
 ---
 
-# 👤 Employee Profile: Suresh Kumar
+# 👤 Employee Node: Suresh Kumar
 
-## 📋 Complete A to Z Details
-
-| Attribute | Details |
-|---|---|
-| **Full Name** | **Suresh Kumar** |
-| **Job Position** | `Team Member` |
-| **Department** | **Finance & Administration** |
-| **Manager / Supervisor** | **None** |
-| **Work Email** | [N/A](mailto:N/A) |
-| **Work Phone** | `N/A` |
-| **Work Status** | Out of Working Hours |
+## 📋 A to Z Details
+- **Full Name:** **Suresh Kumar**
+- **Job Position:** `Team Member`
+- **Department:** [[Finance & Administration]]
+- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Work Email:** [N/A](mailto:N/A)
+- **Work Phone:** `N/A`
+- **Status:** Out of Working Hours
 
 ---
 
-## 🔗 Quick Actions & Connections
-- **Search Assigned Tasks:** `assignees:"Suresh Kumar"`
-- **Department:** `Finance & Administration`
+## 🎯 Active Projects & Work (Graph Connections)
+- 🚀 [[Company Operations]]
+
+### 📝 Assigned Tasks
+- 📋 [[Task - Project Documentation (373)]]
 
 ---
-*Verified & Synced from Odoo HR Module on 2026-07-28 22:24:03*
+
+## 🛠️ Skill & Domain Graph Links
+- 💡 [[Team Member]]
+- 💡 [[Finance & Administration]]
+
+---
+*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
