@@ -22,10 +22,10 @@ type: Master Directory Index
 ---
 ## 🏢 Administration (2)
 
-| # | Employee Name | Job Position | Manager | Work Email | Work Phone |
-|---|---|---|---|---|---|
-| 1 | [**Jhansi**](./Employee%20-%20Jhansi.md) | Technical Project manager | Rohit Thumu | [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com) | `7013017215` |
-| 2 | [**Vakeel Rakesh**](./Employee%20-%20Vakeel%20Rakesh.md) | Workflow & Process Automation Associate | Rohit Thumu | [rakeshvakeel000@gmail.com](mailto:rakeshvakeel000@gmail.com) | `N/A` |
+| #   | Employee Name                                            | Job Position                            | Manager     | Work Email                                                                | Work Phone   |
+| --- | -------------------------------------------------------- | --------------------------------------- | ----------- | ------------------------------------------------------------------------- | ------------ |
+| 1   | [**Jhansi**](./Employee%20-%20Jhansi.md)                 | Technical Project manager               | Rohit Thumu | [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com) | `7013017215` |
+| 2   | [**Vakeel Rakesh**](./Employee%20-%20Vakeel%20Rakesh.md) | Workflow & Process Automation Associate | Rohit Thumu | [rakeshvakeel000@gmail.com](mailto:rakeshvakeel000@gmail.com)             | `N/A`        |
 
 ## 🏢 DevOps (1)
 

@@ -55,9 +55,16 @@
         "a": 1,
         "rgb": 2098096
       }
+    },
+    {
+      "query": "Rohit Thumu",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": -0.8,
   "nodeSizeMultiplier": 1,
@@ -67,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5365209168046011,
+  "scale": 0.15326912380534902,
   "close": false
 }
