@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Product & Technology.md",
+                "file": "15-Automation/Daily Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Product & Technology"
+              "title": "Daily Workflow"
             }
           }
         ]
@@ -238,6 +238,26 @@
   },
   "active": "45fed18b7181fe0d",
   "lastOpenFiles": [
+    "15-Automation/AI Prompts/Second Brain Assistant Prompts.md",
+    "15-Automation/AI Prompts",
+    "06-Clients/Lead Pipeline.md",
+    "03-Resources/Documentation/Pro Callout & Styling Guide.md",
+    "03-Resources/Documentation",
+    "03-Resources",
+    "02-Areas/Executive Reports/Weekly Executive Report.md",
+    "02-Areas/Executive Reports",
+    "02-Areas",
+    "04-Projects/Odoo Task Kanban.md",
+    "_Archive/09-Documentation-unrelated/Coding Standards.md",
+    "_Archive/09-Documentation-unrelated/Clinical Guidelines.md",
+    "_Archive/09-Documentation-unrelated/Backend.md",
+    "_Archive/09-Documentation-unrelated/Architecture.md",
+    "09-Documentation/XWiki/XWiki/Administration.md",
+    "07-Employees/Employee - Vakeel Rakesh.md",
+    "00 - CEO Dashboard.md",
+    "Untitled.base",
+    "Product & Technology.md",
+    "04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index.md",
     "07-Employees/Employee - Neha Sharma.md",
     "04-Projects/Odoo Projects/AMD hackathon.md",
     "04-Projects/Odoo Tasks/Task - FINAL REVIEW AND SUBMISSION (327).md",
@@ -249,21 +269,7 @@
     "07-Employees/Employee - VISHNU VARDHAN.md",
     "07-Employees/00 - Master Employee Directory Index.md",
     "09-Documentation/XWiki/XWiki/Profile of varunvaddi.md",
-    "Product & Technology.md",
     "07-Employees/Employee - Blesson.md",
-    "07-Employees/Employee - Bhavnoor Singh.md",
-    "07-Employees/Employee - Admin.md",
-    "07-Employees/Employee - Adabala Seetha Sriram.md",
-    "07-Employees/Employee - VARNA GEORGE.md",
-    "07-Employees/Employee - Varenyam Joshi.md",
-    "07-Employees/Employee - Vanshik Jain.md",
-    "07-Employees/Employee - Vakeel Rakesh.md",
-    "07-Employees/Employee - Uma.md",
-    "07-Employees/Employee - Uday Charan.md",
-    "07-Employees/Employee - Tuhina Debnath.md",
-    "07-Employees/Employee - Thulasi Jyothi Reddy.md",
-    "07-Employees/Employee - Taskeen Shaikh.md",
-    "07-Employees/Employee - Suryansh Rana.md",
     "07-Employees",
     "04-Projects/rfq-knowledge/attachments/integration_diagram.svg",
     "04-Projects/rfq-knowledge/attachments/security_diagram.png",
@@ -275,14 +281,8 @@
     "04-Projects/rfq-knowledge/attachments/architecture_diagram.png",
     "04-Projects/rfq-knowledge/attachments/ai_diagram.png",
     "09-Documentation/RFQ",
-    "Untitled.base",
     "_Archive/redundant-templates",
     "Untitled.canvas",
-    "04-Projects/Odoo Projects",
-    "04-Projects/Odoo Tasks",
-    "06-Clients/Odoo Leads",
-    "_Archive/09-Documentation-unrelated",
-    "_Archive",
-    "15-Automation/venv/lib/python3.14/site-packages/requests-2.34.2.dist-info/licenses/LICENSE"
+    "04-Projects/Odoo Projects"
   ]
 }
