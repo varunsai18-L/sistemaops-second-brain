@@ -9,7 +9,7 @@ email: "shashankgowthamjula@gmail.com"
 phone: "9392449484"
 location: "Home"
 last_updated: 2026-07-22 16:34:14
-sync_date: 2026-08-03 21:31:58
+sync_date: 2026-08-03 21:38:33
 tags:
   - employee
   - department/general
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Shashank Gowtham"` or `[[Shashank Gowtham]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:31:58*
+*Synced from Odoo HR Module on 2026-08-03 21:38:33*

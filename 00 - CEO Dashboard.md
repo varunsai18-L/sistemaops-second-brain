@@ -16,13 +16,13 @@ tags:
 
 ## 📊 Executive Snapshot & Live Metrics
 
-| Metric | Current Count | Quick Link |
-|---|---|---|
-| 👥 **Total Active Team Members** | `52 Employees` | [[00 - Master Employee Directory Index]] |
-| 🚀 **Active Projects** | `16 Projects` | [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index\|RFQ Project Hub]] |
-| 📋 **Synced Odoo Tasks** | `113 Tasks` | [[04-Projects/Odoo Tasks/\|Odoo Tasks Folder]] |
-| 🤝 **CRM Leads & Clients** | `Active Opportunities` | [[06-Clients/Odoo Leads/\|Odoo Leads Folder]] |
-| ⚡ **Automated Workflows** | `Odoo + OpenDesk (XWiki)` | [[15-Automation/Automation Index\|Automation Hub]] |
+| Metric                           | Current Count             | Quick Link                                                                           |
+| -------------------------------- | ------------------------- | ------------------------------------------------------------------------------------ |
+| 👥 **Total Active Team Members** | `52 Employees`            | [[00 - Master Employee Directory Index]]                                             |
+| 🚀 **Active Projects**           | `16 Projects`             | [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index\|RFQ Project Hub]] |
+| 📋 **Synced Odoo Tasks**         | `113 Tasks`               | [[04-Projects/Odoo Tasks/\|Odoo Tasks Folder]]                                       |
+| 🤝 **CRM Leads & Clients**       | `Active Opportunities`    | [[06-Clients/Odoo Leads/\|Odoo Leads Folder]]                                        |
+| ⚡ **Automated Workflows**        | `Odoo + OpenDesk (XWiki)` | [[15-Automation/Automation Index\|Automation Hub]]                                   |
 
 ---
 

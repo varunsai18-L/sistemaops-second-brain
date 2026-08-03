@@ -5,7 +5,7 @@ project: "App deployment"
 stage: "local testing and verification"
 assignees: "15"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:31:58
+sync_date: 2026-08-03 21:38:32
 tags:
   - odoo/task
   - project/app-deployment
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[App deployment]]
 - **Odoo Stage:** local testing and verification
 - **Assignees:** 15
-- **Last Sync:** 2026-08-03 21:31:58
+- **Last Sync:** 2026-08-03 21:38:32
 
 ## Description
 Bar & Pubhttp://10.99.0.9:8094

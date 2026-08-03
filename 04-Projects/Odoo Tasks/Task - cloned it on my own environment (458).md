@@ -5,7 +5,7 @@ project: "odysseus"
 stage: "Brainstorm"
 assignees: "72"
 last_updated: 2026-06-13 06:52:53
-sync_date: 2026-08-03 21:31:58
+sync_date: 2026-08-03 21:38:32
 tags:
   - odoo/task
   - project/odysseus
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[odysseus]]
 - **Odoo Stage:** Brainstorm
 - **Assignees:** 72
-- **Last Sync:** 2026-08-03 21:31:58
+- **Last Sync:** 2026-08-03 21:38:32
 
 ## Description
 Run the following command in your gitbash one by one :-git clone https://github.com/pewdiepie-archdaemon/odysseus.git      2. cd odysseuswhat is does :- Downloads the repo to your machine and moves into the folder.

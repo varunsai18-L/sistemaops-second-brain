@@ -9,7 +9,7 @@ email: "jainvanshik2005@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-29 16:34:32
-sync_date: 2026-08-03 21:31:58
+sync_date: 2026-08-03 21:38:33
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Vanshik Jain"` or `[[Vanshik Jain]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:31:58*
+*Synced from Odoo HR Module on 2026-08-03 21:38:33*
