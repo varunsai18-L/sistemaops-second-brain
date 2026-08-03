@@ -1,44 +1,33 @@
 ---
-tags:
-  - employee
-  - department/administration
-  - job/technical-project-manager
+id: odoo-emp-68
+type: Employee Profile
 name: "Jhansi"
+job_title: "Technical Project manager"
 department: "Administration"
-job_position: "Technical Project manager"
 manager: "Rohit Thumu"
 email: "jhansichintapalli5757@gmail.com"
 phone: "7013017215"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-07-25 17:31:53
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/administration
 ---
-
-# 👤 Employee Node: Jhansi
+# 👤 Employee Profile: Jhansi
 
 ## 📋 A to Z Details
-- **Full Name:** **Jhansi**
-- **Job Position:** `Technical Project manager`
+- **Full Name:** Jhansi
+- **Job Title:** Technical Project manager
 - **Department:** [[Administration]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com)
-- **Work Phone:** `7013017215`
-- **Status:** Out of Working Hours
+- **Work Phone:** 7013017215
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Technical Project Management]]
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
-- 📋 [[Task - Project (313)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Jhansi"` or `[[Jhansi]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Project Management & Agile]]
-- 💡 [[Technical Documentation]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

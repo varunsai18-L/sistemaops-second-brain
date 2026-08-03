@@ -1,42 +1,33 @@
 ---
+id: odoo-emp-74
+type: Employee Profile
+name: "Lasya Ram"
+job_title: "Intern"
+department: "Product & Technology"
+manager: "Rohit Thumu"
+email: "lassireddyram@gmail.com"
+phone: "9866639944"
+location: "Home"
+last_updated: 2026-07-29 16:15:37
+sync_date: 2026-08-03 21:31:58
 tags:
   - employee
   - department/product-&-technology
-  - job/intern
-name: "Lasya Ram"
-department: "Product & Technology"
-job_position: "Intern"
-manager: "Rohit Thumu"
-email: "lassireddyram@gmail.com"
-phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
 ---
-
-# 👤 Employee Node: Lasya Ram
+# 👤 Employee Profile: Lasya Ram
 
 ## 📋 A to Z Details
-- **Full Name:** **Lasya Ram**
-- **Job Position:** `Intern`
+- **Full Name:** Lasya Ram
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [lassireddyram@gmail.com](mailto:lassireddyram@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** 9866639944
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Lasya Ram"` or `[[Lasya Ram]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

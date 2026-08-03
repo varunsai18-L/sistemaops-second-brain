@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-76
+type: Employee Profile
 name: "Chetana Santhi Manapragada"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "chetanasanthi.m@gmail.com"
 phone: "9177712515"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-07-29 11:33:49
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Chetana Santhi Manapragada
+# 👤 Employee Profile: Chetana Santhi Manapragada
 
 ## 📋 A to Z Details
-- **Full Name:** **Chetana Santhi Manapragada**
-- **Job Position:** `Intern`
+- **Full Name:** Chetana Santhi Manapragada
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [chetanasanthi.m@gmail.com](mailto:chetanasanthi.m@gmail.com)
-- **Work Phone:** `9177712515`
-- **Status:** Out of Working Hours
+- **Work Phone:** 9177712515
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Chetana Santhi Manapragada"` or `[[Chetana Santhi Manapragada]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

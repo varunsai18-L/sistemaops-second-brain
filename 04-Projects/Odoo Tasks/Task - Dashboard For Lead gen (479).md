@@ -5,7 +5,7 @@ project: "Lead gen Tool"
 stage: "Backlog"
 assignees: "72"
 last_updated: 2026-07-08 12:18:36
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/lead-gen-tool
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Dashboard For Lead gen
 
-- **Project:** [[04-Projects/Odoo Projects/Lead gen Tool|Lead gen Tool]]
+- **Project:** [[Lead gen Tool]]
 - **Odoo Stage:** Backlog
 - **Assignees:** 72
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 No description provided.

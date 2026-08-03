@@ -1,42 +1,33 @@
 ---
+id: odoo-emp-41
+type: Employee Profile
+name: "Suresh Kumar"
+job_title: "Executive Director"
+department: "Finance & Administration"
+manager: "None"
+email: "N/A"
+phone: "N/A"
+location: "Office"
+last_updated: 2026-01-11 01:10:41
+sync_date: 2026-08-03 21:31:58
 tags:
   - employee
   - department/finance-&-administration
-  - job/team-member
-name: "Suresh Kumar"
-department: "Finance & Administration"
-job_position: "Team Member"
-manager: "Rohit Thumu"
-email: "N/A"
-phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
 ---
-
-# 👤 Employee Node: Suresh Kumar
+# 👤 Employee Profile: Suresh Kumar
 
 ## 📋 A to Z Details
-- **Full Name:** **Suresh Kumar**
-- **Job Position:** `Team Member`
+- **Full Name:** Suresh Kumar
+- **Job Title:** Executive Director
 - **Department:** [[Finance & Administration]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[None]]
 - **Work Email:** [N/A](mailto:N/A)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Company Operations]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Suresh Kumar"` or `[[Suresh Kumar]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Finance & Administration]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

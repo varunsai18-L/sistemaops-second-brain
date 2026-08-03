@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/leadership-&-operations
-  - job/team-member
+id: odoo-emp-24
+type: Employee Profile
 name: "Blesson"
+job_title: "Chief Technical Officer - Strategy, Growth & Direction"
 department: "Leadership & Operations"
-job_position: "Team Member"
 manager: "Admin"
 email: "blessonkr@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-06-12 09:46:21
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/leadership-&-operations
 ---
-
-# 👤 Employee Node: Blesson
+# 👤 Employee Profile: Blesson
 
 ## 📋 A to Z Details
-- **Full Name:** **Blesson**
-- **Job Position:** `Team Member`
+- **Full Name:** Blesson
+- **Job Title:** Chief Technical Officer - Strategy, Growth & Direction
 - **Department:** [[Leadership & Operations]]
-- **Manager / Supervisor:** [[Employee - Admin]]
+- **Manager / Supervisor:** [[Admin]]
 - **Work Email:** [blessonkr@gmail.com](mailto:blessonkr@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Company Operations]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Blesson"` or `[[Blesson]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Leadership & Operations]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

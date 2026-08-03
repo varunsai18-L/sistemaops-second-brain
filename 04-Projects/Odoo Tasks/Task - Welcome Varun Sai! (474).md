@@ -5,7 +5,7 @@ project: "No Project"
 stage: "None"
 assignees: "95"
 last_updated: 2026-06-30 08:06:43
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/no-project
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Welcome Varun Sai!
 
-- **Project:** [[04-Projects/Odoo Projects/No Project|No Project]]
+- **Project:** [[No Project]]
 - **Odoo Stage:** None
 - **Assignees:** 95
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 Hey Varun Sai 👋 

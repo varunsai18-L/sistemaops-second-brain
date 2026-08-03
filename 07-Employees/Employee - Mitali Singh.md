@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-102
+type: Employee Profile
 name: "Mitali Singh"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "mitali8116@gmail.com"
 phone: "8790231947"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Remote"
+last_updated: 2026-06-21 15:20:35
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Mitali Singh
+# 👤 Employee Profile: Mitali Singh
 
 ## 📋 A to Z Details
-- **Full Name:** **Mitali Singh**
-- **Job Position:** `Intern`
+- **Full Name:** Mitali Singh
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [mitali8116@gmail.com](mailto:mitali8116@gmail.com)
-- **Work Phone:** `8790231947`
-- **Status:** Out of Working Hours
+- **Work Phone:** 8790231947
+- **Location:** Remote
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Mitali Singh"` or `[[Mitali Singh]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

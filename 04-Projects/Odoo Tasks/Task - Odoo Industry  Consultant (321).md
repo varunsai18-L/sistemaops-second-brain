@@ -5,7 +5,7 @@ project: "Prototypes DEVOPS : Odoo ERP"
 stage: "Sprint Complete"
 assignees: "6"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/prototypes-devops-:-odoo-erp
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Odoo Industry  Consultant
 
-- **Project:** [[04-Projects/Odoo Projects/Prototypes DEVOPS - Odoo ERP|Prototypes DEVOPS : Odoo ERP]]
+- **Project:** [[Prototypes DEVOPS : Odoo ERP]]
 - **Odoo Stage:** Sprint Complete
 - **Assignees:** 6
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 This document contains proprietary and confidential information of SystemaOps. It is intended solely for authorized personnel involved in this project. Any unauthorized review, use, disclosure, or distribution of its contents is strictly prohibited. Recipients must maintain the confidentiality of this information and may not copy, share, or use it for purposes outside the scope of this project without prior written permission from SystemaOps.https://consultant.systemaops.com/Tip: Use Chatgpt , Claude Code, Gemini Pro, Perplexity Pro, Cursor Free or Codeium Free for AI suggestions.OverviewGoal: Create industry-specific Odoo modules for Odoo 18 (stable) and Odoo 19 (latest), containerized with Docker for sales demos.Reference Repository (for ideas only): https://github.com/odoo/industryWorkflow: Customize Docker → Test Locally → Demo → Approve → Push to GitLab (when ready) → DeployNote: GitLab is not yet deployed. Initial development will be done locally, and GitLab integration will be set up once ready.1. Task BreakdownSetup

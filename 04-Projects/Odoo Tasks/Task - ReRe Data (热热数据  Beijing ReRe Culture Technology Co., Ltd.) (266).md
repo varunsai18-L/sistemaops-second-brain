@@ -5,7 +5,7 @@ project: "Internal"
 stage: "Internal"
 assignees: "6, 15"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/internal
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: ReRe Data (热热数据  Beijing ReRe Culture Technology Co., Ltd.)
 
-- **Project:** [[04-Projects/Odoo Projects/Internal|Internal]]
+- **Project:** [[Internal]]
 - **Odoo Stage:** Internal
 - **Assignees:** 6, 15
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 This project involves collaborative development of AI training datasets to accelerate AI model development and ensure regulatory compliance. Key focus areas include:

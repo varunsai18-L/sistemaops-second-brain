@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/finance-&-administration
-  - job/team-member
+id: odoo-emp-40
+type: Employee Profile
 name: "Srilalita"
+job_title: "Chief Financial Officer, Growth and Operations"
 department: "Finance & Administration"
-job_position: "Team Member"
 manager: "Rohit Thumu"
 email: "N/A"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-02-12 00:29:01
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/finance-&-administration
 ---
-
-# 👤 Employee Node: Srilalita
+# 👤 Employee Profile: Srilalita
 
 ## 📋 A to Z Details
-- **Full Name:** **Srilalita**
-- **Job Position:** `Team Member`
+- **Full Name:** Srilalita
+- **Job Title:** Chief Financial Officer, Growth and Operations
 - **Department:** [[Finance & Administration]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [N/A](mailto:N/A)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Company Operations]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Srilalita"` or `[[Srilalita]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Finance & Administration]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

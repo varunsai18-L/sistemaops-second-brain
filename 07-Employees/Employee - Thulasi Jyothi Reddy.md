@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-87
+type: Employee Profile
 name: "Thulasi Jyothi Reddy"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "thulasijyothireddy08@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-06-12 09:56:56
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Thulasi Jyothi Reddy
+# 👤 Employee Profile: Thulasi Jyothi Reddy
 
 ## 📋 A to Z Details
-- **Full Name:** **Thulasi Jyothi Reddy**
-- **Job Position:** `Intern`
+- **Full Name:** Thulasi Jyothi Reddy
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [thulasijyothireddy08@gmail.com](mailto:thulasijyothireddy08@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Thulasi Jyothi Reddy"` or `[[Thulasi Jyothi Reddy]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

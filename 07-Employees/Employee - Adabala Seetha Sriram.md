@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-109
+type: Employee Profile
 name: "Adabala Seetha Sriram"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "sriramadabala350@gmail.com"
 phone: "8499971123"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Remote"
+last_updated: 2026-08-03 13:52:46
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Adabala Seetha Sriram
+# 👤 Employee Profile: Adabala Seetha Sriram
 
 ## 📋 A to Z Details
-- **Full Name:** **Adabala Seetha Sriram**
-- **Job Position:** `Intern`
+- **Full Name:** Adabala Seetha Sriram
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [sriramadabala350@gmail.com](mailto:sriramadabala350@gmail.com)
-- **Work Phone:** `8499971123`
-- **Status:** Out of Working Hours
+- **Work Phone:** 8499971123
+- **Location:** Remote
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Adabala Seetha Sriram"` or `[[Adabala Seetha Sriram]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

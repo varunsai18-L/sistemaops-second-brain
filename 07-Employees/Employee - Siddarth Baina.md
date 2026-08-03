@@ -1,43 +1,33 @@
 ---
-tags:
-  - employee
-  - department/devops
-  - job/team-member
+id: odoo-emp-42
+type: Employee Profile
 name: "Siddarth Baina"
+job_title: "Site Reliability & DevOps Engineer"
 department: "DevOps"
-job_position: "Team Member"
 manager: "Rohit Thumu"
 email: "bainasiddhartha@gmail.com"
 phone: "9390898383"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Home"
+last_updated: 2026-07-27 10:33:48
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/devops
 ---
-
-# 👤 Employee Node: Siddarth Baina
+# 👤 Employee Profile: Siddarth Baina
 
 ## 📋 A to Z Details
-- **Full Name:** **Siddarth Baina**
-- **Job Position:** `Team Member`
+- **Full Name:** Siddarth Baina
+- **Job Title:** Site Reliability & DevOps Engineer
 - **Department:** [[DevOps]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [bainasiddhartha@gmail.com](mailto:bainasiddhartha@gmail.com)
-- **Work Phone:** `9390898383`
-- **Status:** Out of Working Hours
+- **Work Phone:** 9390898383
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[DevOps Infrastructure]]
-- 🚀 [[Server Management]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Dockerized it so that instead of running all the command just need to run command to activate the chatbot (461)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Siddarth Baina"` or `[[Siddarth Baina]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Docker & Containerization]]
-- 💡 [[CI/CD & Server Deployment]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/developer-associate
+id: odoo-emp-60
+type: Employee Profile
 name: "Pradeepkonda"
-department: "Product & Technology"
-job_position: "Developer Associate"
+job_title: "Developer Associate"
+department: "General"
 manager: "Rohit Thumu"
 email: "pradeepkonda1418@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-06-12 09:48:13
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/general
 ---
-
-# 👤 Employee Node: Pradeepkonda
+# 👤 Employee Profile: Pradeepkonda
 
 ## 📋 A to Z Details
-- **Full Name:** **Pradeepkonda**
-- **Job Position:** `Developer Associate`
-- **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Full Name:** Pradeepkonda
+- **Job Title:** Developer Associate
+- **Department:** [[General]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [pradeepkonda1418@gmail.com](mailto:pradeepkonda1418@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Pradeepkonda"` or `[[Pradeepkonda]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Developer Associate]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

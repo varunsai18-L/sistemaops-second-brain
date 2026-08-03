@@ -1,42 +1,33 @@
 ---
+id: odoo-emp-117
+type: Employee Profile
+name: "Dev Dharmesh Patel"
+job_title: "Intern"
+department: "Product & Technology"
+manager: "Rohit Thumu"
+email: "devdpatel0005@gmail.com"
+phone: "9409103919"
+location: "Office"
+last_updated: 2026-07-15 05:45:22
+sync_date: 2026-08-03 21:31:58
 tags:
   - employee
   - department/product-&-technology
-  - job/intern
-name: "Dev Dharmesh Patel"
-department: "Product & Technology"
-job_position: "Intern"
-manager: "Rohit Thumu"
-email: "devdpatel0005@gmail.com"
-phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
 ---
-
-# 👤 Employee Node: Dev Dharmesh Patel
+# 👤 Employee Profile: Dev Dharmesh Patel
 
 ## 📋 A to Z Details
-- **Full Name:** **Dev Dharmesh Patel**
-- **Job Position:** `Intern`
+- **Full Name:** Dev Dharmesh Patel
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [devdpatel0005@gmail.com](mailto:devdpatel0005@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** 9409103919
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Dev Dharmesh Patel"` or `[[Dev Dharmesh Patel]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

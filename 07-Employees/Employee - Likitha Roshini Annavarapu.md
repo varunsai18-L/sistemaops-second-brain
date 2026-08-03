@@ -1,44 +1,33 @@
 ---
+id: odoo-emp-108
+type: Employee Profile
+name: "Likitha Roshini Annavarapu"
+job_title: "Intern"
+department: "Product & Technology"
+manager: "Rohit Thumu"
+email: "likitharoshiniannavarapu@gmail.com"
+phone: "8019514149"
+location: "Office"
+last_updated: 2026-08-03 13:30:51
+sync_date: 2026-08-03 21:31:58
 tags:
   - employee
   - department/product-&-technology
-  - job/intern
-name: "Likitha Roshini Annavarapu"
-department: "Product & Technology"
-job_position: "Intern"
-manager: "Rohit Thumu"
-email: "likitharoshiniannavarapu@gmail.com"
-phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
 ---
-
-# 👤 Employee Node: Likitha Roshini Annavarapu
+# 👤 Employee Profile: Likitha Roshini Annavarapu
 
 ## 📋 A to Z Details
-- **Full Name:** **Likitha Roshini Annavarapu**
-- **Job Position:** `Intern`
+- **Full Name:** Likitha Roshini Annavarapu
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [likitharoshiniannavarapu@gmail.com](mailto:likitharoshiniannavarapu@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** 8019514149
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[AI Application Development]]
-- 🚀 [[Knowledge Graphs]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Review AI projects (308)]]
-- 📋 [[Task - ai app planning and backend (307)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Likitha Roshini Annavarapu"` or `[[Likitha Roshini Annavarapu]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[LLM Applications]]
-- 💡 [[Knowledge Graphs & Vector Databases]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

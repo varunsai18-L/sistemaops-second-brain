@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-85
+type: Employee Profile
 name: "Dhanya sri"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "dhanyasri200602@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-07-29 15:50:06
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Dhanya sri
+# 👤 Employee Profile: Dhanya sri
 
 ## 📋 A to Z Details
-- **Full Name:** **Dhanya sri**
-- **Job Position:** `Intern`
+- **Full Name:** Dhanya sri
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [dhanyasri200602@gmail.com](mailto:dhanyasri200602@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Dhanya sri"` or `[[Dhanya sri]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

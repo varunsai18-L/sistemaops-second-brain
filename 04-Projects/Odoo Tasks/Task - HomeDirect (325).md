@@ -5,7 +5,7 @@ project: "Boring Apps"
 stage: "Brainstorm"
 assignees: "6, 15"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/boring-apps
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: HomeDirect
 
-- **Project:** [[04-Projects/Odoo Projects/Boring Apps|Boring Apps]]
+- **Project:** [[Boring Apps]]
 - **Odoo Stage:** Brainstorm
 - **Assignees:** 6, 15
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 HomeDirect is a complete broker-free real estate platform designed to connect property owners, tenants, buyers, and service providers directly through a unified digital ecosystem. The platform eliminates unnecessary brokerage fees and simplifies property discovery, communication, rental management, and real-estate transactions.Built using Odoo architecture principles, the application combines marketplace functionality, CRM workflows, payment systems, AI recommendations, and property management into one scalable platform.The application supports:

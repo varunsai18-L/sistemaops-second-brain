@@ -5,7 +5,7 @@ project: "odysseus"
 stage: "Brainstorm"
 assignees: "72"
 last_updated: 2026-06-18 14:52:22
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/odysseus
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Mostly Done with including the  Authentication Panel so that it can be uploaded on server
 
-- **Project:** [[04-Projects/Odoo Projects/odysseus|odysseus]]
+- **Project:** [[odysseus]]
 - **Odoo Stage:** Brainstorm
 - **Assignees:** 72
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 No description provided.

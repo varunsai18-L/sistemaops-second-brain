@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/team-member
+id: odoo-emp-39
+type: Employee Profile
 name: "Sravan Dandu"
+job_title: "Front End and UI UX Engineer | SEO Focus"
 department: "Product & Technology"
-job_position: "Team Member"
 manager: "Sravan Dandu"
 email: "sravandandu456@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Home"
+last_updated: 2026-08-03 13:33:23
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Sravan Dandu
+# 👤 Employee Profile: Sravan Dandu
 
 ## 📋 A to Z Details
-- **Full Name:** **Sravan Dandu**
-- **Job Position:** `Team Member`
+- **Full Name:** Sravan Dandu
+- **Job Title:** Front End and UI UX Engineer | SEO Focus
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Sravan Dandu]]
+- **Manager / Supervisor:** [[Sravan Dandu]]
 - **Work Email:** [sravandandu456@gmail.com](mailto:sravandandu456@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Sravan Dandu"` or `[[Sravan Dandu]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

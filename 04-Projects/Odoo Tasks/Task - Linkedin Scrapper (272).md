@@ -5,7 +5,7 @@ project: "Miscellaneous"
 stage: "In Progress"
 assignees: "52"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/miscellaneous
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Linkedin Scrapper
 
-- **Project:** [[04-Projects/Odoo Projects/Miscellaneous|Miscellaneous]]
+- **Project:** [[Miscellaneous]]
 - **Odoo Stage:** In Progress
 - **Assignees:** 52
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 No description provided.

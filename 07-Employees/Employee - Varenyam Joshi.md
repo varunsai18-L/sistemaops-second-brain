@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-78
+type: Employee Profile
 name: "Varenyam Joshi"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "varenyam.vj@gmail.com"
 phone: "7089976257"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Home"
+last_updated: 2026-08-03 13:31:54
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Varenyam Joshi
+# 👤 Employee Profile: Varenyam Joshi
 
 ## 📋 A to Z Details
-- **Full Name:** **Varenyam Joshi**
-- **Job Position:** `Intern`
+- **Full Name:** Varenyam Joshi
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [varenyam.vj@gmail.com](mailto:varenyam.vj@gmail.com)
-- **Work Phone:** `7089976257`
-- **Status:** Out of Working Hours
+- **Work Phone:** 7089976257
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Varenyam Joshi"` or `[[Varenyam Joshi]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

@@ -5,7 +5,7 @@ project: "SEO Optimization"
 stage: "Backlog"
 assignees: "41"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/seo-optimization
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Review and Implement
 
-- **Project:** [[04-Projects/Odoo Projects/SEO Optimization|SEO Optimization]]
+- **Project:** [[SEO Optimization]]
 - **Odoo Stage:** Backlog
 - **Assignees:** 41
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 https://www.youtube.com/watch?v=c2dwmdcmF88

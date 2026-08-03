@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/intern
+id: odoo-emp-81
+type: Employee Profile
 name: "Tuhina Debnath"
+job_title: "Intern"
 department: "Product & Technology"
-job_position: "Intern"
 manager: "Rohit Thumu"
 email: "debnathtuhina01@gmail.com"
 phone: "8017217652"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Home"
+last_updated: 2026-08-03 13:34:33
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Tuhina Debnath
+# 👤 Employee Profile: Tuhina Debnath
 
 ## 📋 A to Z Details
-- **Full Name:** **Tuhina Debnath**
-- **Job Position:** `Intern`
+- **Full Name:** Tuhina Debnath
+- **Job Title:** Intern
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [debnathtuhina01@gmail.com](mailto:debnathtuhina01@gmail.com)
-- **Work Phone:** `8017217652`
-- **Status:** Out of Working Hours
+- **Work Phone:** 8017217652
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Tuhina Debnath"` or `[[Tuhina Debnath]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Intern]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

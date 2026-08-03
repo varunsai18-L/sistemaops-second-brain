@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "62"
 last_updated: 2026-06-18 15:35:49
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: STT and TTS
 
-- **Project:** [[04-Projects/Odoo Projects/AI ML review|AI ML review]]
+- **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** 62
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 Triage Engine (Backend)STT + TTS (multilingual)Shreya -> 02-06-2026 : Environment setup completed.

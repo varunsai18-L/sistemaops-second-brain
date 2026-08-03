@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/leadership-&-operations
-  - job/team-member
+id: odoo-emp-48
+type: Employee Profile
 name: "Shirshendu Baral"
+job_title: "Development Lead"
 department: "Leadership & Operations"
-job_position: "Team Member"
 manager: "Admin"
 email: "shirshendu.baral@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-06-12 09:51:29
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/leadership-&-operations
 ---
-
-# 👤 Employee Node: Shirshendu Baral
+# 👤 Employee Profile: Shirshendu Baral
 
 ## 📋 A to Z Details
-- **Full Name:** **Shirshendu Baral**
-- **Job Position:** `Team Member`
+- **Full Name:** Shirshendu Baral
+- **Job Title:** Development Lead
 - **Department:** [[Leadership & Operations]]
-- **Manager / Supervisor:** [[Employee - Admin]]
+- **Manager / Supervisor:** [[Admin]]
 - **Work Email:** [shirshendu.baral@gmail.com](mailto:shirshendu.baral@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Company Operations]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Shirshendu Baral"` or `[[Shirshendu Baral]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Leadership & Operations]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

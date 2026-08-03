@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/team-member
+id: odoo-emp-55
+type: Employee Profile
 name: "Maharshini"
-department: "Product & Technology"
-job_position: "Team Member"
+job_title: "Intern"
+department: "General"
 manager: "Rohit Thumu"
 email: "maharshini09@gmail.com"
 phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-08-03 13:30:34
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/general
 ---
-
-# 👤 Employee Node: Maharshini
+# 👤 Employee Profile: Maharshini
 
 ## 📋 A to Z Details
-- **Full Name:** **Maharshini**
-- **Job Position:** `Team Member`
-- **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Full Name:** Maharshini
+- **Job Title:** Intern
+- **Department:** [[General]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [maharshini09@gmail.com](mailto:maharshini09@gmail.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Maharshini"` or `[[Maharshini]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "65"
 last_updated: 2026-06-06 15:13:09
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Chethna's review
 
-- **Project:** [[04-Projects/Odoo Projects/AI ML review|AI ML review]]
+- **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** 65
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 WhatsApp Image 2026-05-11 at 08.22.08.jpeg

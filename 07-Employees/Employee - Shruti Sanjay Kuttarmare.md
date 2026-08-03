@@ -1,0 +1,33 @@
+---
+id: odoo-emp-122
+type: Employee Profile
+name: "Shruti Sanjay Kuttarmare"
+job_title: "Intern"
+department: "Product & Technology"
+manager: "Rohit Thumu"
+email: "shrutikuttarmare1@gmail.com"
+phone: "N/A"
+location: "Office"
+last_updated: 2026-07-20 19:14:15
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
+---
+# 👤 Employee Profile: Shruti Sanjay Kuttarmare
+
+## 📋 A to Z Details
+- **Full Name:** Shruti Sanjay Kuttarmare
+- **Job Title:** Intern
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
+- **Work Email:** [shrutikuttarmare1@gmail.com](mailto:shrutikuttarmare1@gmail.com)
+- **Work Phone:** N/A
+- **Location:** Office
+
+---
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Shruti Sanjay Kuttarmare"` or `[[Shruti Sanjay Kuttarmare]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

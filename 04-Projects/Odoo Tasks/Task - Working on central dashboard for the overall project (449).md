@@ -5,7 +5,7 @@ project: "RFQ Analzser"
 stage: "Backlog"
 assignees: "20"
 last_updated: 2026-06-10 12:07:56
-sync_date: 2026-07-21 20:33:13
+sync_date: 2026-08-03 21:31:58
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -13,10 +13,10 @@ tags:
 ---
 # Task: Working on central dashboard for the overall project
 
-- **Project:** [[04-Projects/Odoo Projects/RFQ Analzser|RFQ Analzser]]
+- **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Backlog
 - **Assignees:** 20
-- **Last Sync:** 2026-07-21 20:33:13
+- **Last Sync:** 2026-08-03 21:31:58
 
 ## Description
 No description provided.

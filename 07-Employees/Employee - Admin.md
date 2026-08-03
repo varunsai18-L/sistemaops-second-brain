@@ -1,42 +1,33 @@
 ---
+id: odoo-emp-25
+type: Employee Profile
+name: "Admin"
+job_title: "Admin"
+department: "Finance & Administration"
+manager: "None"
+email: "admin@systemaops.com"
+phone: "N/A"
+location: "Office"
+last_updated: 2026-07-20 16:28:06
+sync_date: 2026-08-03 21:31:58
 tags:
   - employee
   - department/finance-&-administration
-  - job/team-member
-name: "Admin"
-department: "Finance & Administration"
-job_position: "Team Member"
-manager: "Rohit Thumu"
-email: "admin@systemaops.com"
-phone: "N/A"
-status: "Out of Working Hours"
-type: Employee Profile Note
 ---
-
-# 👤 Employee Node: Admin
+# 👤 Employee Profile: Admin
 
 ## 📋 A to Z Details
-- **Full Name:** **Admin**
-- **Job Position:** `Team Member`
+- **Full Name:** Admin
+- **Job Title:** Admin
 - **Department:** [[Finance & Administration]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[None]]
 - **Work Email:** [admin@systemaops.com](mailto:admin@systemaops.com)
-- **Work Phone:** `N/A`
-- **Status:** Out of Working Hours
+- **Work Phone:** N/A
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[Company Operations]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Admin Portal (367)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Admin"` or `[[Admin]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[Team Member]]
-- 💡 [[Finance & Administration]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

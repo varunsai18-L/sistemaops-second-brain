@@ -1,44 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/ai-research-&-automation-engineer
+id: odoo-emp-37
+type: Employee Profile
 name: "Hruthwik Thota"
+job_title: "AI Research & Automation Engineer"
 department: "Product & Technology"
-job_position: "AI Research & Automation Engineer"
 manager: "Rohit Thumu"
 email: "thotahruthwik007@gmail.com"
 phone: "6303326883"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Home"
+last_updated: 2026-08-03 12:34:21
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/product-&-technology
 ---
-
-# 👤 Employee Node: Hruthwik Thota
+# 👤 Employee Profile: Hruthwik Thota
 
 ## 📋 A to Z Details
-- **Full Name:** **Hruthwik Thota**
-- **Job Position:** `AI Research & Automation Engineer`
+- **Full Name:** Hruthwik Thota
+- **Job Title:** AI Research & Automation Engineer
 - **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [thotahruthwik007@gmail.com](mailto:thotahruthwik007@gmail.com)
-- **Work Phone:** `6303326883`
-- **Status:** Out of Working Hours
+- **Work Phone:** 6303326883
+- **Location:** Home
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[AI Research & Automation]]
-- 🚀 [[Medical AI Platform]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - LLM + RAG pipeline, 4-level urgency output (371)]]
-- 📋 [[Task - STT and TTS (368)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Hruthwik Thota"` or `[[Hruthwik Thota]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[AI & LLM Pipelines]]
-- 💡 [[RAG & Vector Databases]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*

@@ -1,42 +1,33 @@
 ---
-tags:
-  - employee
-  - department/product-&-technology
-  - job/ai-research-&-automation-associate
+id: odoo-emp-63
+type: Employee Profile
 name: "RAGHAVENDHRA KARING"
-department: "Product & Technology"
-job_position: "AI Research & Automation Associate"
+job_title: "AI Research & Automation Associate"
+department: "General"
 manager: "Rohit Thumu"
 email: "raghavendhrakaring@gmail.com"
 phone: "7032909996"
-status: "Out of Working Hours"
-type: Employee Profile Note
+location: "Office"
+last_updated: 2026-08-03 13:43:28
+sync_date: 2026-08-03 21:31:58
+tags:
+  - employee
+  - department/general
 ---
-
-# 👤 Employee Node: RAGHAVENDHRA KARING
+# 👤 Employee Profile: RAGHAVENDHRA KARING
 
 ## 📋 A to Z Details
-- **Full Name:** **RAGHAVENDHRA KARING**
-- **Job Position:** `AI Research & Automation Associate`
-- **Department:** [[Product & Technology]]
-- **Manager / Supervisor:** [[Employee - Rohit Thumu]]
+- **Full Name:** RAGHAVENDHRA KARING
+- **Job Title:** AI Research & Automation Associate
+- **Department:** [[General]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
 - **Work Email:** [raghavendhrakaring@gmail.com](mailto:raghavendhrakaring@gmail.com)
-- **Work Phone:** `7032909996`
-- **Status:** Out of Working Hours
+- **Work Phone:** 7032909996
+- **Location:** Office
 
 ---
-
-## 🎯 Active Projects & Work (Graph Connections)
-- 🚀 [[00 - RFQ Project Knowledge Base Index]]
-
-### 📝 Assigned Tasks
-- 📋 [[Task - Project Documentation (373)]]
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"RAGHAVENDHRA KARING"` or `[[RAGHAVENDHRA KARING]]`
 
 ---
-
-## 🛠️ Skill & Domain Graph Links
-- 💡 [[AI Research & Automation Associate]]
-- 💡 [[Product & Technology]]
-
----
-*Graph-Connected Obsidian Note | Synced from Odoo & OpenDesk Knowledge Base*
+*Synced from Odoo HR Module on 2026-08-03 21:31:58*
