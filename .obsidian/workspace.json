@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6dde4299f6f5ff65",
+        "id": "fb9f12fb4279b8e5",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5ec69fecd552a2",
+            "id": "f8a4afe536a4cc1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "07-Employees/00 - Master Employee Directory Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "00 - Master Employee Directory Index"
             }
           }
         ]
@@ -352,16 +352,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4676bf7f2705ec00",
+  "active": "f8a4afe536a4cc1e",
   "lastOpenFiles": [
-    "Home.md",
+    "00 - CEO Dashboard.md",
     "Untitled.base",
+    "Untitled.md",
+    "Home.md",
     "04-Projects/Odoo Task Kanban.md",
     "04-Projects/Company Overview & Pipeline.canvas",
     "07-Employees/Employee - Likitha Roshini Annavarapu.md",
     "07-Employees/Employee - Rohit Thumu.md",
     "07-Employees/00 - Master Employee Directory Index.md",
-    "00 - CEO Dashboard.md",
     "04-Projects/Odoo Projects/AI Workflow Automation - N8N.md",
     "04-Projects/Odoo Projects/App deployment.md",
     "15-Automation/AI Prompts/Second Brain Assistant Prompts.md",
@@ -385,7 +386,6 @@
     "09-Documentation/XWiki/XWiki/Administration.md",
     "07-Employees/Employee - Vakeel Rakesh.md",
     "Product & Technology.md",
-    "04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index.md",
     "07-Employees",
     "04-Projects/rfq-knowledge/attachments/integration_diagram.svg",
     "04-Projects/rfq-knowledge/attachments/security_diagram.png",
