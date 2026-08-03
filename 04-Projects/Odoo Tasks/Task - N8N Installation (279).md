@@ -5,7 +5,7 @@ project: "Server management"
 stage: "Sprint in Progress"
 assignees: "27, 15"
 last_updated: 2026-07-08 07:35:34
-sync_date: 2026-08-03 21:38:32
+sync_date: 2026-08-03 21:49:02
 tags:
   - odoo/task
   - project/server-management
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Server management]]
 - **Odoo Stage:** Sprint in Progress
 - **Assignees:** 27, 15
-- **Last Sync:** 2026-08-03 21:38:32
+- **Last Sync:** 2026-08-03 21:49:02
 
 ## Description
 No description provided.

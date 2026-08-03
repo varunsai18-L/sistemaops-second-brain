@@ -5,7 +5,7 @@ project: "AI Workflow Automation - N8N "
 stage: "Backlog"
 assignees: "98, 71"
 last_updated: 2026-07-21 15:40:20
-sync_date: 2026-08-03 21:38:32
+sync_date: 2026-08-03 21:49:02
 tags:
   - odoo/task
   - project/ai-workflow-automation---n8n-
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI Workflow Automation - N8N ]]
 - **Odoo Stage:** Backlog
 - **Assignees:** 98, 71
-- **Last Sync:** 2026-08-03 21:38:32
+- **Last Sync:** 2026-08-03 21:49:02
 
 ## Description
 No description provided.

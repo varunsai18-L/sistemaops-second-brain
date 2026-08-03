@@ -1,6 +1,6 @@
 # 🧠 RFQ Project (PVMS 2.0) & Obsidian Second Brain Integration Workflow
 
-**Author:** Varun Sai & SystemaOps Engineering Team  
+**Author:** Varun & His Team  
 **Date:** August 3, 2026  
 **Target Repositories:** [PVMS 2.0 RFQ Engine](https://gitlab.systemaops.com/alpha-rfq-project/project-viability-management-system) | [SistemaOps Second Brain](https://gitlab.systemaops.com/varun_sai/sistemaops-second-brain)  
 

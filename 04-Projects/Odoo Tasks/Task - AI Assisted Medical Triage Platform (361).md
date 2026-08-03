@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "65, 25, 60, 63, 62, 27, 15, 58, 37"
 last_updated: 2026-06-20 13:58:01
-sync_date: 2026-08-03 21:38:32
+sync_date: 2026-08-03 21:49:02
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** 65, 25, 60, 63, 62, 27, 15, 58, 37
-- **Last Sync:** 2026-08-03 21:38:32
+- **Last Sync:** 2026-08-03 21:49:02
 
 ## Description
 Plan - Phase 1 An AI-assisted medical triage platform that helps users understand the urgency of their health

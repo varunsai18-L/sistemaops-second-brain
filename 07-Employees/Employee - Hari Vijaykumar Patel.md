@@ -9,7 +9,7 @@ email: "patelhariv18@gmail.com"
 phone: "7069753407"
 location: "Remote"
 last_updated: 2026-08-03 13:34:25
-sync_date: 2026-08-03 21:38:33
+sync_date: 2026-08-03 21:49:03
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Hari Vijaykumar Patel"` or `[[Hari Vijaykumar Patel]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:38:33*
+*Synced from Odoo HR Module on 2026-08-03 21:49:03*

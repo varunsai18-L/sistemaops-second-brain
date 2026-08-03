@@ -9,7 +9,7 @@ email: "ketanmalviya9424840@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-29 17:08:27
-sync_date: 2026-08-03 21:38:33
+sync_date: 2026-08-03 21:49:03
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Ketan Malviya"` or `[[Ketan Malviya]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:38:33*
+*Synced from Odoo HR Module on 2026-08-03 21:49:03*
