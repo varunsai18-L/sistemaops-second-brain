@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "likitharoshiniannavarapu@gmail.com"
 phone: "8019514149"
 location: "Office"
-last_updated: 2026-08-03 13:30:51
-sync_date: 2026-08-03 21:49:03
+last_updated: 2026-08-04 16:32:14
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Likitha Roshini Annavarapu"` or `[[Likitha Roshini Annavarapu]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*

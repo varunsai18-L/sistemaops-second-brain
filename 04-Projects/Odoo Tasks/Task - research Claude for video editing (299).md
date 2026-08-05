@@ -3,9 +3,9 @@ id: odoo-task-299
 type: Project Task
 project: "Video Editing"
 stage: "Ideas"
-assignees: "43"
+assignees: "Juluri Sathwik "
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/video-editing
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Video Editing]]
 - **Odoo Stage:** Ideas
-- **Assignees:** 43
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Juluri Sathwik 
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

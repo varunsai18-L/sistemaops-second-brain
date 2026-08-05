@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "chetanasanthi.m@gmail.com"
 phone: "9177712515"
 location: "Office"
-last_updated: 2026-07-29 11:33:49
-sync_date: 2026-08-03 21:49:03
+last_updated: 2026-08-04 17:48:58
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Chetana Santhi Manapragada"` or `[[Chetana Santhi Manapragada]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*

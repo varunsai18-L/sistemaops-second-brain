@@ -3,9 +3,9 @@ id: odoo-task-336
 type: Project Task
 project: "ERP & Sales Application Prototypes"
 stage: "Tests"
-assignees: "59"
+assignees: "Mansi Gupta"
 last_updated: 2026-06-25 13:50:06
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/erp-&-sales-application-prototypes
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[ERP & Sales Application Prototypes]]
 - **Odoo Stage:** Tests
-- **Assignees:** 59
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Mansi Gupta
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 Development of Salespoint Application under ERP & Sales Application Prototypes project.Scope:- Design and develop core sales management features- Implement user interface for sales tracking and reporting- Integrate with backend/database systems- Testing and bug fixes

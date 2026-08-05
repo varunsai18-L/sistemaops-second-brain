@@ -3,9 +3,9 @@ id: odoo-task-361
 type: Project Task
 project: "AI ML review"
 stage: "Prototype Development"
-assignees: "65, 25, 60, 63, 62, 27, 15, 58, 37"
+assignees: "Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN"
 last_updated: 2026-06-20 13:58:01
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
-- **Assignees:** 65, 25, 60, 63, 62, 27, 15, 58, 37
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 Plan - Phase 1 An AI-assisted medical triage platform that helps users understand the urgency of their health

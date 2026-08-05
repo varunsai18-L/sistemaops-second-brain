@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "thotahruthwik007@gmail.com"
 phone: "6303326883"
 location: "Home"
-last_updated: 2026-08-03 12:34:21
-sync_date: 2026-08-03 21:49:03
+last_updated: 2026-08-04 16:29:18
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Hruthwik Thota"` or `[[Hruthwik Thota]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*

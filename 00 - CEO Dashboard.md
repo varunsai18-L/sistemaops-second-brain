@@ -20,7 +20,7 @@ tags:
 | -------------------------------- | ------------------------- | ------------------------------------------------------------------------------------ |
 | 👥 **Total Active Team Members** | `60 Employees`            | [[00 - Master Employee Directory Index]]                                             |
 | 🚀 **Active Projects**           | `16 Projects`             | [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index\|RFQ Project Hub]] |
-| 📣 **AI Marketing Engine**       | `5 Pillars Active`        | [[05-Marketing/00 - Master Marketing Hub\|Master Marketing Hub]]                    |
+| 📣 **AI Marketing Engine**       | `5 Pillars Active`        | [[05-Marketing/00 - Master Marketing Hub\|Master Marketing Hub]]                     |
 | 📋 **Synced Odoo Tasks**         | `115 Tasks`               | [[04-Projects/Odoo Tasks/\|Odoo Tasks Folder]]                                       |
 | 🤝 **CRM Leads & Clients**       | `Active Opportunities`    | [[06-Clients/Odoo Leads/\|Odoo Leads Folder]]                                        |
 | ⚡ **Automated Workflows**        | `Odoo + OpenDesk (XWiki)` | [[15-Automation/Automation Index\|Automation Hub]]                                   |
@@ -40,9 +40,9 @@ tags:
 ## 👥 Live Employee Roster by Department (Dataview)
 
 ```dataview
-TABLE job_position AS "Job Title", department AS "Department", manager AS "Manager", email AS "Email"
+TABLE job_title AS "Job Title", department AS "Department", manager AS "Manager", email AS "Email"
 FROM "07-Employees"
-WHERE type = "Employee Profile Note"
+WHERE type = "Employee Profile"
 SORT department ASC, name ASC
 ```
 

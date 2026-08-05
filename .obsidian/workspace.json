@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fb9f12fb4279b8e5",
+        "id": "4ad63aca0e38665a",
         "type": "tabs",
         "children": [
           {
-            "id": "f8a4afe536a4cc1e",
+            "id": "f6a4d5866c6af646",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-Projects/rfq-knowledge/integration_mapping.md",
+                "file": "00 - CEO Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "integration_mapping"
+              "title": "00 - CEO Dashboard"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -352,8 +354,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4676bf7f2705ec00",
+  "active": "f6a4d5866c6af646",
   "lastOpenFiles": [
+    "07-Employees/00 - Master Employee Directory Index.md",
+    "00 - CEO Dashboard.md",
+    "06-Clients/Client Template.md",
+    "04-Projects/Odoo Tasks/Task - Dashboard For Lead gen (479).md",
+    "04-Projects/Odoo Projects/Lead gen Tool.md",
+    "05-Marketing/01-Client-Vault/Client Transcripts & Feedback.md",
+    "05-Marketing/00 - Master Marketing Hub.md",
+    "Untitled.base",
+    "Home.md",
+    "05-Marketing/05-Campaigns/2026 Q3 SystemaOps Enterprise Growth Campaign.md",
+    "05-Marketing/04-Idea-Graph/Content Matrix & Topic Clusters.md",
+    "05-Marketing/03-Framework-Library/Marketing Frameworks Collection.md",
+    "05-Marketing/02-Swipe-Files/High Converting Hooks & Headlines.md",
+    "05-Marketing/02-Swipe-Files/Email Sequences & Sales Pitch Templates.md",
+    "05-Marketing/01-Client-Vault/ICP & Buyer Personas.md",
+    "04-Projects/rfq-knowledge/integration_mapping.md",
     "15-Automation/PVMS_Obsidian_Integration_Workflow.md",
     "04-Projects/rfq-knowledge/final_integration_contract.md",
     "04-Projects/rfq-knowledge/decision_rules.md",
@@ -366,28 +384,12 @@
     "04-Projects/rfq-knowledge/attachments/dataflow_diagram.svg",
     "04-Projects/rfq-knowledge/attachments/dataflow_diagram.png",
     "04-Projects/rfq-knowledge/attachments/architecture_diagram.png",
-    "07-Employees/00 - Master Employee Directory Index.md",
-    "00 - CEO Dashboard.md",
     "07-Employees/Employee - Sukhpreet singh.md",
     "07-Employees/Employee - Shruti Sanjay Kuttarmare.md",
     "07-Employees/Employee - Priyanka.md",
     "07-Employees/Employee - Narayana Shankar.md",
     "07-Employees/Employee - Hari Vijaykumar Patel.md",
-    "07-Employees/Employee - Dev sharma.md",
-    "07-Employees/Employee - Aravind Goud Sainolla.md",
-    "07-Employees/Employee - Aishwaryakrishna Kalakuntla.md",
-    "04-Projects/Odoo Tasks/Task - testing (486).md",
-    "04-Projects/Odoo Tasks/Task - workflow of github actions (489).md",
-    "Untitled.base",
-    "Untitled.md",
-    "Home.md",
-    "04-Projects/Odoo Task Kanban.md",
     "04-Projects/Company Overview & Pipeline.canvas",
-    "07-Employees/Employee - Likitha Roshini Annavarapu.md",
-    "07-Employees/Employee - Rohit Thumu.md",
-    "04-Projects/Odoo Projects/AI Workflow Automation - N8N.md",
-    "04-Projects/Odoo Projects/App deployment.md",
-    "15-Automation/AI Prompts/Second Brain Assistant Prompts.md",
     "15-Automation/AI Prompts",
     "03-Resources/Documentation",
     "03-Resources",

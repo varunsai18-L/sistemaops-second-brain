@@ -3,9 +3,9 @@ id: odoo-task-377
 type: Project Task
 project: "Home Construction"
 stage: "Done"
-assignees: "2"
+assignees: "Admin"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/home-construction
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Home Construction]]
 - **Odoo Stage:** Done
-- **Assignees:** 2
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Admin
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

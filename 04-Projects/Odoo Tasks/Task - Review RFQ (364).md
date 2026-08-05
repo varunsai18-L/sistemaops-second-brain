@@ -3,9 +3,9 @@ id: odoo-task-364
 type: Project Task
 project: "RFQ Analzser"
 stage: "Tests"
-assignees: "64, 57, 59, 66, 75"
+assignees: "Diksha Ballav, Jhansi, Mansi Gupta, Palak Nagar, Thulasi Jyothi Reddy"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Tests
-- **Assignees:** 64, 57, 59, 66, 75
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Diksha Ballav, Jhansi, Mansi Gupta, Palak Nagar, Thulasi Jyothi Reddy
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

@@ -3,9 +3,9 @@ id: odoo-task-360
 type: Project Task
 project: "Server management"
 stage: "Old Completed Sprint"
-assignees: "74"
+assignees: "Kumar Nirupam"
 last_updated: 2026-07-08 07:35:42
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/server-management
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Server management]]
 - **Odoo Stage:** Old Completed Sprint
-- **Assignees:** 74
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Kumar Nirupam
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

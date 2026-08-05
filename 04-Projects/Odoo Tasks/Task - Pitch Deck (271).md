@@ -3,9 +3,9 @@ id: odoo-task-271
 type: Project Task
 project: "Miscellaneous"
 stage: "In Progress"
-assignees: "52, 37"
+assignees: "52, VISHNU VARDHAN"
 last_updated: 2026-06-12 16:40:33
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/miscellaneous
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Miscellaneous]]
 - **Odoo Stage:** In Progress
-- **Assignees:** 52, 37
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** 52, VISHNU VARDHAN
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

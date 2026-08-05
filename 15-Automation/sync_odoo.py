@@ -110,6 +110,18 @@ def sync_project_tasks(models, uid):
     tasks_folder = os.path.join(VAULT_PATH, "04-Projects", "Odoo Tasks")
     os.makedirs(tasks_folder, exist_ok=True)
     
+    # Build User ID -> Name Mapping
+    user_map = {}
+    try:
+        users = models.execute_kw(
+            DB_NAME, uid, API_KEY,
+            'res.users', 'search_read',
+            [[]], {'fields': ['id', 'name']}
+        )
+        user_map = {u['id']: u['name'] for u in users}
+    except Exception as e:
+        print(f"User mapping warning: {e}")
+
     domain = [('active', '=', True)]
     fields = ['name', 'project_id', 'description', 'stage_id', 'write_date', 'user_ids']
     
@@ -129,7 +141,7 @@ def sync_project_tasks(models, uid):
         title = safe_filename(task['name'])
         project = task['project_id'][1] if task['project_id'] else "No Project"
         stage = task['stage_id'][1] if task['stage_id'] else "None"
-        assignees = ", ".join(str(uid_) for uid_ in task['user_ids']) if task.get('user_ids') else "Unassigned"
+        assignees = ", ".join(user_map.get(uid_, str(uid_)) for uid_ in task['user_ids']) if task.get('user_ids') else "Unassigned"
         description = strip_html(task['description'])
         last_updated = task['write_date']
 

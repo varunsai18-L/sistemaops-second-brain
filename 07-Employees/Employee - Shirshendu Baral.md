@@ -9,7 +9,7 @@ email: "shirshendu.baral@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-06-12 09:51:29
-sync_date: 2026-08-03 21:49:03
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/leadership-&-operations
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Shirshendu Baral"` or `[[Shirshendu Baral]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*

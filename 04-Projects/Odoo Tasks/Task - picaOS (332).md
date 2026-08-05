@@ -3,9 +3,9 @@ id: odoo-task-332
 type: Project Task
 project: "explore picaOS"
 stage: "None"
-assignees: "53"
+assignees: "RAGHAVENDHRA"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/explore-picaos
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[explore picaOS]]
 - **Odoo Stage:** None
-- **Assignees:** 53
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** RAGHAVENDHRA
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 Started exporing about picaOS on 10th may

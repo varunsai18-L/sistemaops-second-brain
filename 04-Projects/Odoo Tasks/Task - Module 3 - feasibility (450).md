@@ -3,9 +3,9 @@ id: odoo-task-450
 type: Project Task
 project: "RFQ Analzser"
 stage: "Backlog"
-assignees: "64"
+assignees: "Diksha Ballav"
 last_updated: 2026-06-16 12:39:46
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Backlog
-- **Assignees:** 64
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Diksha Ballav
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

@@ -3,9 +3,9 @@ id: odoo-task-327
 type: Project Task
 project: "AMD hackathon"
 stage: "Finishes"
-assignees: "15"
+assignees: "Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/amd-hackathon
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[AMD hackathon]]
 - **Odoo Stage:** Finishes
-- **Assignees:** 15
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Vakeel Rakesh
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

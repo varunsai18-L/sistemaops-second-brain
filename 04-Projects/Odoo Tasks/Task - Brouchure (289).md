@@ -3,9 +3,9 @@ id: odoo-task-289
 type: Project Task
 project: "Digital Presence : Presentations"
 stage: "Ideas"
-assignees: "52, 37"
+assignees: "52, VISHNU VARDHAN"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/digital-presence-:-presentations
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Digital Presence : Presentations]]
 - **Odoo Stage:** Ideas
-- **Assignees:** 52, 37
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** 52, VISHNU VARDHAN
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

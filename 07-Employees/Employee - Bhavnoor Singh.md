@@ -9,7 +9,7 @@ email: "bhavnoor6116@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-07 13:53:55
-sync_date: 2026-08-03 21:49:03
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Bhavnoor Singh"` or `[[Bhavnoor Singh]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*

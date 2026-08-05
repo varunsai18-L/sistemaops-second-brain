@@ -3,9 +3,9 @@ id: odoo-task-266
 type: Project Task
 project: "Internal"
 stage: "Internal"
-assignees: "6, 15"
+assignees: "Rohit Thumu, Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/internal
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Internal]]
 - **Odoo Stage:** Internal
-- **Assignees:** 6, 15
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Rohit Thumu, Vakeel Rakesh
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 This project involves collaborative development of AI training datasets to accelerate AI model development and ensure regulatory compliance. Key focus areas include:

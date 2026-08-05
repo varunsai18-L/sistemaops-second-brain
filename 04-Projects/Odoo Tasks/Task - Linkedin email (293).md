@@ -3,9 +3,9 @@ id: odoo-task-293
 type: Project Task
 project: "Lead gen Tool"
 stage: "Backlog"
-assignees: "37"
+assignees: "VISHNU VARDHAN"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/lead-gen-tool
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Lead gen Tool]]
 - **Odoo Stage:** Backlog
-- **Assignees:** 37
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** VISHNU VARDHAN
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

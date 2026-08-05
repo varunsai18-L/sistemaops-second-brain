@@ -3,9 +3,9 @@ id: odoo-task-474
 type: Project Task
 project: "No Project"
 stage: "None"
-assignees: "95"
+assignees: "Varun Sai"
 last_updated: 2026-06-30 08:06:43
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/no-project
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[No Project]]
 - **Odoo Stage:** None
-- **Assignees:** 95
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Varun Sai
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 Hey Varun Sai 👋 

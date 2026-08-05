@@ -3,9 +3,9 @@ id: odoo-task-376
 type: Project Task
 project: "Home Construction"
 stage: "New"
-assignees: "6"
+assignees: "Rohit Thumu"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-03 21:49:02
+sync_date: 2026-08-05 10:57:56
 tags:
   - odoo/task
   - project/home-construction
@@ -15,8 +15,8 @@ tags:
 
 - **Project:** [[Home Construction]]
 - **Odoo Stage:** New
-- **Assignees:** 6
-- **Last Sync:** 2026-08-03 21:49:02
+- **Assignees:** Rohit Thumu
+- **Last Sync:** 2026-08-05 10:57:56
 
 ## Description
 No description provided.

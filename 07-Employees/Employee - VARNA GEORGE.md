@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "varnamoonjely@gmail.com"
 phone: "+91 9567358978"
 location: "Home"
-last_updated: 2026-07-30 16:31:12
-sync_date: 2026-08-03 21:49:03
+last_updated: 2026-08-04 16:26:31
+sync_date: 2026-08-05 10:57:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"VARNA GEORGE"` or `[[VARNA GEORGE]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-03 21:49:03*
+*Synced from Odoo HR Module on 2026-08-05 10:57:57*
