@@ -9,7 +9,7 @@ email: "udaycharanmengarthi1@gmail.com"
 phone: "9494580934"
 location: "Home"
 last_updated: 2026-08-05 13:25:24
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Uday Charan"` or `[[Uday Charan]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*

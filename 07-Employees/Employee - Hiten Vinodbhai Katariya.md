@@ -9,7 +9,7 @@ email: "work.hitenkatariya@gmail.com"
 phone: "9099590979"
 location: "Remote"
 last_updated: 2026-08-05 15:33:50
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Hiten Vinodbhai Katariya"` or `[[Hiten Vinodbhai Katariya]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*

@@ -9,7 +9,7 @@ email: "raghavendhrakaring@gmail.com"
 phone: "7032909996"
 location: "Office"
 last_updated: 2026-08-05 14:42:10
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/general
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"RAGHAVENDHRA KARING"` or `[[RAGHAVENDHRA KARING]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*

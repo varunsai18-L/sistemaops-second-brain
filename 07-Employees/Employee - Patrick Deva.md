@@ -9,7 +9,7 @@ email: "patrickdeva8@gmail.com"
 phone: "9345132412"
 location: "Home"
 last_updated: 2026-08-04 17:13:13
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Patrick Deva"` or `[[Patrick Deva]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*

@@ -9,7 +9,7 @@ email: "suryansh2nd@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-27 05:56:19
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Suryansh Rana"` or `[[Suryansh Rana]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*

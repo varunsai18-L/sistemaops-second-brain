@@ -9,7 +9,7 @@ email: "varenyam.vj@gmail.com"
 phone: "7089976257"
 location: "Home"
 last_updated: 2026-08-05 14:18:58
-sync_date: 2026-08-05 21:15:18
+sync_date: 2026-08-05 21:16:24
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Varenyam Joshi"` or `[[Varenyam Joshi]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 21:15:18*
+*Synced from Odoo HR Module on 2026-08-05 21:16:24*
