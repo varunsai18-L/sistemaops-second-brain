@@ -20,3 +20,6 @@ tags:
 ---
 
 This class is used by the Live Table macro to map document fields to xproperty types in order to reuse the filters associated with xproperty types.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

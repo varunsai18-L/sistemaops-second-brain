@@ -44,3 +44,6 @@ tags:
 {{/html}}
 
 {{iconPicker id="myPicker" class="fieldWithPicker" prefix="icon:" /}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

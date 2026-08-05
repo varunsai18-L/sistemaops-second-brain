@@ -5,7 +5,7 @@ project: "Prototypes DEVOPS : Odoo ERP"
 stage: "Deploy Odoo"
 assignees: "Unassigned"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 20:04:32
+sync_date: 2026-08-05 20:04:57
 tags:
   - odoo/task
   - project/prototypes-devops-:-odoo-erp
@@ -16,7 +16,10 @@ tags:
 - **Project:** [[Prototypes DEVOPS : Odoo ERP]]
 - **Odoo Stage:** Deploy Odoo
 - **Assignees:** Unassigned
-- **Last Sync:** 2026-08-05 20:04:32
+- **Last Sync:** 2026-08-05 20:04:57
 
 ## Description
 https://demo3.odoo.com/
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

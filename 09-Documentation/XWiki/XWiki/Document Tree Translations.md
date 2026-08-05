@@ -96,3 +96,6 @@ index.documentTree.documentSortDisplayer.order.desc=Descending
 ## Until 7.2M2
 rendering.macro.documentTree.parameter.showChildDocuments.name=Show Child Documents
 rendering.macro.documentTree.parameter.showChildDocuments.description=Whether to show the child documents based on the document parent field.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -1185,3 +1185,6 @@ xhtml_valid = xhtml_valid
 zoom = zoom
 zoom_in = zoom_in
 zoom_out = zoom_out
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

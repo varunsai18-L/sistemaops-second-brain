@@ -38,3 +38,6 @@ tags:
   {{notifications useUserPreferences="false" displayOwnEvents="true" displayRSSLink="false" wikis="$wikiNamesList"}}
 #end
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

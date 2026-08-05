@@ -89,3 +89,6 @@ tags:
   #set ($discard = $xwiki.jsx.use('AppWithinMinutes.WizardStep'))
 #end
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

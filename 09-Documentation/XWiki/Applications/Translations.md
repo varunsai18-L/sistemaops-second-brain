@@ -21,3 +21,6 @@ tags:
 
 application.index.title=Application Index
 application.index.drawer=Application Index
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

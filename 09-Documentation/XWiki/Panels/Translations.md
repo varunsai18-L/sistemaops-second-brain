@@ -41,3 +41,6 @@ panels.documentInformation.failedSyntaxConversion=Failed to convert to the selec
 
 ## Used to indicate where deprecated keys end
 #@deprecatedend
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

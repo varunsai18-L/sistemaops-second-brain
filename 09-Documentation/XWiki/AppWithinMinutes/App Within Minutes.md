@@ -47,3 +47,6 @@ $services.localization.render('platform.appwithinminutes.description')
 #livetable('livetable' $columns $columnsProperties $options)
 #set ($displayDocExtra = false)
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

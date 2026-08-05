@@ -97,3 +97,6 @@ platform.xclass.classes.livetable.doc.date=Date
 platform.xclass.classes.livetable.doc.author=Last Author
 platform.xclass.classes.livetable.pageCount=Page Count
 platform.xclass.classes.livetable._actions=Actions
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

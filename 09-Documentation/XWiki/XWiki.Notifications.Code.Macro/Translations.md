@@ -56,3 +56,6 @@ notifications.macro.showEventDetails=Show event details
 notifications.menu.nothing=No notifications available!
 notifications.menu.more=Load older notifications
 notifications.menu.details=Details ({0})
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

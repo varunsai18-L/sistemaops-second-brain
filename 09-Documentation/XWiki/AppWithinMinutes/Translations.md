@@ -256,3 +256,6 @@ platform.appwithinminutes.wizardStep3Description=Customize the application homep
 platform.appwithinminutes.appsLiveTable.doc.space=Application name
 appWithinMinutes.classEditor.title={0} Structure
 appWithinMinutes.templateProviderEditor.title={0} Entries
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

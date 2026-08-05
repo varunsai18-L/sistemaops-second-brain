@@ -20,3 +20,6 @@ tags:
 ---
 
 {{info}}This page contains a configuration object for [[XWiki.Registration>>XWiki.Registration]], You can configure [[XWiki.Registration>>XWiki.Registration]] from the [[registration section of the administration application>>XWiki.XWikiPreferences?section=Registration&editor=globaladmin]].{{/info}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -20,3 +20,6 @@ tags:
 ---
 
 A man needing money agrees to impersonate a nonexistent person who said he'd be committing suicide as a protest, and a political movement begins.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

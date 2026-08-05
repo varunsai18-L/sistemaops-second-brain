@@ -261,3 +261,6 @@ tags:
   [[{{translation key="xe.templateprovider.backtoadmin"/}}>>path:$xwiki.getURL($services.model.createDocumentReference('', 'XWiki', 'XWikiPreferences'), 'admin', 'section=Templates')]]
 #end
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

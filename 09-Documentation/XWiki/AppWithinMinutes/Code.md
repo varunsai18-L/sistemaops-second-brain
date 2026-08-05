@@ -33,3 +33,6 @@ tags:
 {{documentTree showTranslations="false" showAttachments="false"
   filterHiddenDocuments="false" root="document:$escapedDocumentReference" /}}
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -27,3 +27,6 @@ tags:
 {{html}}#template('displayer_date.vm'){{/html}}
 {{/velocity}}
 
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

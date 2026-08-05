@@ -20,3 +20,6 @@ tags:
 ---
 
 This class is used to describe a sheet. See also [[DocumentSheetBinding]] and [[ClassSheetBinding]] on how to apply a sheet to a document.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

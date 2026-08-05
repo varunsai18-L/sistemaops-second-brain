@@ -41,3 +41,6 @@ tags:
 #set ($columns = ['longText1', 'doc.title', 'staticList1', 'date1', 'databaseList1', 'boolean1', '_actions'])
 #livetable('movies' $columns $columnsProperties $options)
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

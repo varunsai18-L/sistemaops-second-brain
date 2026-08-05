@@ -70,3 +70,6 @@ obj.name=doc.fullName and obj.className='Blog.BlogPostClass' and doc.fullName no
 #end
 {{/velocity}}
 
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

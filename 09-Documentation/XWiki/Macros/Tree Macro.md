@@ -82,3 +82,6 @@ tags:
 === Dynamic Sub-tree with Checkboxes ===
 
 {{tree reference="doc:XWiki.DocumentTree" root="document:xwiki:Sandbox.WebHome" checkboxes="true" /}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

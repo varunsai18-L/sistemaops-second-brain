@@ -73,3 +73,6 @@ movies.entry.name=Movies
 # Deprecated keys
 movies.dataSpace.title=Data
 
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

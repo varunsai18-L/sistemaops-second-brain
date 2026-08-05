@@ -712,3 +712,6 @@ tags:
 $xwiki.getURL('XWiki.XWikiPreferences', 'admin', "editor=globaladmin&section=XWiki.AddExtensions&${queryString.substring(1)}")##
 #end
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

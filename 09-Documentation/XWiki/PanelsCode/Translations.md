@@ -48,3 +48,6 @@ platform.panels.navigation.configuration.topLevelExtensionPages=Top Level Extens
 platform.panels.navigation.configuration.topLevelApplicationPages=Top Level Application Pages
 platform.panels.navigation.configuration.otherPages=Other Pages
 platform.panels.navigation.configuration.saveComment=Updated the Navigation Panel configuration from the Administration
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

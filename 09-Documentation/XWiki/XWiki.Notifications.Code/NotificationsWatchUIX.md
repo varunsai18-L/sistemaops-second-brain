@@ -20,3 +20,6 @@ tags:
 ---
 
 Technical page holding information for the watch setting of each page.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -386,3 +386,6 @@ zoom = search
 zoom_in = search-plus
 zoom_out = search-minus
 
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

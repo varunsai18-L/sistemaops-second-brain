@@ -49,3 +49,6 @@ rendering.macro.tree.parameter.limit.name=Limit
 rendering.macro.tree.parameter.limit.description=The maximum number of child nodes to display when expanding a parent node for the first time. The rest of the child nodes are accessible through a "more ..." link. This parameter is basically used to paginate the child nodes and thus helps the tree scale when the number of child nodes is large. The tree passes this parameter to the tree source so it works only with dynamic trees whose source implements child count limit.
 rendering.macro.tree.content.description=You can use nested HTML unordered lists to describe the tree structure. See http://www.jstree.com/docs/html/ for more information.
 tree.macro.editModeWarning=This tree can't be displayed in edit mode.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

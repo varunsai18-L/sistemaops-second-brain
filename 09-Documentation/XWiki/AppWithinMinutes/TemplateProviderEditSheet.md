@@ -232,3 +232,6 @@ tags:
   {{iconPicker id="XWiki.TemplateProviderClass_0_icon" prefix="" /}}
 #end
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

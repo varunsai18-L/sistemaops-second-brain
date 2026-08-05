@@ -86,3 +86,6 @@ $escapetool.h Other keys
 $escapetool.h Deprecated keys
 #map("${appName}.dataSpace.title" 'Data')
 {{/velocity}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

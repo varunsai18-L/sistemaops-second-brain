@@ -22,3 +22,6 @@ tags:
 jobmacro.log.message.success=Done.
 jobmacro.log.message.errors=Job terminated with errors.
 jobmacro.log.message.waiting=Execution is delayed due to other running jobs.
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

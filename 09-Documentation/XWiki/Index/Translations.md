@@ -36,3 +36,6 @@ index.spacesMacro.spaceAdministration.alt=Administer Space
 index.spacesMacro.createSpace.link=Create a new space
 index.spacesMacro.createSpace.defaultSpaceName=Space name
 index.spacesMacro.createSpace.submit=Create
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

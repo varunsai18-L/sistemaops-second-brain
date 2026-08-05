@@ -22,3 +22,6 @@ tags:
 If you need help with XWiki you can contact:
 * [[Community Support>>https://www.xwiki.org/xwiki/bin/view/Main/Support#HCommunitySupport]]
 * [[Professional Support>>https://www.xwiki.org/xwiki/bin/view/Main/Support#HProfessionalSupport]]
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -5,7 +5,7 @@ project: "Miscellaneous"
 stage: "In Progress"
 assignees: "52"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 20:04:32
+sync_date: 2026-08-05 20:04:57
 tags:
   - odoo/task
   - project/miscellaneous
@@ -16,7 +16,10 @@ tags:
 - **Project:** [[Miscellaneous]]
 - **Odoo Stage:** In Progress
 - **Assignees:** 52
-- **Last Sync:** 2026-08-05 20:04:32
+- **Last Sync:** 2026-08-05 20:04:57
 
 ## Description
 No description provided.
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

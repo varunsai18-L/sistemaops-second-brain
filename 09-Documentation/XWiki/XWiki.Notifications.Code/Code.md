@@ -20,3 +20,6 @@ tags:
 ---
 
 {{documentTree root="document:XWiki.Notifications.Code.WebHome" filterHiddenDocuments="false"/}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

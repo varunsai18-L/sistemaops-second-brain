@@ -50,3 +50,6 @@ $menuTemplateDoc.content.replace('{', '')
 {{menu type="vertical"}}
 {{include reference="MenuTemplate" /}}
 {{/menu}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

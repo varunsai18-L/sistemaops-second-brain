@@ -98,3 +98,6 @@ if (!services.component.componentManager.hasComponent(ScriptService.class, 'dyna
   services.component.getComponentManager("wiki:${xcontext.database}").registerComponent(descriptor);
 }
 {{/groovy}}
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -103,3 +103,6 @@ importUsers.associateGroups.modal.associateButton=Associate
 importUsers.associateGroups.modal.fieldValue.noResults=No groups were found for the searched value!
 importUsers.associateGroups.modal.associationFail=Groups association failed!
 importUsers.associateGroups.modal.associationSuccess=Groups successfully associated!
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -9,7 +9,7 @@ email: "sravandandu456@gmail.com"
 phone: "N/A"
 location: "Home"
 last_updated: 2026-08-05 13:31:34
-sync_date: 2026-08-05 20:04:33
+sync_date: 2026-08-05 20:04:57
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,7 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Sravan Dandu"` or `[[Sravan Dandu]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 20:04:33*
+*Synced from Odoo HR Module on 2026-08-05 20:04:57*
+
+---
+**Master Directory:** [[00 - Master Employee Directory Index]]

@@ -30,3 +30,6 @@ rendering.macro.iconPicker.parameter.class.name=Class
 rendering.macro.iconPicker.parameter.class.description=CSS class of inputs where the picker will apply to
 rendering.macro.iconPicker.parameter.prefix.name=Prefix
 rendering.macro.iconPicker.parameter.prefix.description=Prefix to add before the name of the icon in the input field (default: "image:icon:")
+
+---
+**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]
