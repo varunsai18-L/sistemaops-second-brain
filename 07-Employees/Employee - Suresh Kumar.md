@@ -9,7 +9,7 @@ email: "N/A"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-01-11 01:10:41
-sync_date: 2026-08-05 19:53:47
+sync_date: 2026-08-05 20:04:33
 tags:
   - employee
   - department/finance-&-administration
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Suresh Kumar"` or `[[Suresh Kumar]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 19:53:47*
+*Synced from Odoo HR Module on 2026-08-05 20:04:33*

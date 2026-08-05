@@ -5,7 +5,7 @@ project: "SEO Optimization"
 stage: "Backlog"
 assignees: "Shashank Gowtham"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 19:53:46
+sync_date: 2026-08-05 20:04:32
 tags:
   - odoo/task
   - project/seo-optimization
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[SEO Optimization]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Shashank Gowtham
-- **Last Sync:** 2026-08-05 19:53:46
+- **Last Sync:** 2026-08-05 20:04:32
 
 ## Description
 https://www.youtube.com/watch?v=c2dwmdcmF88

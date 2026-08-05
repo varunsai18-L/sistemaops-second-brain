@@ -9,7 +9,7 @@ email: "dhanyasri200602@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-29 15:50:06
-sync_date: 2026-08-05 19:53:47
+sync_date: 2026-08-05 20:04:33
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Dhanya sri"` or `[[Dhanya sri]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 19:53:47*
+*Synced from Odoo HR Module on 2026-08-05 20:04:33*

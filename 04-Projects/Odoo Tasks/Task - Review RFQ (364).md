@@ -5,7 +5,7 @@ project: "RFQ Analzser"
 stage: "Tests"
 assignees: "Diksha Ballav, Jhansi, Mansi Gupta, Palak Nagar, Thulasi Jyothi Reddy"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 19:53:46
+sync_date: 2026-08-05 20:04:32
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Tests
 - **Assignees:** Diksha Ballav, Jhansi, Mansi Gupta, Palak Nagar, Thulasi Jyothi Reddy
-- **Last Sync:** 2026-08-05 19:53:46
+- **Last Sync:** 2026-08-05 20:04:32
 
 ## Description
 No description provided.

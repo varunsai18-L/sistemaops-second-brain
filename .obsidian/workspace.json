@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-Marketing/02-Swipe-Files/Email Sequences & Sales Pitch Templates.md",
+                "file": "05-Marketing/01-Client-Vault/Client Transcripts & Feedback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Email Sequences & Sales Pitch Templates"
+              "title": "Client Transcripts & Feedback"
             }
           }
         ]
@@ -356,11 +356,13 @@
   },
   "active": "bc11b89ad470fbd4",
   "lastOpenFiles": [
+    "04-Projects/Odoo Tasks/Task - Admin Portal (367).md",
+    "07-Employees/00 - Master Employee Directory Index.md",
+    "00 - CEO Dashboard.md",
+    "05-Marketing/02-Swipe-Files/Email Sequences & Sales Pitch Templates.md",
     "05-Marketing/02-Swipe-Files/High Converting Hooks & Headlines.md",
     "05-Marketing/01-Client-Vault/ICP & Buyer Personas.md",
     "05-Marketing/01-Client-Vault/Client Transcripts & Feedback.md",
-    "00 - CEO Dashboard.md",
-    "07-Employees/00 - Master Employee Directory Index.md",
     "07-Employees/Employee - Sukhpreet singh.md",
     "07-Employees/Employee - Adabala Seetha Sriram.md",
     "06-Clients/Client Template.md",
@@ -373,7 +375,6 @@
     "05-Marketing/05-Campaigns/2026 Q3 SystemaOps Enterprise Growth Campaign.md",
     "05-Marketing/04-Idea-Graph/Content Matrix & Topic Clusters.md",
     "05-Marketing/03-Framework-Library/Marketing Frameworks Collection.md",
-    "05-Marketing/02-Swipe-Files/Email Sequences & Sales Pitch Templates.md",
     "04-Projects/rfq-knowledge/integration_mapping.md",
     "15-Automation/PVMS_Obsidian_Integration_Workflow.md",
     "04-Projects/rfq-knowledge/final_integration_contract.md",
@@ -388,7 +389,6 @@
     "04-Projects/rfq-knowledge/attachments/dataflow_diagram.png",
     "04-Projects/rfq-knowledge/attachments/architecture_diagram.png",
     "07-Employees/Employee - Shruti Sanjay Kuttarmare.md",
-    "07-Employees/Employee - Priyanka.md",
     "04-Projects/Company Overview & Pipeline.canvas",
     "15-Automation/AI Prompts",
     "03-Resources/Documentation",

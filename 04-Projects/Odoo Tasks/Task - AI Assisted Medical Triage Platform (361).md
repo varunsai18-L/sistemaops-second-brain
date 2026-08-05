@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN"
 last_updated: 2026-06-20 13:58:01
-sync_date: 2026-08-05 19:53:46
+sync_date: 2026-08-05 20:04:32
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN
-- **Last Sync:** 2026-08-05 19:53:46
+- **Last Sync:** 2026-08-05 20:04:32
 
 ## Description
 Plan - Phase 1 An AI-assisted medical triage platform that helps users understand the urgency of their health
