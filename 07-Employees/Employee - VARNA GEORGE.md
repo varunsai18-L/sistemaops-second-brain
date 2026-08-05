@@ -9,7 +9,7 @@ email: "varnamoonjely@gmail.com"
 phone: "+91 9567358978"
 location: "Home"
 last_updated: 2026-08-04 16:26:31
-sync_date: 2026-08-05 11:10:26
+sync_date: 2026-08-05 19:53:47
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"VARNA GEORGE"` or `[[VARNA GEORGE]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 11:10:26*
+*Synced from Odoo HR Module on 2026-08-05 19:53:47*

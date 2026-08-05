@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "kumar.nirupam24@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-08-04 16:48:02
-sync_date: 2026-08-05 11:10:26
+last_updated: 2026-08-05 13:56:39
+sync_date: 2026-08-05 19:53:47
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Kumar Nirupam"` or `[[Kumar Nirupam]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 11:10:26*
+*Synced from Odoo HR Module on 2026-08-05 19:53:47*

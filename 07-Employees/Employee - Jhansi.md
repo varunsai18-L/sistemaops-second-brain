@@ -9,7 +9,7 @@ email: "jhansichintapalli5757@gmail.com"
 phone: "7013017215"
 location: "Office"
 last_updated: 2026-07-25 17:31:53
-sync_date: 2026-08-05 11:10:26
+sync_date: 2026-08-05 19:53:47
 tags:
   - employee
   - department/administration
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Jhansi"` or `[[Jhansi]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 11:10:26*
+*Synced from Odoo HR Module on 2026-08-05 19:53:47*

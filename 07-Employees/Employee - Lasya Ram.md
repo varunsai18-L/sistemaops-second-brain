@@ -9,7 +9,7 @@ email: "lassireddyram@gmail.com"
 phone: "9866639944"
 location: "Home"
 last_updated: 2026-07-29 16:15:37
-sync_date: 2026-08-05 11:10:26
+sync_date: 2026-08-05 19:53:47
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Lasya Ram"` or `[[Lasya Ram]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 11:10:26*
+*Synced from Odoo HR Module on 2026-08-05 19:53:47*

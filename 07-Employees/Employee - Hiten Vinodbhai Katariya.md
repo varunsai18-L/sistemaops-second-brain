@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "work.hitenkatariya@gmail.com"
 phone: "9099590979"
 location: "Remote"
-last_updated: 2026-08-04 15:48:15
-sync_date: 2026-08-05 11:10:26
+last_updated: 2026-08-05 12:41:21
+sync_date: 2026-08-05 19:53:47
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Hiten Vinodbhai Katariya"` or `[[Hiten Vinodbhai Katariya]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 11:10:26*
+*Synced from Odoo HR Module on 2026-08-05 19:53:47*

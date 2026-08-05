@@ -5,7 +5,7 @@ project: "explore picaOS"
 stage: "None"
 assignees: "RAGHAVENDHRA"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 11:10:25
+sync_date: 2026-08-05 19:53:46
 tags:
   - odoo/task
   - project/explore-picaos
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[explore picaOS]]
 - **Odoo Stage:** None
 - **Assignees:** RAGHAVENDHRA
-- **Last Sync:** 2026-08-05 11:10:25
+- **Last Sync:** 2026-08-05 19:53:46
 
 ## Description
 Started exporing about picaOS on 10th may

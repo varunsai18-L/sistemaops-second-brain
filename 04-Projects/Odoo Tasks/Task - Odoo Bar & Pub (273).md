@@ -5,7 +5,7 @@ project: "Prototypes DEVOPS : Odoo ERP"
 stage: "Deploy Odoo"
 assignees: "Kalavapalli Indra Koushik"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 11:10:25
+sync_date: 2026-08-05 19:53:46
 tags:
   - odoo/task
   - project/prototypes-devops-:-odoo-erp
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Prototypes DEVOPS : Odoo ERP]]
 - **Odoo Stage:** Deploy Odoo
 - **Assignees:** Kalavapalli Indra Koushik
-- **Last Sync:** 2026-08-05 11:10:25
+- **Last Sync:** 2026-08-05 19:53:46
 
 ## Description
 This document contains proprietary and confidential information of SystemaOps. It is intended solely for authorized personnel involved in this project. Any unauthorized review, use, disclosure, or distribution of its contents is strictly prohibited. Recipients must maintain the confidentiality of this information and may not copy, share, or use it for purposes outside the scope of this project without prior written permission from SystemaOps.Code:https://workdrive.zohoexternal.com/external/446ef007c647e984cac386a9b990bcae5f45d859b92ce6e25522d0a0a60b05e2Password: Password Hint (Pattern Method): [CompanyName][Number][UnitLetter][CompanyName] – Capitalize the first letter of each word. S, O caps[Number] – Shorthand for ten million.[Letter] – Uppercase first letter of the unit millionVideo:  https://workdrive.zohoexternal.com/external/9da1d8ce7f218cabc148ea8d1f418ec1d1596aa3650ba53b487dc139cf4777e8Tip: Use Chatgpt , Claude Code, Gemini Pro, Perplexity Pro, Cursor Free or Codeium Free for AI suggestions.OverviewGoal: Create industry-specific Odoo modules for Odoo 18 (stable) and Odoo 19 (latest), containerized with Docker for sales demos.Reference Repository (for ideas only): https://github.com/odoo/industryWorkflow: Customize Docker → Test Locally → Demo → Approve → Push to GitLab (when ready) → DeployNote: GitLab is not yet deployed. Initial development will be done locally, and GitLab integration will be set up once ready.1. Task BreakdownSetup
