@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad63aca0e38665a",
+        "id": "717df872a0ff0077",
         "type": "tabs",
         "children": [
           {
-            "id": "f6a4d5866c6af646",
+            "id": "bc11b89ad470fbd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 - CEO Dashboard.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "00 - CEO Dashboard"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -354,13 +350,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f6a4d5866c6af646",
+  "active": "bc11b89ad470fbd4",
   "lastOpenFiles": [
-    "07-Employees/00 - Master Employee Directory Index.md",
     "00 - CEO Dashboard.md",
+    "07-Employees/00 - Master Employee Directory Index.md",
+    "07-Employees/Employee - Sukhpreet singh.md",
+    "07-Employees/Employee - Adabala Seetha Sriram.md",
     "06-Clients/Client Template.md",
     "04-Projects/Odoo Tasks/Task - Dashboard For Lead gen (479).md",
     "04-Projects/Odoo Projects/Lead gen Tool.md",
+    "04-Projects/Odoo Tasks/Task - Lead generation (345).md",
     "05-Marketing/01-Client-Vault/Client Transcripts & Feedback.md",
     "05-Marketing/00 - Master Marketing Hub.md",
     "Untitled.base",
@@ -384,11 +383,8 @@
     "04-Projects/rfq-knowledge/attachments/dataflow_diagram.svg",
     "04-Projects/rfq-knowledge/attachments/dataflow_diagram.png",
     "04-Projects/rfq-knowledge/attachments/architecture_diagram.png",
-    "07-Employees/Employee - Sukhpreet singh.md",
     "07-Employees/Employee - Shruti Sanjay Kuttarmare.md",
     "07-Employees/Employee - Priyanka.md",
-    "07-Employees/Employee - Narayana Shankar.md",
-    "07-Employees/Employee - Hari Vijaykumar Patel.md",
     "04-Projects/Company Overview & Pipeline.canvas",
     "15-Automation/AI Prompts",
     "03-Resources/Documentation",

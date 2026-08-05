@@ -5,7 +5,7 @@ project: "Lead gen Tool"
 stage: "Backlog"
 assignees: "Varenyam Joshi"
 last_updated: 2026-07-08 12:18:36
-sync_date: 2026-08-05 10:57:56
+sync_date: 2026-08-05 11:10:25
 tags:
   - odoo/task
   - project/lead-gen-tool
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Lead gen Tool]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Varenyam Joshi
-- **Last Sync:** 2026-08-05 10:57:56
+- **Last Sync:** 2026-08-05 11:10:25
 
 ## Description
 Develop an AI-powered Lead Generation Tool that automates the extraction of business leads from Google Maps. The system collects business details such as company name, phone number, website, address, email, and social media links (Instagram, Facebook, LinkedIn) and stores them in CSV format for further analysis and marketing use.TOOLS USED:-https://github.com/D4Vinci/Scrapling

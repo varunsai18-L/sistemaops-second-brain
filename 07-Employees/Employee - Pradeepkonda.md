@@ -9,7 +9,7 @@ email: "pradeepkonda1418@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-08-04 17:02:14
-sync_date: 2026-08-05 10:57:57
+sync_date: 2026-08-05 11:10:26
 tags:
   - employee
   - department/general
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Pradeepkonda"` or `[[Pradeepkonda]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 10:57:57*
+*Synced from Odoo HR Module on 2026-08-05 11:10:26*

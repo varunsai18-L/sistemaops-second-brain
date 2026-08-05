@@ -9,7 +9,7 @@ email: "debnathtuhina01@gmail.com"
 phone: "8017217652"
 location: "Home"
 last_updated: 2026-08-03 16:39:42
-sync_date: 2026-08-05 10:57:57
+sync_date: 2026-08-05 11:10:26
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Tuhina Debnath"` or `[[Tuhina Debnath]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 10:57:57*
+*Synced from Odoo HR Module on 2026-08-05 11:10:26*
