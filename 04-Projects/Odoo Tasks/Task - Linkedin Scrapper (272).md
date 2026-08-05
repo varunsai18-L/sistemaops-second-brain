@@ -5,10 +5,9 @@ project: "Miscellaneous"
 stage: "In Progress"
 assignees: "52"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/miscellaneous
   - status/in-progress
 ---
 # Task: Linkedin Scrapper
@@ -16,7 +15,10 @@ tags:
 - **Project:** [[Miscellaneous]]
 - **Odoo Stage:** In Progress
 - **Assignees:** 52
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
 No description provided.
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

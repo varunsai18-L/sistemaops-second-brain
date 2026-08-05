@@ -5,10 +5,9 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Shreya Bhavani"
 last_updated: 2026-06-18 15:35:49
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/ai-ml-review
   - status/prototype-development
 ---
 # Task: STT and TTS
@@ -16,18 +15,22 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Shreya Bhavani
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
-Triage Engine (Backend)STT + TTS (multilingual)Shreya -> 02-06-2026 : Environment setup completed.
+Triage Engine (Backend)STT + TTS (multilingual)Shreya -&gt; 02-06-2026 :&nbsp;Environment setup completed.
+
 
 Audio recording module completed.
 
+
 Faster-Whisper installed and configured.
+
 
 Speech-to-Text working successfully on recorded audio.
 
-Currently optimizing transcription and preparing real-time STT implementation. TTS development will start after STT stabilization.GitHub Repository of Faster-Whisper: https://github.com/SYSTRAN/faster-whisper?utm_source=chatgpt.Speech-to-Text Technology Selection.pdfshreya -> 08-06-2026 :Progress of SST Task AI MEDICAL TRIAGE PLATFORM.pdfWhy
+
+Currently optimizing transcription and preparing real-time STT implementation. TTS development will start after STT stabilization.GitHub Repository of Faster-Whisper: https://github.com/SYSTRAN/faster-whisper?utm_source=chatgpt.Speech-to-Text Technology Selection.pdfshreya -&gt; 08-06-2026 :Progress of SST Task&nbsp;AI MEDICAL TRIAGE PLATFORM.pdfWhy
 Speech-to-Text Is Required4.
 Technology SelectionSelected
 FrameworkFaster-WhisperGitHub Repository:
@@ -278,7 +281,7 @@ Comparison With Other STT Solutions
   Good
   
  
- 7.
+&nbsp;7.
 Development JourneyPhase 1 –
 Basic Speech RecognitionObjective: Convert
 recorded audio into text.Achievements:
@@ -288,7 +291,7 @@ recorded audio into text.Achievements:
      integrated
  Basic
      transcription completed
-Status: Completed Phase 2 –
+Status: Completed&nbsp;Phase 2 –
 Automated STT PipelineObjective: Automate
 recording and transcription workflow.Achievements:
  Automatic
@@ -298,7 +301,7 @@ recording and transcription workflow.Achievements:
  Modular
      architecture
  Error handling
-Status: Completed Phase 3 –
+Status: Completed&nbsp;Phase 3 –
 Real-Time Streaming STTObjective: Provide live
 speech recognition.Achievements:
  Real-time
@@ -312,7 +315,7 @@ speech recognition.Achievements:
      aggregation
  Language
      locking
-Status: Completed Phase 4 –
+Status: Completed&nbsp;Phase 4 –
 STT Service LayerObjective: Create
 reusable STT services.Achievements:
  Service-oriented
@@ -334,7 +337,7 @@ functionality through APIs.Achievements:
      monitoring
  Team
      integration ready
-Status: Completed 8. Current
+Status: Completed&nbsp;8. Current
 System Architecture9. Key
 Features ImplementedAudio Features
  Microphone
@@ -400,7 +403,7 @@ Development Tools:
  GitHub Copilot
  Swagger UI
  Postman
- 12. API
+&nbsp;12. API
 ExampleEndpoint:POST /transcribeInput: audio.wavResponse:{
 "status": "success",
 "text": "I have fever for three days",
@@ -416,4 +419,7 @@ Transcript FragmentsMitigation: Transcript
 Deduplication LogicRisk: Language DriftMitigation: Language
 LockingRisk: Memory UsageMitigation: Bounded
 Queue ArchitectureRisk: API FailureMitigation: Structured
-Logging and Error HandlingShreya -> 18-06-2026Phase 6 – Offline Text-to-Speech (TTS) DevelopmentObjective : Develop a fully offline Text-to-Speech subsystem that converts AI-generated medical recommendations into natural speech.AchievementsImplemented Piper TTS based speech synthesis.Added support for multilingual voice generation:EnglishHindiGermanTeluguMalayalamGujarati (STT supported; TTS model pending)Generated timestamped WAV audio outputs.Added voice alias support.Implemented local audio playback.Added structured JSON responses.Added logging and error handling.Integrated TTS with existing STT service architecture.piper TTS model : https://github.com/rhasspy/piperComparison TableFeaturePiper TTSgTTSCoqui TTSElevenLabsAzure TTSOpen Source✅❌✅❌❌Offline✅❌✅❌❌Free✅✅✅LimitedPaidCPU Friendly✅N/AModerateN/AN/ARailway Deployment✅DifficultHeavyAPI BasedAPI BasedPrivacyHighMediumHighMediumMediumMultilingualGoodGoodExcellentExcellentExcellentInstallation SimplicityEasyEasyComplexVery EasyVery EasyResource UsageLowLowHighCloudCloudInstall Piper TTSpip install piper-ttsInstall Requirementspip install -r requirements.txtVoice Model Download CommandsList Available Voicespython scripts/download_piper_voice.py --listHindi Voicepython scripts/download_piper_voice.py --voice hiGerman Voicepython scripts/download_piper_voice.py --voice deTelugu Voicepython scripts/download_piper_voice.py --voice teMalayalam Voicepython scripts/download_piper_voice.py --voice mlStatus - CompletedPhase 7 -  STT + RAG + TTS IntegrationObjective : Connect Speech-to-Text with the Medical Triage Engine and automatically generate voice responses.AchievementsConnected STT pipeline with deployed Railway Medical Triage API.Added automatic forwarding of transcribed symptoms to the triage engine.Added configurable external analysis URL support.Implemented end-to-end processing:Audio Input↓STT↓Medical Analysis (RAG)↓TTS↓Audio ResponseAdded session tracking and metadata persistence.Added triage response formatting for TTS playback.Implemented production deployment on Railway.Deployment URLsSTT + TTS Service :https://stt-tts-service-production.up.railway.appMedical Triage Service:https://medical-triage-production.up.railway.app/triageStatus :  CompletedCurrent System ArchitectureKey Features ImplementedSTT FeaturesOffline speech recognitionReal-time streaming transcriptionLanguage detectionLanguage lockingChunk-based processingTranscript aggregationTranscript persistenceSession metadata generationLoggingMedical Analysis FeaturesBM25 knowledge retrievalLangChain integrationNVIDIA Nemotron 3 Nano OmniClinical guideline retrieval4-level urgency classification:Self CareDoctor ConsultationUrgent CareEmergency ReferralSafety escalation mechanismTTS FeaturesOffline speech synthesisPiper voice modelsVoice selectionMultilingual audio generationAudio playbackWAV file generationTTS status trackingAPI FeaturesFastAPI backendSwagger UIOpenAPI schemaSession metadata endpointLogs endpointHealth monitoring endpointRailway deploymentTechnologies UsedProgramming LanguagePython 3.11Speech-to-TextFaster-WhisperWhisper BaseCTranslate2Medical AnalysisFastAPILangChainBM25 RetrieverNVIDIA Nemotron 3 Nano OmniOpenRouterText-to-SpeechPiper TTSONNX Voice ModelsBackend & InfrastructureFastAPIUvicornRailway DeploymentJSONLoggingAudio ProcessingSoundDeviceNumPySciPyDevelopment ToolsVS CodeCursor AIGitLabPostmanSwagger UICurrent API EndpointsGET /healthPOST /transcribePOST /triagePOST /analyzeGET /session/{session_id}GET /logsGET /debug/tts-fileGET /docsGET /openapi.jsonRisks and MitigationRiskMitigationBackground NoiseAudio normalization and silence detectionIncorrect Language DetectionLanguage locking supportTranscript DuplicationTranscript aggregation logicMemory ConsumptionQueue-based chunk processingExternal API FailureTimeout and error handlingMissing Voice ModelsVoice alias validation and fallback logicDeployment IssuesRailway monitoring and health endpointsCurrent Project StatusPhase 1 – Basic STT : ✅ CompletedPhase 2 – Automated STT Pipeline : ✅ CompletedPhase 3 – Real-Time Streaming STT : ✅ CompletedPhase 4 – STT Service Layer : ✅ CompletedPhase 5 – FastAPI Integration : ✅ CompletedPhase 6 – Offline TTS : ✅ CompletedPhase 7 – STT + RAG + TTS Integration : ✅ CompletedOverall Module Completion : 95%Deployment Status : Production Deployed on RailwayModule Readiness : Ready for Final Project Demonstration
+Logging and Error HandlingShreya -&gt; 18-06-2026Phase 6 – Offline Text-to-Speech (TTS) DevelopmentObjective :&nbsp;Develop a fully offline Text-to-Speech subsystem that converts AI-generated medical recommendations into natural speech.AchievementsImplemented Piper TTS based speech synthesis.Added support for multilingual voice generation:EnglishHindiGermanTeluguMalayalamGujarati (STT supported; TTS model pending)Generated timestamped WAV audio outputs.Added voice alias support.Implemented local audio playback.Added structured JSON responses.Added logging and error handling.Integrated TTS with existing STT service architecture.piper TTS model :&nbsp;https://github.com/rhasspy/piperComparison TableFeaturePiper TTSgTTSCoqui TTSElevenLabsAzure TTSOpen Source✅❌✅❌❌Offline✅❌✅❌❌Free✅✅✅LimitedPaidCPU Friendly✅N/AModerateN/AN/ARailway Deployment✅DifficultHeavyAPI BasedAPI BasedPrivacyHighMediumHighMediumMediumMultilingualGoodGoodExcellentExcellentExcellentInstallation SimplicityEasyEasyComplexVery EasyVery EasyResource UsageLowLowHighCloudCloudInstall Piper TTSpip install piper-ttsInstall Requirementspip install -r requirements.txtVoice Model Download CommandsList Available Voicespython scripts/download_piper_voice.py --listHindi Voicepython scripts/download_piper_voice.py --voice hiGerman Voicepython scripts/download_piper_voice.py --voice deTelugu Voicepython scripts/download_piper_voice.py --voice teMalayalam Voicepython scripts/download_piper_voice.py --voice mlStatus - CompletedPhase 7 -&nbsp; STT + RAG + TTS IntegrationObjective :&nbsp;Connect Speech-to-Text with the Medical Triage Engine and automatically generate voice responses.AchievementsConnected STT pipeline with deployed Railway Medical Triage API.Added automatic forwarding of transcribed symptoms to the triage engine.Added configurable external analysis URL support.Implemented end-to-end processing:Audio Input↓STT↓Medical Analysis (RAG)↓TTS↓Audio ResponseAdded session tracking and metadata persistence.Added triage response formatting for TTS playback.Implemented production deployment on Railway.Deployment URLsSTT + TTS Service :https://stt-tts-service-production.up.railway.appMedical Triage Service:https://medical-triage-production.up.railway.app/triageStatus :&nbsp; CompletedCurrent System ArchitectureKey Features ImplementedSTT FeaturesOffline speech recognitionReal-time streaming transcriptionLanguage detectionLanguage lockingChunk-based processingTranscript aggregationTranscript persistenceSession metadata generationLoggingMedical Analysis FeaturesBM25 knowledge retrievalLangChain integrationNVIDIA Nemotron 3 Nano OmniClinical guideline retrieval4-level urgency classification:Self CareDoctor ConsultationUrgent CareEmergency ReferralSafety escalation mechanismTTS FeaturesOffline speech synthesisPiper voice modelsVoice selectionMultilingual audio generationAudio playbackWAV file generationTTS status trackingAPI FeaturesFastAPI backendSwagger UIOpenAPI schemaSession metadata endpointLogs endpointHealth monitoring endpointRailway deploymentTechnologies UsedProgramming LanguagePython 3.11Speech-to-TextFaster-WhisperWhisper BaseCTranslate2Medical AnalysisFastAPILangChainBM25 RetrieverNVIDIA Nemotron 3 Nano OmniOpenRouterText-to-SpeechPiper TTSONNX Voice ModelsBackend &amp; InfrastructureFastAPIUvicornRailway DeploymentJSONLoggingAudio ProcessingSoundDeviceNumPySciPyDevelopment ToolsVS CodeCursor AIGitLabPostmanSwagger UICurrent API EndpointsGET /healthPOST /transcribePOST /triagePOST /analyzeGET /session/{session_id}GET /logsGET /debug/tts-fileGET /docsGET /openapi.jsonRisks and MitigationRiskMitigationBackground NoiseAudio normalization and silence detectionIncorrect Language DetectionLanguage locking supportTranscript DuplicationTranscript aggregation logicMemory ConsumptionQueue-based chunk processingExternal API FailureTimeout and error handlingMissing Voice ModelsVoice alias validation and fallback logicDeployment IssuesRailway monitoring and health endpointsCurrent Project StatusPhase 1 – Basic STT : ✅ CompletedPhase 2 – Automated STT Pipeline : ✅ CompletedPhase 3 – Real-Time Streaming STT : ✅ CompletedPhase 4 – STT Service Layer : ✅ CompletedPhase 5 – FastAPI Integration : ✅ CompletedPhase 6 – Offline TTS : ✅ CompletedPhase 7 – STT + RAG + TTS Integration : ✅ CompletedOverall Module Completion : 95%Deployment Status : Production Deployed on RailwayModule Readiness : Ready for Final Project Demonstration
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

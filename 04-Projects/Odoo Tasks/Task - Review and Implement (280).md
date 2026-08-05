@@ -5,10 +5,9 @@ project: "SEO Optimization"
 stage: "Backlog"
 assignees: "Shashank Gowtham"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/seo-optimization
   - status/backlog
 ---
 # Task: Review and Implement
@@ -16,7 +15,10 @@ tags:
 - **Project:** [[SEO Optimization]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Shashank Gowtham
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
 https://www.youtube.com/watch?v=c2dwmdcmF88
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

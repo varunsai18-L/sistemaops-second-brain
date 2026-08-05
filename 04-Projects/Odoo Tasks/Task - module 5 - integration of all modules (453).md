@@ -5,10 +5,9 @@ project: "RFQ Analzser"
 stage: "Backlog"
 assignees: "Mansi Gupta"
 last_updated: 2026-06-11 16:27:47
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/rfq-analzser
   - status/backlog
 ---
 # Task: module 5 - integration of all modules
@@ -16,7 +15,10 @@ tags:
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Mansi Gupta
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
 No description provided.
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

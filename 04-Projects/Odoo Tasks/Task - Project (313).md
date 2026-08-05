@@ -5,10 +5,9 @@ project: "AI ML review"
 stage: "Brainstorm"
 assignees: "VARNA GEORGE"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/ai-ml-review
   - status/brainstorm
 ---
 # Task: Project
@@ -16,7 +15,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Brainstorm
 - **Assignees:** VARNA GEORGE
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
 PhishShield:
@@ -33,7 +32,7 @@ malicious URLs and suspicious webpage content using Machine Learning and
 Natural Language Processing techniques.The system analyzes multiple website indicators such as URL
 structure, domain information, SSL security status, suspicious keywords, and
 webpage textual content to determine whether a website is legitimate or
-phishing. What It DoesThe system accepts a website URL through a
+phishing.&nbsp;What It DoesThe system accepts a website URL through a
 Flask/Streamlit-based web interface and performs real-time analysis using AI
 models.The workflow includes:
  Extracting
@@ -68,3 +67,6 @@ cybersecurity solutions.Future Scope
      on edge devices and enterprise security systems
  Real-time
      threat intelligence integration
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

@@ -5,10 +5,9 @@ project: "odysseus"
 stage: "Brainstorm"
 assignees: "Neha Sharma"
 last_updated: 2026-06-18 14:28:10
-sync_date: 2026-08-05 21:16:24
+sync_date: 2026-08-05 21:30:30
 tags:
   - odoo/task
-  - project/odysseus
   - status/brainstorm
 ---
 # Task: Odysseus hosting on localhost server
@@ -16,7 +15,10 @@ tags:
 - **Project:** [[odysseus]]
 - **Odoo Stage:** Brainstorm
 - **Assignees:** Neha Sharma
-- **Last Sync:** 2026-08-05 21:16:24
+- **Last Sync:** 2026-08-05 21:30:30
 
 ## Description
 I Coordinated with Rakesh and we were able to host Odysseus chat on our server
+
+---
+**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]
