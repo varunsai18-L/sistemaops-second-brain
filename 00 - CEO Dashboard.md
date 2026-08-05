@@ -18,9 +18,10 @@ tags:
 
 | Metric                           | Current Count             | Quick Link                                                                           |
 | -------------------------------- | ------------------------- | ------------------------------------------------------------------------------------ |
-| 👥 **Total Active Team Members** | `52 Employees`            | [[00 - Master Employee Directory Index]]                                             |
+| 👥 **Total Active Team Members** | `60 Employees`            | [[00 - Master Employee Directory Index]]                                             |
 | 🚀 **Active Projects**           | `16 Projects`             | [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index\|RFQ Project Hub]] |
-| 📋 **Synced Odoo Tasks**         | `113 Tasks`               | [[04-Projects/Odoo Tasks/\|Odoo Tasks Folder]]                                       |
+| 📣 **AI Marketing Engine**       | `5 Pillars Active`        | [[05-Marketing/00 - Master Marketing Hub\|Master Marketing Hub]]                    |
+| 📋 **Synced Odoo Tasks**         | `115 Tasks`               | [[04-Projects/Odoo Tasks/\|Odoo Tasks Folder]]                                       |
 | 🤝 **CRM Leads & Clients**       | `Active Opportunities`    | [[06-Clients/Odoo Leads/\|Odoo Leads Folder]]                                        |
 | ⚡ **Automated Workflows**        | `Odoo + OpenDesk (XWiki)` | [[15-Automation/Automation Index\|Automation Hub]]                                   |
 
@@ -28,6 +29,7 @@ tags:
 
 ## ⚡ 1-Click Executive Navigation
 
+- 📣 **AI Marketing Engine & Swipe Files:** [[05-Marketing/00 - Master Marketing Hub]]
 - 👥 **Team & HR Directory:** [[00 - Master Employee Directory Index]]
 - 📑 **RFQ Project Knowledge System:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]
 - ⚙️ **System Architecture & Diagrams:** [[04-Projects/rfq-knowledge/diagrams-notes/02 - System Architecture Diagram Note]]
