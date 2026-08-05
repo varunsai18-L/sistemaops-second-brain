@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN"
 last_updated: 2026-06-20 13:58:01
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN
-- **Last Sync:** 2026-08-05 20:04:57
+- **Last Sync:** 2026-08-05 21:15:18
 
 ## Description
 Plan - Phase 1 An AI-assisted medical triage platform that helps users understand the urgency of their health
@@ -54,6 +54,3 @@ organizations(id)grant_type ENUM('caregiver', 'clinician_review',
 partner_integrations(id)external_system_name VARCHARexternal_subject_id VARCHARmapping_status ENUM('active', 'inactive', 'conflict',
 'pending_verification')verified_at TIMESTAMP NULLcreated_at TIMESTAMPupdated_at TIMESTAMPsupport_access_requestsid UUID PRIMARY KEYrequested_by_user_id UUID REFERENCES users(id)patient_user_id UUID REFERENCES users(id)reason TEXTaccess_level ENUM('metadata_only', 'summary', 'full')status ENUM('pending', 'approved', 'rejected', 'expired',
 'revoked')approved_by_user_id UUID NULL REFERENCES users(id)approved_at TIMESTAMP NULLexpires_at TIMESTAMPcreated_at TIMESTAMPaudit_logsid UUID PRIMARY KEYactor_user_id UUID NULL REFERENCES users(id)actor_organization_id UUID NULL REFERENCES organizations(id)action VARCHARresource_type VARCHARresource_id UUIDpatient_user_id UUID NULL REFERENCES users(id)ip_address VARCHAR NULLuser_agent TEXT NULLkiosk_id UUID NULL REFERENCES kiosks(id)reason TEXT NULLresult ENUM('success', 'failure', 'denied')created_at TIMESTAMPDTA-High level definition-290526-165235.pdfDTA-Feature list - User management-290526-165442.pdfDTA-Data model-290526-165410.pdfDTA-Plan - Phase 1-290526-165131.pdfDTA-User management-290526-165323.pdf
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

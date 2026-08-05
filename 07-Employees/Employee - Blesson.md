@@ -9,7 +9,7 @@ email: "blessonkr@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-06-12 09:46:21
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - employee
   - department/leadership-&-operations
@@ -30,7 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Blesson"` or `[[Blesson]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 20:04:57*
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]
+*Synced from Odoo HR Module on 2026-08-05 21:15:18*

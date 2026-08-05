@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "pawandubey6204385@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-07-02 15:38:57
-sync_date: 2026-08-05 20:04:57
+last_updated: 2026-08-05 14:58:24
+sync_date: 2026-08-05 21:15:18
 tags:
   - employee
   - department/product-&-technology
@@ -30,7 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Pawan Dubey"` or `[[Pawan Dubey]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 20:04:57*
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]
+*Synced from Odoo HR Module on 2026-08-05 21:15:18*

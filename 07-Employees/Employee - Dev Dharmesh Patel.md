@@ -9,7 +9,7 @@ email: "devdpatel0005@gmail.com"
 phone: "9409103919"
 location: "Office"
 last_updated: 2026-07-15 05:45:22
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - employee
   - department/product-&-technology
@@ -30,7 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Dev Dharmesh Patel"` or `[[Dev Dharmesh Patel]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 20:04:57*
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]
+*Synced from Odoo HR Module on 2026-08-05 21:15:18*

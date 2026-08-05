@@ -5,7 +5,7 @@ project: "No Project"
 stage: "None"
 assignees: "Varun Sai"
 last_updated: 2026-06-30 08:06:43
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - odoo/task
   - project/no-project
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[No Project]]
 - **Odoo Stage:** None
 - **Assignees:** Varun Sai
-- **Last Sync:** 2026-08-05 20:04:57
+- **Last Sync:** 2026-08-05 21:15:18
 
 ## Description
 Hey Varun Sai 👋 
@@ -157,6 +157,3 @@ Create to-dos from anywhere
                 Ctrl + Shift + T
             
             (MacOs)
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

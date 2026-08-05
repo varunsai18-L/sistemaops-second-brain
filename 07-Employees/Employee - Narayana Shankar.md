@@ -9,7 +9,7 @@ email: "bandishankar373@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-07-27 12:35:39
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - employee
   - department/product-&-technology
@@ -30,7 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Narayana Shankar"` or `[[Narayana Shankar]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-05 20:04:57*
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]
+*Synced from Odoo HR Module on 2026-08-05 21:15:18*

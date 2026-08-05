@@ -5,7 +5,7 @@ project: "Internal"
 stage: "Internal"
 assignees: "Rohit Thumu, Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - odoo/task
   - project/internal
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Internal]]
 - **Odoo Stage:** Internal
 - **Assignees:** Rohit Thumu, Vakeel Rakesh
-- **Last Sync:** 2026-08-05 20:04:57
+- **Last Sync:** 2026-08-05 21:15:18
 
 ## Description
 This project involves collaborative development of AI training datasets to accelerate AI model development and ensure regulatory compliance. Key focus areas include:
@@ -59,6 +59,3 @@ Track dataset coverage, annotation consistency, and SLA adherence
 Share best practices in annotation, compliance handling, and quality monitoring
 
 Document workflows for potential scaling to multiple projects
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

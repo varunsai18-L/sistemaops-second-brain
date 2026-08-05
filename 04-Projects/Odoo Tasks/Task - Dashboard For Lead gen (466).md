@@ -5,7 +5,7 @@ project: "Lead gen Tool"
 stage: "Backlog"
 assignees: "Neha Sharma"
 last_updated: 2026-06-18 11:01:44
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - odoo/task
   - project/lead-gen-tool
@@ -16,10 +16,7 @@ tags:
 - **Project:** [[Lead gen Tool]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Neha Sharma
-- **Last Sync:** 2026-08-05 20:04:57
+- **Last Sync:** 2026-08-05 21:15:18
 
 ## Description
 No description provided.
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

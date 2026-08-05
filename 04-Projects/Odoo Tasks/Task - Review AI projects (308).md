@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "lasya ram"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 20:04:57
+sync_date: 2026-08-05 21:15:18
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,10 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** lasya ram
-- **Last Sync:** 2026-08-05 20:04:57
+- **Last Sync:** 2026-08-05 21:15:18
 
 ## Description
 No description provided.
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]
