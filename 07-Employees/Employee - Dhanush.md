@@ -9,7 +9,7 @@ email: "96523793dhanu@gmail.com"
 phone: "9014411267"
 location: "Office"
 last_updated: 2026-07-25 15:30:59
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

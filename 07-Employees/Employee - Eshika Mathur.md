@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "eshikamathur01@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-08-05 15:17:28
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 19:02:12
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

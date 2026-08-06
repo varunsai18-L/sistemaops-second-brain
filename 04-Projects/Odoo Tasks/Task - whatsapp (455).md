@@ -5,7 +5,7 @@ project: "AI Workflow Automation - N8N "
 stage: "Backlog"
 assignees: "Harshita pal, Nomika"
 last_updated: 2026-07-21 15:40:20
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:21
 tags:
   - odoo/task
   - status/backlog
@@ -15,7 +15,7 @@ tags:
 - **Project:** [[AI Workflow Automation - N8N ]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Harshita pal, Nomika
-- **Last Sync:** 2026-08-05 21:30:30
+- **Last Sync:** 2026-08-06 17:50:21
 
 ## Description
 

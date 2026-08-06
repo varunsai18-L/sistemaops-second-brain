@@ -9,7 +9,7 @@ email: "thumurohit@systemaops.com"
 phone: "+4917685248689"
 location: "Office"
 last_updated: 2026-06-06 18:57:39
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/leadership-&-operations

@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "sainollaa@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-08-05 08:36:21
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-06 09:35:36
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

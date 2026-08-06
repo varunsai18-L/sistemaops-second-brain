@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "saivarun945@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-08-05 14:45:13
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 17:32:26
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

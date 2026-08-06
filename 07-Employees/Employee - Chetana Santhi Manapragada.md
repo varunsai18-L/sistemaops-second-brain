@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "chetanasanthi.m@gmail.com"
 phone: "9177712515"
 location: "Office"
-last_updated: 2026-08-04 17:48:58
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 18:03:34
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

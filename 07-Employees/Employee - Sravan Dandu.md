@@ -8,8 +8,8 @@ manager: "Sravan Dandu"
 email: "sravandandu456@gmail.com"
 phone: "N/A"
 location: "Home"
-last_updated: 2026-08-05 13:31:34
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 16:30:50
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

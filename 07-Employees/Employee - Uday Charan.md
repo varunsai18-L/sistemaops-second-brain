@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "udaycharanmengarthi1@gmail.com"
 phone: "9494580934"
 location: "Home"
-last_updated: 2026-08-05 13:25:24
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-06 05:04:07
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

@@ -9,7 +9,7 @@ email: "kushwahganesh2006@gmail.com"
 phone: "6397956342"
 location: "Remote"
 last_updated: 2026-08-04 13:37:08
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

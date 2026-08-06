@@ -9,7 +9,7 @@ email: "thotahruthwik007@gmail.com"
 phone: "6303326883"
 location: "Home"
 last_updated: 2026-08-05 12:24:38
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

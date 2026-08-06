@@ -5,7 +5,7 @@ name: "MetroSoft Licensing LLP"
 email: "accounts@metrosoft.in"
 phone: "+91 22 6120 3000"
 last_updated: 2026-07-01 17:04:34
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - client/partner
 ---

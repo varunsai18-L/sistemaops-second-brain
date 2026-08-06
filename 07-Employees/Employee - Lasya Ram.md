@@ -9,7 +9,7 @@ email: "lassireddyram@gmail.com"
 phone: "9866639944"
 location: "Home"
 last_updated: 2026-07-29 16:15:37
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

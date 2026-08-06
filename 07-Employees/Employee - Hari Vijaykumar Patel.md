@@ -9,7 +9,7 @@ email: "patelhariv18@gmail.com"
 phone: "7069753407"
 location: "Remote"
 last_updated: 2026-08-05 15:38:51
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

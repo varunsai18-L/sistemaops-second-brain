@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "indrakoushik1@gmail.com"
 phone: "+91 70936 61204"
 location: "Office"
-last_updated: 2026-08-05 13:43:00
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 17:46:43
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

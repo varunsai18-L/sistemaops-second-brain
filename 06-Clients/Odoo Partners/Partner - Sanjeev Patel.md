@@ -5,7 +5,7 @@ name: "Sanjeev Patel"
 email: "Neo9toursandtravels@gmail.com"
 phone: "+91 91827 46882"
 last_updated: 2026-06-12 18:46:58
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - client/partner
 ---

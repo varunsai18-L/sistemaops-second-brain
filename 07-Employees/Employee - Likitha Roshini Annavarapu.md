@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "likitharoshiniannavarapu@gmail.com"
 phone: "8019514149"
 location: "Office"
-last_updated: 2026-08-05 13:31:21
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 16:31:23
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

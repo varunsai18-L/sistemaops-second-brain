@@ -9,7 +9,7 @@ email: "devdpatel0005@gmail.com"
 phone: "9409103919"
 location: "Office"
 last_updated: 2026-07-15 05:45:22
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

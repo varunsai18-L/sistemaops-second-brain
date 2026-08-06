@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "rakeshvakeel000@gmail.com"
 phone: "+91 7660043617"
 location: "Home"
-last_updated: 2026-08-05 09:32:00
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 18:04:20
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/administration

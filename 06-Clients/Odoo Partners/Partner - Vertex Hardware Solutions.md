@@ -5,7 +5,7 @@ name: "Vertex Hardware Solutions"
 email: "finance@vertexhardware.in"
 phone: "+91 44 4211 8000"
 last_updated: 2026-07-01 17:04:35
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - client/partner
 ---

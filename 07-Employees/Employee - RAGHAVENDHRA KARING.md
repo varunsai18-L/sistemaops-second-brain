@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "raghavendhrakaring@gmail.com"
 phone: "7032909996"
 location: "Office"
-last_updated: 2026-08-05 14:42:10
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 16:31:24
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/general

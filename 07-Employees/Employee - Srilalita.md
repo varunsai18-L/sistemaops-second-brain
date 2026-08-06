@@ -9,7 +9,7 @@ email: "N/A"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-02-12 00:29:01
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/finance-&-administration

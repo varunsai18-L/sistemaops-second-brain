@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "debnathtuhina01@gmail.com"
 phone: "8017217652"
 location: "Home"
-last_updated: 2026-08-05 13:24:27
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 17:00:35
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

@@ -9,7 +9,7 @@ email: "umasharma162137@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-08-05 14:35:44
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

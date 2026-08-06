@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "varnamoonjely@gmail.com"
 phone: "+91 9567358978"
 location: "Home"
-last_updated: 2026-08-05 14:28:20
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-05 16:33:34
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

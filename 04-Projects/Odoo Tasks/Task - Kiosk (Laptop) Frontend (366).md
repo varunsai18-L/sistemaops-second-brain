@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Hruthwik Thota, Sravan Dandu"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:21
 tags:
   - odoo/task
   - status/prototype-development
@@ -15,7 +15,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Hruthwik Thota, Sravan Dandu
-- **Last Sync:** 2026-08-05 21:30:30
+- **Last Sync:** 2026-08-06 17:50:21
 
 ## Description
 Kiosk (Laptop) Frontend• Language selection• Guest mode / QR login• Consent screen• Symptom questionnaire (animated forms)• Triage result screen• QR transfer to app

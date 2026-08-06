@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "kalakuntlaaishwaryakrishna@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-07-31 06:27:05
-sync_date: 2026-08-05 21:30:30
+last_updated: 2026-08-06 09:00:18
+sync_date: 2026-08-06 17:50:22
 tags:
   - employee
   - department/product-&-technology

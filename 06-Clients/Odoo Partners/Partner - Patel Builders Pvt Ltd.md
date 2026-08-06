@@ -5,7 +5,7 @@ name: "Patel Builders Pvt Ltd"
 email: "accounts@patelbuilders.in"
 phone: "+91 98400 12345"
 last_updated: 2026-07-20 13:06:46
-sync_date: 2026-08-05 21:30:30
+sync_date: 2026-08-06 17:50:22
 tags:
   - client/partner
 ---
