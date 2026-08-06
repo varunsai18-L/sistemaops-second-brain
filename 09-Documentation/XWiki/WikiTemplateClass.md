@@ -18,8 +18,3 @@ tags:
 - **Source:** [WikiTemplateClass](https://wiki.systemaops.in/bin/view/WikiManager/xwiki:WikiManager.WikiTemplateClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

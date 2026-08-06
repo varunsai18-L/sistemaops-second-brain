@@ -18,8 +18,3 @@ tags:
 - **Source:** [SolrSearchAdminIndexingUser](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.SolrSearchAdminIndexingUser)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

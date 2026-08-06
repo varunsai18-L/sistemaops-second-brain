@@ -76,6 +76,3 @@ menu.ui.horizontal.toggler.description=Toggle the horizontal menu.
 
 # Menu WebHome
 menu.description=This is a simple application that helps you create navigation menus to be displayed either horizontally as a top bar after the page header or vertically in a side panel.
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

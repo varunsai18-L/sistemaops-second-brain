@@ -18,8 +18,3 @@ tags:
 - **Source:** [Profile of varunvaddi](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.varunvaddi)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

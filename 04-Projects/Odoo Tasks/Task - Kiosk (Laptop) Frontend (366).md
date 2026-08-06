@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Kiosk (Laptop) Frontend• Language selection• Guest mode / QR login• Consent screen• Symptom questionnaire (animated forms)• Triage result screen• QR transfer to app
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Website: https://clinicappointmentportal.systemaops.com/Scope of Work:1. Add German language option to dropdown selector2. Verify all German translations against English content3. Review UI text, buttons, forms, and error messages for accuracy4. Fix incorrect/missing translationsDeliverable: Fully functional German version of clinic portal
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

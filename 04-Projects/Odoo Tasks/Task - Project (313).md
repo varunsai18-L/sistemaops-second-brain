@@ -67,6 +67,3 @@ cybersecurity solutions.Future Scope
      on edge devices and enterprise security systems
  Real-time
      threat intelligence integration
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

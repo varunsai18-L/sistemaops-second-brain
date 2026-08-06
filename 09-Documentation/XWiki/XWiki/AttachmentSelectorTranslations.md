@@ -28,6 +28,3 @@ rendering.macro.attachmentSelector.parameter.versionSummary.description=Whether 
 attachment.attachmentSelector.temporaryUpload.success=Attachment upload succeeded.
 attachment.attachmentSelector.temporaryUpload.failure=Attachment upload failed.
 attachment.attachmentSelector.attachmentBox.temporaryAttachmentTitle=Temporary attachment
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

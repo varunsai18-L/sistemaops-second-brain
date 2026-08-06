@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Gowra Mallesh"` or `[[Gowra Mallesh]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

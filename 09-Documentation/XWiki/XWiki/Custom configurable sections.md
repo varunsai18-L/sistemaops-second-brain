@@ -427,6 +427,3 @@ $xwiki.jsfx.use('js/xwiki/actionbuttons/actionButtons.js', true)
   #end
 #end## If we should be looking at the main administration page.
 {{/velocity}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

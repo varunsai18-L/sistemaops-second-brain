@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Shruti Sanjay Kuttarmare"` or `[[Shruti Sanjay Kuttarmare]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

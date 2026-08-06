@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Hari Vijaykumar Patel"` or `[[Hari Vijaykumar Patel]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

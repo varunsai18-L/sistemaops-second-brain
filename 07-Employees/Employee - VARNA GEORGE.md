@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"VARNA GEORGE"` or `[[VARNA GEORGE]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Task: Create website prototype for Odoo ERP ConsultantSteps:1. Study reference sites and make a moodboard2. Design wireframe for Home + Services page first3. Share draft for feedback before proceeding to final UI4. Build clickable prototype
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

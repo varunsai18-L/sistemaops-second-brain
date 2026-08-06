@@ -18,7 +18,3 @@ tags:
 - **Last Sync:** 2026-08-06 17:50:21
 
 ## Description
-
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

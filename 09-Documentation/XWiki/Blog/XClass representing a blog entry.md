@@ -18,8 +18,3 @@ tags:
 - **Source:** [XClass representing a blog entry](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.BlogPostClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

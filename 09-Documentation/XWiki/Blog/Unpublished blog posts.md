@@ -20,6 +20,3 @@ tags:
 ---
 
 {{include reference="Blog.UnpublishedPostsSheet" /}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

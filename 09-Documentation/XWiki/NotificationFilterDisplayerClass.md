@@ -18,8 +18,3 @@ tags:
 - **Source:** [NotificationFilterDisplayerClass](https://wiki.systemaops.in/bin/view/XWiki.Notifications.Code/xwiki:XWiki.Notifications.Code.NotificationFilterDisplayerClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -140,6 +140,3 @@ $services.localization.render('platform.xclass.classes.createClass.description',
   }
 }
 {{/liveData}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

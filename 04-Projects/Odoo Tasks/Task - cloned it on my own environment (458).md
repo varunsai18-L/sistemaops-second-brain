@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Run the following command in your gitbash one by one :-git clone https://github.com/pewdiepie-archdaemon/odysseus.git&nbsp;&nbsp; &nbsp; &nbsp;2. cd odysseuswhat is does :-&nbsp;Downloads the repo to your machine and moves into the folder.
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

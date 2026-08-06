@@ -45,6 +45,3 @@ Property analytics
 
 
 Service integrations
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

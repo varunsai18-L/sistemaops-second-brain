@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Excalidrawhttp://10.99.0.9:3000
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

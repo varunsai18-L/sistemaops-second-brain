@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Bar &amp; Pubhttp://10.99.0.9:8094
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

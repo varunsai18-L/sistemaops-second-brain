@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Adabala Seetha Sriram"` or `[[Adabala Seetha Sriram]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

@@ -18,8 +18,3 @@ tags:
 - **Source:** [Template Provider Template](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.TemplateProviderTemplate)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

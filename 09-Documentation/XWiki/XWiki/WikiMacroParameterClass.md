@@ -18,8 +18,3 @@ tags:
 - **Source:** [WikiMacroParameterClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.WikiMacroParameterClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

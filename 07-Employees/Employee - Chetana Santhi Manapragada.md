@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Chetana Santhi Manapragada"` or `[[Chetana Santhi Manapragada]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Admin Portal• Kiosk status monitoring• Device/firmware/calibration status display• Error alerts
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

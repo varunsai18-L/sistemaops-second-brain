@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Real Estatehttp://10.99.0.9:8092
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

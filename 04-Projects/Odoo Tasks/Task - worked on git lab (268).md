@@ -19,6 +19,3 @@ tags:
 
 ## Description
 No description provided.
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

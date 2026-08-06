@@ -20,6 +20,3 @@ tags:
 ---
 
 This class is used to apply a custom sheet to a document. See also [[SheetDescriptorClass]].
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

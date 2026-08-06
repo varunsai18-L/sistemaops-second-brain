@@ -18,8 +18,3 @@ tags:
 - **Source:** [Page Administration](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.WebPreferences)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

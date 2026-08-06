@@ -18,8 +18,3 @@ tags:
 - **Source:** [RequiredRightClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.RequiredRightClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

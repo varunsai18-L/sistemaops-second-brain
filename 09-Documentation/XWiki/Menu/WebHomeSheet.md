@@ -24,6 +24,3 @@ tags:
 {{velocity}}
 #set ($displayDocExtra = false)
 {{/velocity}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

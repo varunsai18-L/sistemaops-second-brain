@@ -72,6 +72,3 @@ Share best practices in annotation, compliance handling, and quality monitoring
 
 
 Document workflows for potential scaling to multiple projects
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

@@ -18,9 +18,3 @@ tags:
 - **Source:** [MenuConfigurationSection](https://wiki.systemaops.in/bin/view/Menu/xwiki:Menu.MenuConfigurationSection)
 
 ---
-
-
-    
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

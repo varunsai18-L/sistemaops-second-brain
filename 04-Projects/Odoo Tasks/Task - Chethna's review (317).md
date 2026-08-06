@@ -19,6 +19,3 @@ tags:
 
 ## Description
 WhatsApp Image 2026-05-11 at 08.22.08.jpeg
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

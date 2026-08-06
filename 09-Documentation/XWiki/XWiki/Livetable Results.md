@@ -49,6 +49,3 @@ tags:
 #end
 #gridresultwithfilter("$!request.classname" $request.collist.split(',') '' "${extra}" $params)
 {{/velocity}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -18,8 +18,3 @@ tags:
 - **Source:** [XWikiSkinFileOverrideClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.XWikiSkinFileOverrideClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

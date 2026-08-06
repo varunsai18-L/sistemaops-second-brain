@@ -28,6 +28,3 @@ administration.templateProvider.creationRestrictions.hint=The list of locations 
 administration.templateProvider.creationRestrictions.none=This template can create pages everywhere
 administration.templateProvider.creationRestrictionsAreSuggestions=Creation Restrictions as Suggestions
 administration.templateProvider.creationRestrictionsAreSuggestions.hint=Allows the user to select any location to create the page with this template, using the first creation restriction as the prefilled default location when the template is selected from the list.
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

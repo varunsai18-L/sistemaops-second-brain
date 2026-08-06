@@ -628,6 +628,3 @@ $escapetool.xml($!categoryDoc.getObject(${blogCategoryClassname}).getProperty('d
   </div>
 #end
 {{/velocity}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

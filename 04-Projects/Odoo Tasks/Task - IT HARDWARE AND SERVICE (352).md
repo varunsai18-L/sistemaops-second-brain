@@ -19,6 +19,3 @@ tags:
 
 ## Description
 IT Hardwarehttp://10.99.0.9:8091
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

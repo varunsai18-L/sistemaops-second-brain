@@ -19,6 +19,3 @@ tags:
 
 ## Description
 OCR for uploaded reports02-06-2026LasyaCompleted both the OCR report scanner and the pretrained X-ray model for our triage engine. Also successfully tested them locally.The OCR can now scan blood report images and extract blood glucose, WBC, and hemoglobin.The vision model successfully classifies chest X-rays for anomalies (like pneumonia).
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

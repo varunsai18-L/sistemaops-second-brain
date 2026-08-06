@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Hiten Vinodbhai Katariya"` or `[[Hiten Vinodbhai Katariya]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

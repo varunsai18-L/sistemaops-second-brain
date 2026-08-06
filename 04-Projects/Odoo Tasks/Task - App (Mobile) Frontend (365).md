@@ -19,6 +19,3 @@ tags:
 
 ## Description
 App (Mobile) Frontend• Login + profile• Symptom input / forms• Check-up history• Result details• Consent dashboard• Share reportTriageAI-Team Update:Done so far:Phase 1 scope &amp; feature list finalizedSystem architecture defined (kiosk, mobile app, admin, backend)Full data model designed (users, roles, consent, sessions, audit, devices)Mobile app frontend live - login &amp; onboarding flow temporarily deployed on VercelStack/Tools:React, Vercel, Figma-style component systemWarm accessible UI, custom design tokensNext up:Symptom questionnaire screensVitals entry &amp; camera captureTriage result screen (4-level urgency)Backend: Auth API → Triage engine (LLM + RAG) → STT/TTS
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

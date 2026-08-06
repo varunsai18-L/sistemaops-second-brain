@@ -32,6 +32,3 @@ tags:
 ** Take a Tour
 *** [[Basic Features>>]]
 *** [[Advanced Features>>]]
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

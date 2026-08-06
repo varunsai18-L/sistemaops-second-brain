@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Develop&nbsp;an AI-powered Lead Generation Tool that automates the extraction of business leads from Google Maps. The system collects business details such as company name, phone number, website, address, email, and social media links (Instagram, Facebook, LinkedIn) and stores them in CSV format for further analysis and marketing use.TOOLS USED:-https://github.com/D4Vinci/Scrapling
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

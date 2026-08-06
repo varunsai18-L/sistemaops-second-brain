@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Likitha Roshini Annavarapu"` or `[[Likitha Roshini Annavarapu]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

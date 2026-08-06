@@ -19,6 +19,3 @@ tags:
 
 ## Description
 https://www.youtube.com/watch?v=c2dwmdcmF88
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

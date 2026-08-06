@@ -18,8 +18,3 @@ tags:
 - **Source:** [All Blogs Panel](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.AllBlogsPanel)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

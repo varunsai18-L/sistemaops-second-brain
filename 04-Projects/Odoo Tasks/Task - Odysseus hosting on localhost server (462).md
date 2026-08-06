@@ -19,6 +19,3 @@ tags:
 
 ## Description
 I Coordinated with Rakesh and we were able to host Odysseus chat on our server
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

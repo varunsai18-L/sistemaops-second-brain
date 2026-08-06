@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Mitali Singh"` or `[[Mitali Singh]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

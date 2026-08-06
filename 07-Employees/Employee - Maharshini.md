@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Maharshini"` or `[[Maharshini]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

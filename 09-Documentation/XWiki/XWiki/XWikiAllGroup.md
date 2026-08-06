@@ -18,8 +18,3 @@ tags:
 - **Source:** [XWikiAllGroup](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.XWikiAllGroup)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

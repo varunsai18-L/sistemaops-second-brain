@@ -28,6 +28,3 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"VISHNU VARDHAN"` or `[[VISHNU VARDHAN]]`
-
----
-**Master Directory:** [[00 - Master Employee Directory Index]]

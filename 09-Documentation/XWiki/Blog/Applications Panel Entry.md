@@ -20,6 +20,3 @@ tags:
 ---
 
 {{include reference="XWiki.UIExtensionSheet" /}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -18,8 +18,3 @@ tags:
 - **Source:** [Wiki Component Method XWiki Class](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.ComponentMethodClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

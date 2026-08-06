@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Development of Salespoint Application under ERP &amp; Sales Application Prototypes project.Scope:- Design and develop core sales management features- Implement user interface for sales tracking and reporting- Integrate with backend/database systems- Testing and bug fixes
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]

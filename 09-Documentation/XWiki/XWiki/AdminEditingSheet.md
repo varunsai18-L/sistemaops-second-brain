@@ -28,6 +28,3 @@ tags:
 {{/velocity}}
 
 {{include reference="XWiki.AdminFieldsDisplaySheet" /}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

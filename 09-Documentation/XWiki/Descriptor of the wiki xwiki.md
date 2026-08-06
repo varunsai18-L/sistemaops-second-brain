@@ -18,8 +18,3 @@ tags:
 - **Source:** [Descriptor of the wiki "xwiki"](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.XWikiServerXwiki)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

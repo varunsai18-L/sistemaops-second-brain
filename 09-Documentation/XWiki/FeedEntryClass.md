@@ -18,8 +18,3 @@ tags:
 - **Source:** [FeedEntryClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.FeedEntryClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -18,8 +18,3 @@ tags:
 - **Source:** [Wiki Component Implements Interface XWiki Class](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.ComponentInterfaceClass)
 
 ---
-
-
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

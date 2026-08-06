@@ -346,6 +346,3 @@ $escapetool.xml($entryDoc.display($fieldName, 'view', $entryObj))#end
   #setVariable ("$logoUrl" "${request.scheme}://${request.serverName}${port}${path}")
 #end
 {{/velocity}}
-
----
-**Knowledge Index:** [[09-Documentation/XWiki/00 - openDesk XWiki Master Index]]

@@ -19,6 +19,3 @@ tags:
 
 ## Description
 Started exporing about picaOS on 10th may
-
----
-**Project Hub:** [[04-Projects/rfq-knowledge/00 - RFQ Project Knowledge Base Index]]
