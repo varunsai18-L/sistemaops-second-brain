@@ -9,7 +9,7 @@ email: "taskeen.shaikh2026@gmail.com"
 phone: "7400962780"
 location: "Home"
 last_updated: 2026-07-10 14:32:34
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Taskeen Shaikh"` or `[[Taskeen Shaikh]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

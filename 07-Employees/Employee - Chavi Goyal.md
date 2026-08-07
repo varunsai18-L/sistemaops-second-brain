@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "goyalchavi243@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-07-19 17:00:50
-sync_date: 2026-08-06 17:50:22
+last_updated: 2026-08-06 12:57:49
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Chavi Goyal"` or `[[Chavi Goyal]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

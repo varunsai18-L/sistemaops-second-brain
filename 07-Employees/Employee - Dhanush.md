@@ -9,7 +9,7 @@ email: "96523793dhanu@gmail.com"
 phone: "9014411267"
 location: "Office"
 last_updated: 2026-07-25 15:30:59
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Dhanush"` or `[[Dhanush]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

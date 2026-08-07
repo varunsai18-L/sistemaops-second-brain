@@ -9,7 +9,7 @@ email: "bainasiddhartha@gmail.com"
 phone: "9390898383"
 location: "Home"
 last_updated: 2026-07-27 10:33:48
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/devops
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Siddarth Baina"` or `[[Siddarth Baina]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

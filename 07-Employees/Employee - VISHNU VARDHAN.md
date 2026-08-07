@@ -9,7 +9,7 @@ email: "vishnu02896@gmail.com"
 phone: "8367696306"
 location: "Home"
 last_updated: 2026-07-31 02:04:30
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"VISHNU VARDHAN"` or `[[VISHNU VARDHAN]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

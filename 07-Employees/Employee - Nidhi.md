@@ -9,7 +9,7 @@ email: "kushwahganesh2006@gmail.com"
 phone: "6397956342"
 location: "Remote"
 last_updated: 2026-08-04 13:37:08
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Nidhi"` or `[[Nidhi]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

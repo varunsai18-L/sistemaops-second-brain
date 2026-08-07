@@ -9,7 +9,7 @@ email: "thulasijyothireddy08@gmail.com"
 phone: "N/A"
 location: "Office"
 last_updated: 2026-06-12 09:56:56
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Thulasi Jyothi Reddy"` or `[[Thulasi Jyothi Reddy]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

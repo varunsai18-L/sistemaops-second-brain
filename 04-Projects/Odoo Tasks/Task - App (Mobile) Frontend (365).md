@@ -5,9 +5,10 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "VISHNU VARDHAN"
 last_updated: 2026-06-16 12:12:35
-sync_date: 2026-08-06 17:50:21
+sync_date: 2026-08-07 21:21:21
 tags:
   - odoo/task
+  - project/ai-ml-review
   - status/prototype-development
 ---
 # Task: App (Mobile) Frontend
@@ -15,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** VISHNU VARDHAN
-- **Last Sync:** 2026-08-06 17:50:21
+- **Last Sync:** 2026-08-07 21:21:21
 
 ## Description
-App (Mobile) Frontend• Login + profile• Symptom input / forms• Check-up history• Result details• Consent dashboard• Share reportTriageAI-Team Update:Done so far:Phase 1 scope &amp; feature list finalizedSystem architecture defined (kiosk, mobile app, admin, backend)Full data model designed (users, roles, consent, sessions, audit, devices)Mobile app frontend live - login &amp; onboarding flow temporarily deployed on VercelStack/Tools:React, Vercel, Figma-style component systemWarm accessible UI, custom design tokensNext up:Symptom questionnaire screensVitals entry &amp; camera captureTriage result screen (4-level urgency)Backend: Auth API → Triage engine (LLM + RAG) → STT/TTS
+App (Mobile) Frontend• Login + profile• Symptom input / forms• Check-up history• Result details• Consent dashboard• Share reportTriageAI-Team Update:Done so far:Phase 1 scope & feature list finalizedSystem architecture defined (kiosk, mobile app, admin, backend)Full data model designed (users, roles, consent, sessions, audit, devices)Mobile app frontend live - login & onboarding flow temporarily deployed on VercelStack/Tools:React, Vercel, Figma-style component systemWarm accessible UI, custom design tokensNext up:Symptom questionnaire screensVitals entry & camera captureTriage result screen (4-level urgency)Backend: Auth API → Triage engine (LLM + RAG) → STT/TTS

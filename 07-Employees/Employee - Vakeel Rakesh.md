@@ -9,7 +9,7 @@ email: "rakeshvakeel000@gmail.com"
 phone: "+91 7660043617"
 location: "Home"
 last_updated: 2026-08-05 18:04:20
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/administration
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Vakeel Rakesh"` or `[[Vakeel Rakesh]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

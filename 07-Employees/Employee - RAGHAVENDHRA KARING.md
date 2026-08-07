@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "raghavendhrakaring@gmail.com"
 phone: "7032909996"
 location: "Office"
-last_updated: 2026-08-05 16:31:24
-sync_date: 2026-08-06 17:50:22
+last_updated: 2026-08-06 13:39:53
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/general
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"RAGHAVENDHRA KARING"` or `[[RAGHAVENDHRA KARING]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

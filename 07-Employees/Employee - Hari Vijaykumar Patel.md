@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "patelhariv18@gmail.com"
 phone: "7069753407"
 location: "Remote"
-last_updated: 2026-08-05 15:38:51
-sync_date: 2026-08-06 17:50:22
+last_updated: 2026-08-07 14:19:23
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Hari Vijaykumar Patel"` or `[[Hari Vijaykumar Patel]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

@@ -9,7 +9,7 @@ email: "mitali8116@gmail.com"
 phone: "8790231947"
 location: "Remote"
 last_updated: 2026-06-21 15:20:35
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Mitali Singh"` or `[[Mitali Singh]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

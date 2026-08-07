@@ -23,6 +23,7 @@ Click any employee below to view their complete A to Z details:
 | Dev sharma | Intern | Product & Technology | devsharma26827@gmail.com | N/A | [[Employee - Dev sharma]] |
 | Dhanush | Full Stack Software Engineer | Product & Technology | 96523793dhanu@gmail.com | 9014411267 | [[Employee - Dhanush]] |
 | Dhanya sri | Intern | Product & Technology | dhanyasri200602@gmail.com | N/A | [[Employee - Dhanya sri]] |
+| Diya Panjwani | Intern | Product & Technology | diyapanjwani00@gmail.com | 9406520174 | [[Employee - Diya Panjwani]] |
 | Eshika Mathur | Intern | Product & Technology | eshikamathur01@gmail.com | N/A | [[Employee - Eshika Mathur]] |
 | Gowra Mallesh | Intern | Product & Technology | gowramallesh2@gmail.com | N/A | [[Employee - Gowra Mallesh]] |
 | Hari Vijaykumar Patel | Intern | Product & Technology | patelhariv18@gmail.com | 7069753407 | [[Employee - Hari Vijaykumar Patel]] |
@@ -72,4 +73,4 @@ Click any employee below to view their complete A to Z details:
 | kalyani kodi | Intern | Product & Technology | kalyanikodi565@gmail.com | N/A | [[Employee - kalyani kodi]] |
 
 ---
-*Total Active Employees: 60 | Last Synced: 2026-08-05 21:16:24*
+*Total Active Employees: 61 | Last Synced: 2026-08-07 21:21:22*

@@ -9,7 +9,7 @@ email: "thumurohit@systemaops.com"
 phone: "+4917685248689"
 location: "Office"
 last_updated: 2026-06-06 18:57:39
-sync_date: 2026-08-06 17:50:22
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/leadership-&-operations
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Rohit Thumu"` or `[[Rohit Thumu]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

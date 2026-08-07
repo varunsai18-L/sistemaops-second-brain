@@ -5,9 +5,10 @@ project: "Internal"
 stage: "Internal"
 assignees: "Unassigned"
 last_updated: 2026-07-07 03:54:33
-sync_date: 2026-08-06 17:50:21
+sync_date: 2026-08-07 21:21:21
 tags:
   - odoo/task
+  - project/internal
   - status/internal
 ---
 # Task: Worked on RFQ testing
@@ -15,7 +16,7 @@ tags:
 - **Project:** [[Internal]]
 - **Odoo Stage:** Internal
 - **Assignees:** Unassigned
-- **Last Sync:** 2026-08-06 17:50:21
+- **Last Sync:** 2026-08-07 21:21:21
 
 ## Description
 No description provided.

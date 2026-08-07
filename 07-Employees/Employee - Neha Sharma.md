@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "sharmaneha98884@gmail.com"
 phone: "08439141734"
 location: "Office"
-last_updated: 2026-08-05 17:57:42
-sync_date: 2026-08-06 17:50:22
+last_updated: 2026-08-07 13:34:44
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Neha Sharma"` or `[[Neha Sharma]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

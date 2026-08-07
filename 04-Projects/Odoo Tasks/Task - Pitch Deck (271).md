@@ -5,9 +5,10 @@ project: "Miscellaneous"
 stage: "In Progress"
 assignees: "52, VISHNU VARDHAN"
 last_updated: 2026-06-12 16:40:33
-sync_date: 2026-08-06 17:50:21
+sync_date: 2026-08-07 21:21:21
 tags:
   - odoo/task
+  - project/miscellaneous
   - status/in-progress
 ---
 # Task: Pitch Deck
@@ -15,7 +16,7 @@ tags:
 - **Project:** [[Miscellaneous]]
 - **Odoo Stage:** In Progress
 - **Assignees:** 52, VISHNU VARDHAN
-- **Last Sync:** 2026-08-06 17:50:21
+- **Last Sync:** 2026-08-07 21:21:21
 
 ## Description
 No description provided.

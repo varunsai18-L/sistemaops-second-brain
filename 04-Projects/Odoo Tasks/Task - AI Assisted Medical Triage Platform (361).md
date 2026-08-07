@@ -5,9 +5,10 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN"
 last_updated: 2026-06-20 13:58:01
-sync_date: 2026-08-06 17:50:21
+sync_date: 2026-08-07 21:21:21
 tags:
   - odoo/task
+  - project/ai-ml-review
   - status/prototype-development
 ---
 # Task: AI Assisted Medical Triage Platform
@@ -15,15 +16,15 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Chetana Santhi Manapragada, Hruthwik Thota, kalyani kodi, lasya ram, Shreya Bhavani, Sravan Dandu, Vakeel Rakesh, VARNA GEORGE, VISHNU VARDHAN
-- **Last Sync:** 2026-08-06 17:50:21
+- **Last Sync:** 2026-08-07 21:21:21
 
 ## Description
-Plan - Phase 1&nbsp;An AI-assisted medical triage platform that helps users understand the urgency of their health
+Plan - Phase 1 An AI-assisted medical triage platform that helps users understand the urgency of their health
 condition using symptoms, basic vitals, and diagnostic inputs such as X-rays or blood reports. It
 can operate through a mobile app or a physical kiosk that measures vitals like blood pressure,
 heart rate, and glucose, then guides users toward the right next step: self-care, doctor
-consultation, urgent care, or emergency referral.&nbsp;Phase 1&nbsp;Vital list:&nbsp;Respiration:&nbsp;POSE
-SpO₂ oxygen saturation&nbsp;Heart rate / pulse&nbsp;Blood pressure&nbsp;Temperature&nbsp;Blood glucose (Good to have)&nbsp;Symptom analysis:&nbsp;Visual symptoms -&nbsp;camera (Good to have) check for dermatology dataset + Pose + Landmark&nbsp;Throat and tongue&nbsp;Eye lid and eyes&nbsp;Nails&nbsp;Teeth color&nbsp;Thermal camera&nbsp;User interaction&nbsp;STT model (multilingual)&nbsp;TTS model&nbsp;OCR model (Report)&nbsp;Triage automation - LLM + RAG&nbsp;Medical models&nbsp;X-ray anomaly detectionHigh level definitionKioskUsermanagement - QR code scannerVital data collectionAudio i/o+ STT/TTSCamera input (Processed)Thermal cameraAnimated formsAppUser management - Login to app + login to KioskAudio i/o + STT/TTSFormsUploadCamera input  (Processed)BackendUsermanagementTriage automation - LLM + RAGX-ray modelsVisual analysis1. Auth &amp; User Management (Backend)• Registration, login, guest mode• Roles &amp; permissions• Session management + auto-clear• Consent records• QR code generation for kiosk→app handoff2. Kiosk (Laptop) Frontend• Language selection• Guest mode / QR login• Consent screen• Symptom questionnaire (animated forms)• Triage result screen• QR transfer to app3. App (Mobile) Frontend• Login + profile• Symptom input / forms• Check-up history• Result details• Consent dashboard• Share report4. Triage Engine (Backend)• LLM + RAG pipeline• 4-level urgency output• STT + TTS (multilingual)• OCR for uploaded reports5. Admin Portal• Kiosk status monitoring• Device/firmware/calibration status display• Error alertsUSER MANAGEMENT.pngData modelusersid UUID PRIMARY KEYuser_type ENUM('patient', 'clinician', 'caregiver',
+consultation, urgent care, or emergency referral. Phase 1 Vital list: Respiration: POSE
+SpO₂ oxygen saturation Heart rate / pulse Blood pressure Temperature Blood glucose (Good to have) Symptom analysis: Visual symptoms - camera (Good to have) check for dermatology dataset + Pose + Landmark Throat and tongue Eye lid and eyes Nails Teeth color Thermal camera User interaction STT model (multilingual) TTS model OCR model (Report) Triage automation - LLM + RAG Medical models X-ray anomaly detectionHigh level definitionKioskUsermanagement - QR code scannerVital data collectionAudio i/o+ STT/TTSCamera input (Processed)Thermal cameraAnimated formsAppUser management - Login to app + login to KioskAudio i/o + STT/TTSFormsUploadCamera input  (Processed)BackendUsermanagementTriage automation - LLM + RAGX-ray modelsVisual analysis1. Auth & User Management (Backend)• Registration, login, guest mode• Roles & permissions• Session management + auto-clear• Consent records• QR code generation for kiosk→app handoff2. Kiosk (Laptop) Frontend• Language selection• Guest mode / QR login• Consent screen• Symptom questionnaire (animated forms)• Triage result screen• QR transfer to app3. App (Mobile) Frontend• Login + profile• Symptom input / forms• Check-up history• Result details• Consent dashboard• Share report4. Triage Engine (Backend)• LLM + RAG pipeline• 4-level urgency output• STT + TTS (multilingual)• OCR for uploaded reports5. Admin Portal• Kiosk status monitoring• Device/firmware/calibration status display• Error alertsUSER MANAGEMENT.pngData modelusersid UUID PRIMARY KEYuser_type ENUM('patient', 'clinician', 'caregiver',
 'operator', 'admin', 'partner_user', 'system')status ENUM('active', 'inactive', 'suspended', 'deleted',
 'pending_verification')primary_email VARCHAR NULLprimary_phone VARCHAR NULLpreferred_language VARCHARcountry_code VARCHARdate_of_birth DATE NULLsex_at_birth ENUM('male', 'female', 'intersex', 'unknown',
 'prefer_not_to_say') NULLcreated_at TIMESTAMPupdated_at TIMESTAMPdeleted_at TIMESTAMP NULLuser_profilesid UUID PRIMARY KEYuser_id UUID REFERENCES users(id)first_name VARCHARlast_name VARCHARdisplay_name VARCHARgender_identity VARCHAR NULLaddress_line_1 VARCHAR NULLaddress_line_2 VARCHAR NULLcity VARCHAR NULLpostal_code VARCHAR NULLcountry VARCHAR NULLtimezone VARCHARprofile_image_url TEXT NULLcreated_at TIMESTAMPupdated_at TIMESTAMPuser_auth_identitiesid UUID PRIMARY KEYuser_id UUID REFERENCES users(id)provider ENUM('email_password', 'phone_otp', 'google',

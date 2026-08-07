@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "saivarun945@gmail.com"
 phone: "N/A"
 location: "Office"
-last_updated: 2026-08-05 17:32:26
-sync_date: 2026-08-06 17:50:22
+last_updated: 2026-08-07 13:31:37
+sync_date: 2026-08-07 21:21:22
 tags:
   - employee
   - department/product-&-technology
@@ -28,3 +28,6 @@ tags:
 ---
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Varun Sai"` or `[[Varun Sai]]`
+
+---
+*Synced from Odoo HR Module on 2026-08-07 21:21:22*

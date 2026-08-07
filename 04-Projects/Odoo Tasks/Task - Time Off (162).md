@@ -5,9 +5,10 @@ project: "Internal"
 stage: "Internal"
 assignees: "1"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-06 17:50:21
+sync_date: 2026-08-07 21:21:21
 tags:
   - odoo/task
+  - project/internal
   - status/internal
 ---
 # Task: Time Off
@@ -15,7 +16,7 @@ tags:
 - **Project:** [[Internal]]
 - **Odoo Stage:** Internal
 - **Assignees:** 1
-- **Last Sync:** 2026-08-06 17:50:21
+- **Last Sync:** 2026-08-07 21:21:21
 
 ## Description
 No description provided.
