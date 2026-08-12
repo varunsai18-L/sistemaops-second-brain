@@ -11,10 +11,14 @@
             "id": "db7f975f44db18ca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "07-Employees/00 - Master Employee Directory Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 - Master Employee Directory Index"
             }
           }
         ]
@@ -352,6 +356,8 @@
   },
   "active": "db7f975f44db18ca",
   "lastOpenFiles": [
+    "00 - CEO Dashboard.md",
+    "07-Employees/00 - Master Employee Directory Index.md",
     "07-Employees/Employee - Diya Panjwani.md",
     "04-Projects/Odoo Tasks/Task - S00033 - Wiring Services (374).md",
     "04-Projects/Odoo Tasks/Task - S00034 - Painting (375).md",
@@ -376,8 +382,6 @@
     "04-Projects/Odoo Tasks/Task - Odoo Industry  POS (322).md",
     "04-Projects/Odoo Tasks/Task - Odoo Industry   Pharmacy (213).md",
     "04-Projects/Odoo Tasks/Task - Odoo Template (Do not Delete) (232).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  Grocery Store (234).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  Event (323).md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "04-Projects/rfq-knowledge/attachments/deployment_diagram.svg",

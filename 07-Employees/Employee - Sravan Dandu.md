@@ -8,8 +8,8 @@ manager: "Sravan Dandu"
 email: "sravandandu456@gmail.com"
 phone: "N/A"
 location: "Home"
-last_updated: 2026-08-07 13:32:57
-sync_date: 2026-08-07 21:21:22
+last_updated: 2026-08-12 13:32:08
+sync_date: 2026-08-12 21:58:40
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Sravan Dandu"` or `[[Sravan Dandu]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-07 21:21:22*
+*Synced from Odoo HR Module on 2026-08-12 21:58:40*

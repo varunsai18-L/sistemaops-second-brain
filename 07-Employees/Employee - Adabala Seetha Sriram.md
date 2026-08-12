@@ -8,8 +8,8 @@ manager: "Rohit Thumu"
 email: "sriramadabala350@gmail.com"
 phone: "8499971123"
 location: "Remote"
-last_updated: 2026-08-06 17:00:01
-sync_date: 2026-08-07 21:21:22
+last_updated: 2026-08-12 13:35:36
+sync_date: 2026-08-12 21:58:40
 tags:
   - employee
   - department/product-&-technology
@@ -30,4 +30,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Adabala Seetha Sriram"` or `[[Adabala Seetha Sriram]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-07 21:21:22*
+*Synced from Odoo HR Module on 2026-08-12 21:58:40*
