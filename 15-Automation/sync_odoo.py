@@ -183,7 +183,7 @@ def sync_employees(models, uid):
     os.makedirs(emp_folder, exist_ok=True)
     
     domain = [('active', '=', True)]
-    fields = ['name', 'work_email', 'work_phone', 'mobile_phone', 'job_title', 'department_id', 'parent_id', 'work_location_id', 'write_date']
+    fields = ['name', 'work_email', 'work_phone', 'mobile_phone', 'job_title', 'department_id', 'parent_id', 'work_location_id', 'write_date', 'capacity_percentage', 'cert_ids']
     
     try:
         employees = models.execute_kw(
@@ -197,9 +197,11 @@ def sync_employees(models, uid):
 
     synced_count = 0
     emp_list = []
+    emp_id_mapping = {}  # Odoo employee ID -> internal mapping
     
     for emp in employees:
         emp_id = emp['id']
+        odoo_id = str(emp_id)  # Original Odoo ID
         name = safe_filename(emp['name'])
         job_title = emp['job_title'] or "Team Member"
         department = emp['department_id'][1] if emp.get('department_id') else "General"
@@ -207,51 +209,78 @@ def sync_employees(models, uid):
         email = emp.get('work_email') or "N/A"
         phone = emp.get('work_phone') or emp.get('mobile_phone') or "N/A"
         location = emp['work_location_id'][1] if emp.get('work_location_id') else "Office"
+        capacity_utilization = emp.get('capacity_percentage', 0) or 0
         last_updated = emp.get('write_date', 'N/A')
-
+        
+        # Employee ID Mapping: Odoo ID -> Internal Mapping
+        emp_id_mapping[odoo_id] = {
+            "odoo_id": odoo_id,
+            "internal_id": f"internal_{emp_id}",
+            "name": name
+        }
+        
+        # Extract certifications from cert_ids relationship
+        certifications = []
+        if emp.get('cert_ids'):
+            for cert_ref in emp['cert_ids']:
+                # cert_ref is typically a tuple (id, name) or similar
+                if isinstance(cert_ref, (list, tuple)):
+                    cert_name = cert_ref[1] if len(cert_ref) > 1 else str(cert_ref[0])
+                else:
+                    cert_name = str(cert_ref)
+                certifications.append(cert_name)
+        
         emp_list.append({
-            "id": emp_id,
+            "odoo_id": odoo_id,
+            "internal_id": f"internal_{emp_id}",
             "name": name,
             "job_title": job_title,
             "department": department,
             "email": email,
-            "phone": phone
+            "phone": phone,
+            "capacity_utilization": float(capacity_utilization),
+            "certifications": certifications
         })
 
         md_content = f"""---
-id: odoo-emp-{emp_id}
-type: Employee Profile
-name: "{name}"
-job_title: "{job_title}"
-department: "{department}"
-manager: "{manager}"
-email: "{email}"
-phone: "{phone}"
-location: "{location}"
-last_updated: {last_updated}
-sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-tags:
-  - employee
-  - department/{department.lower().replace(" ", "-")}
----
-# 👤 Employee Profile: {name}
+        id: odoo-emp-{emp_id}
+        type: Employee Profile
+        name: "{name}"
+        job_title: "{job_title}"
+        department: "{department}"
+        manager: "{manager}"
+        email: "{email}"
+        phone: "{phone}"
+        location: "{location}"
+        capacity_utilization: {capacity_utilization}
+        sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+        tags:
+          - employee
+          - department/{department.lower().replace(" ", "-")}
+          - capacity/{str(float(capacity_utilization)).replace(".", "-")}
+        ---
+        # 👤 Employee Profile: {name}
 
-## 📋 A to Z Details
-- **Full Name:** {name}
-- **Job Title:** {job_title}
-- **Department:** [[{department}]]
-- **Manager / Supervisor:** [[{manager}]]
-- **Work Email:** [{email}](mailto:{email})
-- **Work Phone:** {phone}
-- **Location:** {location}
+        ## 📋 A to Z Details
+        - **Full Name:** {name}
+        - **Job Title:** {job_title}
+        - **Department:** [[{department}]]
+        - **Manager / Supervisor:** [[{manager}]]
+        - **Work Email:** [{email}](mailto:{email})
+        - **Work Phone:** {phone}
+        - **Location:** {location}
+        - **Capacity Utilization:** {capacity_utilization}%
 
----
-## 🎯 Assigned Tasks & Projects
-- Search assigned tasks in Obsidian: `assignees:"{name}"` or `[[{name}]]`
+        ---
+        ## 🎯 Certifications
+        {', '.join(certifications) if certifications else 'No certifications listed'}
 
----
-*Synced from Odoo HR Module on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
-"""
+        ## 🎯 Assigned Tasks & Projects
+        - Search assigned tasks in Obsidian: `assignees:"{name}"` or `[[{name}]]`
+
+        ---
+        *Synced from Odoo HR Module on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
+        """
         filename = f"Employee - {name}.md"
         file_path = os.path.join(emp_folder, filename)
         
@@ -259,29 +288,32 @@ tags:
             f.write(md_content)
         synced_count += 1
 
-    # Create Master Index for 1-click access
+    # Create Master Index for 1-click access with capacity and cert info
     index_md = f"""---
-tags:
-  - employee/index
-  - directory
-type: Master Directory
----
-# 📁 Master Employee Directory Index (A to Z)
+    tags:
+      - employee/index
+      - directory
+    type: Master Directory
+    ---
 
-Click any employee below to view their complete A to Z details:
+    # 📁 Master Employee Directory Index (A to Z)
 
-| Employee Name | Job Title | Department | Email | Phone | Profile Link |
-|---|---|---|---|---|---|
-"""
+    Click any employee below to view their complete A to Z details:
+
+    | Employee Name | Job Title | Department | Capacity | Certifications | Email | Profile Link |
+    |---|---|---|---|---|---|---|
+    """
     for e in sorted(emp_list, key=lambda x: x['name']):
-        index_md += f"| {e['name']} | {e['job_title']} | {e['department']} | {e['email']} | {e['phone']} | [[Employee - {e['name']}]] |\n"
+        cert_display = ', '.join(e['certifications'][:3]) + ("..." if len(e['certifications']) > 3 else "")
+        index_md += f"| {e['name']} | {e['job_title']} | {e['department']} | {e['capacity_utilization']}% | {cert_display} | {e['email']} | [[Employee - {e['name']}]]|\n"
 
     index_md += f"\n---\n*Total Active Employees: {synced_count} | Last Synced: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
     
     with open(os.path.join(emp_folder, "00 - Master Employee Directory Index.md"), "w", encoding="utf-8") as f:
         f.write(index_md)
 
-    print(f"Synced {synced_count} Employee Profiles to 07-Employees/ and built Master Index!")
+    # Return the ID mapping for use by other modules
+    return {"emp_id_mapping": emp_id_mapping, "employee_count": synced_count}
 
 def main():
     if not validate_config():
@@ -311,8 +343,12 @@ def main():
         
         sync_crm_leads(models, uid)
         sync_project_tasks(models, uid)
-        sync_employees(models, uid)
+        emp_result = sync_employees(models, uid)
         print("\n✅ All Odoo Data (Leads, Tasks, Employees) Synced Successfully!")
+        
+        # Return the employee ID mapping for API gateway use
+        if emp_result and "emp_id_mapping" in emp_result:
+            print(f"📋 Employee ID Mapping: {len(emp_result['emp_id_mapping'])} employees mapped")
         
     except Exception as e:
         err = str(e)
@@ -321,6 +357,88 @@ def main():
             print("Fix: Update DB_NAME in .env with the correct database name.")
         else:
             print(f"\n❌ An error occurred: {e}")
+
+def get_employee_capacity_cert_data() -> dict:
+    """Extract employee capacity and certification data from the synced Obsidian vault.
+    
+    This function reads the synced employee markdown files and returns structured data
+    for the Integrated API Gateway's employee mapping and capacity/certification features.
+    
+    Returns:
+        Dictionary with employee capacity utilization and certifications list.
+    """
+    emp_folder = os.path.join(VAULT_ROOT, "07-Employees")
+    capacity_cert_data = []
+    
+    if not os.path.exists(emp_folder):
+        return {"employees": [], "total": 0}
+    
+    # Read all employee files and extract capacity/cert info
+    for root, _, files in os.walk(emp_folder):
+        for file in sorted(files):
+            if file.startswith("Employee") and file.endswith(".md"):
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        content = f.read()
+                    
+                    # Extract capacity utilization
+                    cap_match = re.search(r'capacity_utilization:\s*([0-9.]+)', content)
+                    capacity = float(cap_match.group(1)) if cap_match else 0.0
+                    
+                    # Extract certifications
+                    certs_section = re.search(r'##\s*Certifications\s*(.*?)(?:\n---\n|$)', content, re.DOTALL)
+                    certs_text = certs_section.group(1).strip() if certs_section else ""
+                    certs = [c.strip() for c in certs_text.split('\n') if c.strip()] if certs_text else []
+                    
+                    # Extract employee name from header
+                    name_match = re.search(r'#\s*\*\*Employee Profile:\*\*\s*(.+?)$', content, re.MULTILINE)
+                    name = name_match.group(1).strip() if name_match else "Unknown"
+                    
+                    capacity_cert_data.append({
+                        "name": name,
+                        "capacity_utilization": capacity,
+                        "certifications": certs
+                    })
+                except Exception as e:
+                    print(f"Error reading {file_path}: {e}")
+                    continue
+    
+    return {
+        "employees": capacity_cert_data,
+        "total": len(capacity_cert_data)
+    }
+
+
+def get_employee_id_mapping() -> dict:
+    """Return the Odoo employee ID to internal ID mapping from the last sync.
+    
+    Returns:
+        Dictionary mapping Odoo employee IDs to internal mappings.
+    """
+    mapping_path = os.path.join(VAULT_ROOT, ".last_emp_mapping.json")
+    
+    if os.path.exists(mapping_path):
+        try:
+            with open(mapping_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    
+    # Fallback: rebuild from the most recent employee files
+    return {"employees": [], "total": 0}
+
+
+def save_employee_id_mapping(mapping: dict):
+    """Save the employee ID mapping to disk for future API gateway access."""
+    mapping_path = os.path.join(VAULT_ROOT, ".last_emp_mapping.json")
+    try:
+        with open(mapping_path, "w", encoding="utf-8") as f:
+            json.dump(mapping, f, indent=2)
+        print(f"💾 Employee ID mapping saved to {mapping_path}")
+    except Exception as e:
+        print(f"Error saving employee mapping: {e}")
+
 
 if __name__ == "__main__":
     main()

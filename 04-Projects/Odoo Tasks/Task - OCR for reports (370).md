@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "lasya ram"
 last_updated: 2026-06-12 15:53:28
-sync_date: 2026-08-12 21:58:40
+sync_date: 2026-08-15 21:08:36
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** lasya ram
-- **Last Sync:** 2026-08-12 21:58:40
+- **Last Sync:** 2026-08-15 21:08:36
 
 ## Description
 OCR for uploaded reports02-06-2026LasyaCompleted both the OCR report scanner and the pretrained X-ray model for our triage engine. Also successfully tested them locally.The OCR can now scan blood report images and extract blood glucose, WBC, and hemoglobin.The vision model successfully classifies chest X-rays for anomalies (like pneumonia).
