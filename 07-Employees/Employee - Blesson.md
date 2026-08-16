@@ -10,6 +10,7 @@ phone: "N/A"
 location: "Office"
 last_updated: 2026-06-12 09:46:21
 sync_date: 2026-08-12 21:58:40
+capacity_utilization: 82.5
 tags:
   - employee
   - department/leadership-&-operations
@@ -26,6 +27,10 @@ tags:
 - **Location:** Office
 
 ---
+
+## 🎯 Certifications
+- ISO 9001
+- PMP
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Blesson"` or `[[Blesson]]`
 

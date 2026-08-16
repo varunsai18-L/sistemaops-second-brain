@@ -382,21 +382,41 @@ def get_employee_capacity_cert_data() -> dict:
                     with open(file_path, "r", encoding="utf-8") as f:
                         content = f.read()
                     
-                    # Extract capacity utilization
+                    # Extract capacity utilization from frontmatter or A to Z details
                     cap_match = re.search(r'capacity_utilization:\s*([0-9.]+)', content)
+                    if not cap_match:
+                        cap_match = re.search(r'Capacity Utilization:\s*([0-9.]+)%', content)
                     capacity = float(cap_match.group(1)) if cap_match else 0.0
                     
-                    # Extract certifications
-                    certs_section = re.search(r'##\s*Certifications\s*(.*?)(?:\n---\n|$)', content, re.DOTALL)
+                    # Extract certifications (emoji or plain header)
+                    certs_section = re.search(r'##\s*🎯?\s*Certifications\s*(.*?)(?:\n---\n|\n##\s*|$)', content, re.DOTALL)
                     certs_text = certs_section.group(1).strip() if certs_section else ""
-                    certs = [c.strip() for c in certs_text.split('\n') if c.strip()] if certs_text else []
+                    certs = [c.strip().lstrip('- ') for c in certs_text.split('\n') if c.strip()]
+                    certs = [c for c in certs if c and c.lower() != 'no certifications listed']
                     
-                    # Extract employee name from header
-                    name_match = re.search(r'#\s*\*\*Employee Profile:\*\*\s*(.+?)$', content, re.MULTILINE)
-                    name = name_match.group(1).strip() if name_match else "Unknown"
+                    # Extract employee name: from YAML frontmatter name, then # 👤 Employee Profile: header
+                    name = ""
+                    fm_match = re.search(r'^name:\s*"([^"]+)"', content, re.MULTILINE)
+                    if fm_match:
+                        name = fm_match.group(1).strip()
+                    if not name:
+                        name_match = re.search(r'^#\s*👤?\s*Employee Profile:\s*(.+?)$', content, re.MULTILINE)
+                        name = name_match.group(1).strip() if name_match else "Unknown"
+                    
+                    # Extract job title and department from frontmatter
+                    job_title = "Team Member"
+                    jt_match = re.search(r'^job_title:\s*"([^"]+)"', content, re.MULTILINE)
+                    if jt_match:
+                        job_title = jt_match.group(1).strip()
+                    department = "General"
+                    dept_match = re.search(r'^department:\s*"([^"]+)"', content, re.MULTILINE)
+                    if dept_match:
+                        department = dept_match.group(1).strip()
                     
                     capacity_cert_data.append({
                         "name": name,
+                        "job_title": job_title,
+                        "department": department,
                         "capacity_utilization": capacity,
                         "certifications": certs
                     })

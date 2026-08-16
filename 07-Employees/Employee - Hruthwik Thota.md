@@ -10,6 +10,7 @@ phone: "6303326883"
 location: "Home"
 last_updated: 2026-08-12 12:51:47
 sync_date: 2026-08-12 21:58:40
+capacity_utilization: 45.0
 tags:
   - employee
   - department/product-&-technology
@@ -26,6 +27,9 @@ tags:
 - **Location:** Home
 
 ---
+
+## 🎯 Certifications
+- ISO 9001
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Hruthwik Thota"` or `[[Hruthwik Thota]]`
 

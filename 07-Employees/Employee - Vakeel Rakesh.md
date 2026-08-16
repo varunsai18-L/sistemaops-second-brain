@@ -10,6 +10,7 @@ phone: "+91 7660043617"
 location: "Home"
 last_updated: 2026-08-05 18:04:20
 sync_date: 2026-08-12 21:58:40
+capacity_utilization: 95.0
 tags:
   - employee
   - department/administration
@@ -26,6 +27,10 @@ tags:
 - **Location:** Home
 
 ---
+
+## 🎯 Certifications
+- ITIL
+- NIST
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Vakeel Rakesh"` or `[[Vakeel Rakesh]]`
 

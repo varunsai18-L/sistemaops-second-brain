@@ -5,7 +5,7 @@ project: "AI ML review"
 stage: "Prototype Development"
 assignees: "Shreya Bhavani"
 last_updated: 2026-06-18 15:35:49
-sync_date: 2026-08-15 21:08:36
+sync_date: 2026-08-16 14:54:49
 tags:
   - odoo/task
   - project/ai-ml-review
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI ML review]]
 - **Odoo Stage:** Prototype Development
 - **Assignees:** Shreya Bhavani
-- **Last Sync:** 2026-08-15 21:08:36
+- **Last Sync:** 2026-08-16 14:54:49
 
 ## Description
 Triage Engine (Backend)STT + TTS (multilingual)Shreya -> 02-06-2026 : Environment setup completed.

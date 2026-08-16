@@ -5,7 +5,7 @@ project: "Lead gen Tool"
 stage: "Backlog"
 assignees: "Neha Sharma"
 last_updated: 2026-06-18 11:01:44
-sync_date: 2026-08-15 21:08:36
+sync_date: 2026-08-16 14:54:49
 tags:
   - odoo/task
   - project/lead-gen-tool
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Lead gen Tool]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Neha Sharma
-- **Last Sync:** 2026-08-15 21:08:36
+- **Last Sync:** 2026-08-16 14:54:49
 
 ## Description
 No description provided.

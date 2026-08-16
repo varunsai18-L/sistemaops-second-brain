@@ -1,18 +1,20 @@
 ---
 id: odoo-emp-101
 type: Employee Profile
-name: "Hiten Vinodbhai Katariya"
-job_title: "Intern"
-department: "Product & Technology"
-manager: "Rohit Thumu"
-email: "work.hitenkatariya@gmail.com"
+name: Hiten Vinodbhai Katariya
+job_title: Intern
+department: Product & Technology
+manager: Rohit Thumu
+email: work.hitenkatariya@gmail.com
 phone: "9099590979"
-location: "Remote"
+location: Remote
 last_updated: 2026-08-12 15:43:13
 sync_date: 2026-08-12 21:58:40
 tags:
   - employee
-  - department/product-&-technology
+  - skills/python
+  - skills/react
+  - skills/docker
 ---
 # 👤 Employee Profile: Hiten Vinodbhai Katariya
 

@@ -10,6 +10,7 @@ phone: "N/A"
 location: "Office"
 last_updated: 2026-07-24 12:13:25
 sync_date: 2026-08-12 21:58:40
+capacity_utilization: 65.0
 tags:
   - employee
   - department/product-&-technology
@@ -26,6 +27,9 @@ tags:
 - **Location:** Office
 
 ---
+
+## 🎯 Certifications
+- ISO 9001
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Dev sharma"` or `[[Dev sharma]]`
 

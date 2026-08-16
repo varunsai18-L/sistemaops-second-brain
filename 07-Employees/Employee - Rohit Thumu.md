@@ -10,6 +10,7 @@ phone: "+4917685248689"
 location: "Office"
 last_updated: 2026-06-06 18:57:39
 sync_date: 2026-08-12 21:58:40
+capacity_utilization: 75.0
 tags:
   - employee
   - department/leadership-&-operations
@@ -26,6 +27,11 @@ tags:
 - **Location:** Office
 
 ---
+
+## 🎯 Certifications
+- ISO 9001
+- PMP
+- Six Sigma
 ## 🎯 Assigned Tasks & Projects
 - Search assigned tasks in Obsidian: `assignees:"Rohit Thumu"` or `[[Rohit Thumu]]`
 
