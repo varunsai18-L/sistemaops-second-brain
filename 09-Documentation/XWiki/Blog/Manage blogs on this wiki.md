@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.Management
+id: xwiki-Blog.Management
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907664000
-sync_date: 2026-07-21 11:03:58
+sync_date: 2026-08-16 19:46:12
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,7 +15,7 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907664000
-- **Source:** [Manage blogs on this wiki](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.Management)
+- **Source:** [Manage blogs on this wiki](https://wiki.systemaops.in/bin/view/Blog/Blog.Management)
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Menu.UIExtensionSheet
+id: xwiki-Menu.UIExtensionSheet
 type: XWiki Page
 space: "Menu"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907320000
-sync_date: 2026-07-21 11:03:22
+sync_date: 2026-08-16 19:45:53
 tags:
   - xwiki/documentation
   - space/menu
@@ -15,7 +15,7 @@ tags:
 - **Space:** Menu
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907320000
-- **Source:** [UIExtensionSheet](https://wiki.systemaops.in/bin/view/Menu/xwiki:Menu.UIExtensionSheet)
+- **Source:** [UIExtensionSheet](https://wiki.systemaops.in/bin/view/Menu/Menu.UIExtensionSheet)
 
 ---
 

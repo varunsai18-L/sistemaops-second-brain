@@ -106,9 +106,24 @@ def sync_xwiki_pages():
     total_pages = len(page_summaries)
     print(f"\n🎯 Total cataloged pages: {total_pages}! Starting full download into Space subfolders...")
 
+    # Deduplicate: the pages REST API returns translation variants as separate
+    # entries that share the same fullName. Keep only the first (default) variant
+    # so each unique document maps to exactly one file.
+    seen = set()
+    unique_summaries = []
+    for item in page_summaries:
+        full = item.get("fullName") or item.get("id") or item.get("name")
+        if full in seen:
+            continue
+        seen.add(full)
+        unique_summaries.append(item)
+
+    print(f"  Deduplicated to {len(unique_summaries)} unique documents.")
+
     synced_count = 0
-    for idx, item in enumerate(page_summaries, 1):
-        page_id = item.get("id") or item.get("name")
+    written_files = []
+    for idx, item in enumerate(unique_summaries, 1):
+        page_id = item.get("fullName") or item.get("id") or item.get("name")
         page_title = item.get("title") or item.get("name") or page_id
         space = item.get("space") or "General"
         
@@ -170,10 +185,35 @@ tags:
             f.write(md_content)
             
         synced_count += 1
-        if synced_count % 50 == 0 or synced_count == total_pages:
-            print(f" Progress: [{synced_count}/{total_pages}] pages saved...")
+        written_files.append(file_path)
+        if synced_count % 50 == 0 or synced_count == len(unique_summaries):
+            print(f" Progress: [{synced_count}/{len(unique_summaries)}] pages saved...")
 
-    print(f"\n🎉 FULL SYNC COMPLETE! Successfully synced {synced_count} out of {total_pages} XWiki pages into 09-Documentation/XWiki/")
+    cleanup_stale_xwiki_files(base_xwiki_folder, written_files)
+    print(f"\n🎉 FULL SYNC COMPLETE! Successfully synced {synced_count} out of {len(unique_summaries)} XWiki pages into 09-Documentation/XWiki/")
+
+
+def cleanup_stale_xwiki_files(base_xwiki_folder, written_files):
+    """Remove synced .md files that no longer exist on the XWiki server."""
+    written = set(os.path.abspath(p) for p in written_files)
+    removed = 0
+    for root, _, files in os.walk(base_xwiki_folder):
+        for fname in files:
+            if not fname.endswith(".md"):
+                continue
+            path = os.path.abspath(os.path.join(root, fname))
+            if path in written:
+                continue
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    head = f.read(200)
+            except Exception:
+                continue
+            if "id: xwiki-" in head:
+                os.remove(path)
+                removed += 1
+    if removed:
+        print(f"  Cleaned up {removed} stale XWiki page file(s).")
 
 if __name__ == "__main__":
     sync_xwiki_pages()

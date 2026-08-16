@@ -1,5 +1,6 @@
 import os
 import re
+import json
 import xmlrpc.client
 from datetime import datetime
 from dotenv import load_dotenv
@@ -63,6 +64,12 @@ def sync_crm_leads(models, uid):
             'crm.lead', 'search_read', 
             [domain], {'fields': fields}
         )
+    except xmlrpc.client.Fault as e:
+        if "You are not allowed to access" in str(e):
+            print(f"⚠️  No access to crm.lead ({e.faultString[:60]}...). Falling back to res.partner.")
+            return sync_partners(models, uid)
+        print(f"Failed to fetch CRM leads: {e}")
+        return
     except Exception as e:
         print(f"Failed to fetch CRM leads: {e}")
         return
@@ -103,7 +110,77 @@ tags:
             f.write(md_content)
         synced_count += 1
         
+    cleanup_stale_files(leads_folder, [f"Lead - {safe_filename(l['name'])} ({l['id']}).md" for l in leads])
     print(f"Synced {synced_count} CRM Leads to 06-Clients/Odoo Leads/")
+    return synced_count
+
+
+def sync_partners(models, uid):
+    """Sync companies from res.partner (accessible to this user)."""
+    print("Syncing Client Partners (res.partner) from Odoo...")
+    partners_folder = os.path.join(VAULT_PATH, "06-Clients", "Odoo Partners")
+    os.makedirs(partners_folder, exist_ok=True)
+    
+    domain = [('is_company', '=', True), ('active', '=', True)]
+    fields = ['name', 'email', 'phone', 'website', 'write_date']
+    
+    try:
+        partners = models.execute_kw(
+            DB_NAME, uid, API_KEY,
+            'res.partner', 'search_read',
+            [domain], {'fields': fields}
+        )
+    except Exception as e:
+        print(f"Failed to fetch partners: {e}")
+        return 0
+
+    synced_count = 0
+    for partner in partners:
+        pid = partner['id']
+        name = safe_filename(partner['name'])
+        email = partner.get('email') or "N/A"
+        phone = partner.get('phone') or "N/A"
+        website = partner.get('website') or ""
+        last_updated = partner.get('write_date') or "N/A"
+
+        md_content = f"""---
+id: odoo-partner-{pid}
+type: Client Partner
+name: "{name}"
+email: "{email}"
+phone: "{phone}"
+last_updated: {last_updated}
+sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+tags:
+  - client/partner
+---
+# 🏢 Client Partner: {name}
+
+- **Company Name:** {name}
+- **Email:** [{email}](mailto:{email})
+- **Phone:** {phone}
+- **Website:** {website}
+- **Notes:** No description provided.
+
+---
+## 📋 Associated Projects & Opportunities (Dataview)
+
+```dataview
+TABLE manager AS "Project Manager", task_count AS "Tasks"
+FROM "04-Projects/Odoo Projects"
+WHERE client = "{name}"
+```
+"""
+        filename = f"Partner - {name} ({pid}).md"
+        file_path = os.path.join(partners_folder, filename)
+        
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(md_content)
+        synced_count += 1
+
+    cleanup_stale_files(partners_folder, [f"Partner - {safe_filename(p['name'])} ({p['id']}).md" for p in partners])
+    print(f"Synced {synced_count} Client Partners to 06-Clients/Odoo Partners/")
+    return synced_count
 
 def sync_project_tasks(models, uid):
     print("Syncing Project Tasks from Odoo...")
@@ -175,6 +252,7 @@ tags:
             f.write(md_content)
         synced_count += 1
         
+    cleanup_stale_files(tasks_folder, [f"Task - {safe_filename(t['name'])} ({t['id']}).md" for t in tasks])
     print(f"Synced {synced_count} Project Tasks to 04-Projects/Odoo Tasks/")
 
 def sync_employees(models, uid):
@@ -182,8 +260,24 @@ def sync_employees(models, uid):
     emp_folder = os.path.join(VAULT_PATH, "07-Employees")
     os.makedirs(emp_folder, exist_ok=True)
     
+    # Discover which fields actually exist on hr.employee in this DB
+    try:
+        existing_fields = models.execute_kw(
+            DB_NAME, uid, API_KEY,
+            'hr.employee', 'fields_get', [],
+            {'attributes': ['type']}
+        )
+    except Exception as e:
+        print(f"Failed to introspect hr.employee fields: {e}")
+        return {"emp_id_mapping": {}, "employee_count": 0}
+
+    def pick(*names):
+        return [f for f in names if f in existing_fields]
+
     domain = [('active', '=', True)]
-    fields = ['name', 'work_email', 'work_phone', 'mobile_phone', 'job_title', 'department_id', 'parent_id', 'work_location_id', 'write_date', 'capacity_percentage', 'cert_ids']
+    fields = pick('name', 'work_email', 'work_phone', 'mobile_phone', 'job_title',
+                  'department_id', 'parent_id', 'work_location_id', 'write_date',
+                  'capacity_percentage', 'cert_ids', 'skill_ids', 'employee_skill_ids')
     
     try:
         employees = models.execute_kw(
@@ -193,7 +287,7 @@ def sync_employees(models, uid):
         )
     except Exception as e:
         print(f"Failed to fetch Employees: {e}")
-        return
+        return {"emp_id_mapping": {}, "employee_count": 0}
 
     synced_count = 0
     emp_list = []
@@ -209,7 +303,7 @@ def sync_employees(models, uid):
         email = emp.get('work_email') or "N/A"
         phone = emp.get('work_phone') or emp.get('mobile_phone') or "N/A"
         location = emp['work_location_id'][1] if emp.get('work_location_id') else "Office"
-        capacity_utilization = emp.get('capacity_percentage', 0) or 0
+        capacity_utilization = emp.get('capacity_percentage') or 0
         last_updated = emp.get('write_date', 'N/A')
         
         # Employee ID Mapping: Odoo ID -> Internal Mapping
@@ -219,16 +313,22 @@ def sync_employees(models, uid):
             "name": name
         }
         
-        # Extract certifications from cert_ids relationship
+        # Extract certifications from available relationship fields
         certifications = []
-        if emp.get('cert_ids'):
+        if 'cert_ids' in emp and emp.get('cert_ids'):
             for cert_ref in emp['cert_ids']:
-                # cert_ref is typically a tuple (id, name) or similar
                 if isinstance(cert_ref, (list, tuple)):
                     cert_name = cert_ref[1] if len(cert_ref) > 1 else str(cert_ref[0])
                 else:
                     cert_name = str(cert_ref)
                 certifications.append(cert_name)
+        elif 'skill_ids' in emp and emp.get('skill_ids'):
+            for skill_ref in emp['skill_ids']:
+                if isinstance(skill_ref, (list, tuple)):
+                    skill_name = skill_ref[1] if len(skill_ref) > 1 else str(skill_ref[0])
+                else:
+                    skill_name = str(skill_ref)
+                certifications.append(skill_name)
         
         emp_list.append({
             "odoo_id": odoo_id,
@@ -238,7 +338,7 @@ def sync_employees(models, uid):
             "department": department,
             "email": email,
             "phone": phone,
-            "capacity_utilization": float(capacity_utilization),
+            "capacity_utilization": float(capacity_utilization or 0),
             "certifications": certifications
         })
 
@@ -252,12 +352,13 @@ def sync_employees(models, uid):
         email: "{email}"
         phone: "{phone}"
         location: "{location}"
-        capacity_utilization: {capacity_utilization}
+        capacity_utilization: {capacity_utilization or 0}
+        last_updated: {last_updated}
         sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         tags:
           - employee
           - department/{department.lower().replace(" ", "-")}
-          - capacity/{str(float(capacity_utilization)).replace(".", "-")}
+          - capacity/{str(float(capacity_utilization or 0)).replace(".", "-")}
         ---
         # 👤 Employee Profile: {name}
 
@@ -269,7 +370,7 @@ def sync_employees(models, uid):
         - **Work Email:** [{email}](mailto:{email})
         - **Work Phone:** {phone}
         - **Location:** {location}
-        - **Capacity Utilization:** {capacity_utilization}%
+        - **Capacity Utilization:** {capacity_utilization or 0}%
 
         ---
         ## 🎯 Certifications
@@ -287,6 +388,8 @@ def sync_employees(models, uid):
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(md_content)
         synced_count += 1
+
+    cleanup_stale_files(emp_folder, [f"Employee - {safe_filename(e['name'])}.md" for e in employees])
 
     # Create Master Index for 1-click access with capacity and cert info
     index_md = f"""---
@@ -314,6 +417,30 @@ def sync_employees(models, uid):
 
     # Return the ID mapping for use by other modules
     return {"emp_id_mapping": emp_id_mapping, "employee_count": synced_count}
+
+def cleanup_stale_files(folder, current_filenames):
+    """Remove generated .md files in folder that are no longer present in Odoo."""
+    if not os.path.isdir(folder):
+        return
+    keep = set(current_filenames)
+    removed = 0
+    for fname in os.listdir(folder):
+        if not fname.endswith(".md"):
+            continue
+        if fname in keep:
+            continue
+        path = os.path.join(folder, fname)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                head = f.read(200)
+        except Exception:
+            continue
+        # Only delete files that carry the sync frontmatter marker
+        if "id: odoo-" in head:
+            os.remove(path)
+            removed += 1
+    if removed:
+        print(f"  Cleaned up {removed} stale file(s) in {os.path.basename(folder)}")
 
 def main():
     if not validate_config():
@@ -344,7 +471,7 @@ def main():
         sync_crm_leads(models, uid)
         sync_project_tasks(models, uid)
         emp_result = sync_employees(models, uid)
-        print("\n✅ All Odoo Data (Leads, Tasks, Employees) Synced Successfully!")
+        print("\n✅ Odoo Sync Completed. Review counts above for any warnings.")
         
         # Return the employee ID mapping for API gateway use
         if emp_result and "emp_id_mapping" in emp_result:

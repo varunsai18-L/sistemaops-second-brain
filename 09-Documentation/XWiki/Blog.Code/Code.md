@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.Code.WebHome
+id: xwiki-Blog.Code.WebHome
 type: XWiki Page
 space: "Blog.Code"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907500000
-sync_date: 2026-07-21 11:03:47
+sync_date: 2026-08-16 19:46:06
 tags:
   - xwiki/documentation
   - space/blog.code
@@ -15,6 +15,8 @@ tags:
 - **Space:** Blog.Code
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907500000
-- **Source:** [Code](https://wiki.systemaops.in/bin/view/Blog.Code/xwiki:Blog.Code.WebHome)
+- **Source:** [Code](https://wiki.systemaops.in/bin/view/Blog.Code/Blog.Code.WebHome)
 
 ---
+
+

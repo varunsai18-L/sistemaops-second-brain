@@ -1,0 +1,22 @@
+---
+id: xwiki-Panels.SyntaxDocumentInformation
+type: XWiki Page
+space: "Panels"
+author: "XWiki.superadmin"
+version: "1.1"
+last_modified: 1781906949000
+sync_date: 2026-08-16 19:45:44
+tags:
+  - xwiki/documentation
+  - space/panels
+---
+# Syntax Document Information
+
+- **Space:** Panels
+- **Author:** XWiki.superadmin
+- **Last Modified:** 1781906949000
+- **Source:** [Syntax Document Information](https://wiki.systemaops.in/bin/view/Panels/Panels.SyntaxDocumentInformation)
+
+---
+
+

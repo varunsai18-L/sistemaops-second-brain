@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.BlogPostLayoutMacros
+id: xwiki-Blog.BlogPostLayoutMacros
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907602000
-sync_date: 2026-07-21 11:03:50
+sync_date: 2026-08-16 19:46:07
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,7 +15,7 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907602000
-- **Source:** [BlogPostLayoutMacros](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.BlogPostLayoutMacros)
+- **Source:** [BlogPostLayoutMacros](https://wiki.systemaops.in/bin/view/Blog/Blog.BlogPostLayoutMacros)
 
 ---
 
@@ -42,3 +42,4 @@ tags:
   #setVariable("$layoutsParameters" $macro.layoutParams)
 #end
 {{/velocity}}
+

@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.Categories.Other
+id: xwiki-Blog.Categories.Other
 type: XWiki Page
 space: "Blog.Categories"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907574000
-sync_date: 2026-07-21 11:03:43
+sync_date: 2026-08-16 19:46:04
 tags:
   - xwiki/documentation
   - space/blog.categories
@@ -15,6 +15,8 @@ tags:
 - **Space:** Blog.Categories
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907574000
-- **Source:** [Other](https://wiki.systemaops.in/bin/view/Blog.Categories/xwiki:Blog.Categories.Other)
+- **Source:** [Other](https://wiki.systemaops.in/bin/view/Blog.Categories/Blog.Categories.Other)
 
 ---
+
+

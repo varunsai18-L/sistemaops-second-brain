@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:XWiki.SchedulerJobClass
+id: xwiki-XWiki.SchedulerJobClass
 type: XWiki Page
 space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781903453000
-sync_date: 2026-07-21 11:00:02
+sync_date: 2026-08-16 19:44:25
 tags:
   - xwiki/documentation
   - space/xwiki
@@ -15,6 +15,8 @@ tags:
 - **Space:** XWiki
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781903453000
-- **Source:** [SchedulerJobClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.SchedulerJobClass)
+- **Source:** [SchedulerJobClass](https://wiki.systemaops.in/bin/view/XWiki/XWiki.SchedulerJobClass)
 
 ---
+
+

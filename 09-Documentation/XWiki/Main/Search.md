@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Main.Search
+id: xwiki-Main.Search
 type: XWiki Page
 space: "Main"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781909931000
-sync_date: 2026-07-21 11:03:54
+sync_date: 2026-08-16 19:46:09
 tags:
   - xwiki/documentation
   - space/main
@@ -15,7 +15,7 @@ tags:
 - **Space:** Main
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781909931000
-- **Source:** [Search](https://wiki.systemaops.in/bin/view/Main/xwiki:Main.Search)
+- **Source:** [Search](https://wiki.systemaops.in/bin/view/Main/Main.Search)
 
 ---
 

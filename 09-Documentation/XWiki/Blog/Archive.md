@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.ArchiveSheet
+id: xwiki-Blog.ArchiveSheet
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907600000
-sync_date: 2026-07-21 11:03:49
+sync_date: 2026-08-16 19:46:07
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,7 +15,7 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907600000
-- **Source:** [Archive](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.ArchiveSheet)
+- **Source:** [Archive](https://wiki.systemaops.in/bin/view/Blog/Blog.ArchiveSheet)
 
 ---
 

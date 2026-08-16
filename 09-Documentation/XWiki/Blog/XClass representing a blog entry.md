@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.BlogPostClass
+id: xwiki-Blog.BlogPostClass
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907640000
-sync_date: 2026-07-21 11:03:56
+sync_date: 2026-08-16 19:46:11
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,6 +15,8 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907640000
-- **Source:** [XClass representing a blog entry](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.BlogPostClass)
+- **Source:** [XClass representing a blog entry](https://wiki.systemaops.in/bin/view/Blog/Blog.BlogPostClass)
 
 ---
+
+

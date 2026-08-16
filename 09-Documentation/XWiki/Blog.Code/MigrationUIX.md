@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.Code.MigrationUIX
+id: xwiki-Blog.Code.MigrationUIX
 type: XWiki Page
 space: "Blog.Code"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907495000
-sync_date: 2026-07-21 11:03:28
+sync_date: 2026-08-16 19:45:56
 tags:
   - xwiki/documentation
   - space/blog.code
@@ -15,6 +15,8 @@ tags:
 - **Space:** Blog.Code
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907495000
-- **Source:** [MigrationUIX](https://wiki.systemaops.in/bin/view/Blog.Code/xwiki:Blog.Code.MigrationUIX)
+- **Source:** [MigrationUIX](https://wiki.systemaops.in/bin/view/Blog.Code/Blog.Code.MigrationUIX)
 
 ---
+
+

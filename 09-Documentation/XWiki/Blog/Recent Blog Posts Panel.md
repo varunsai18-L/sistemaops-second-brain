@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.RecentPostsPanel
+id: xwiki-Blog.RecentPostsPanel
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907596000
-sync_date: 2026-07-21 11:03:45
+sync_date: 2026-08-16 19:46:06
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,6 +15,8 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907596000
-- **Source:** [Recent Blog Posts Panel](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.RecentPostsPanel)
+- **Source:** [Recent Blog Posts Panel](https://wiki.systemaops.in/bin/view/Blog/Blog.RecentPostsPanel)
 
 ---
+
+

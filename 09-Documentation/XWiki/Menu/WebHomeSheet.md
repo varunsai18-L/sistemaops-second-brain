@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Menu.WebHomeSheet
+id: xwiki-Menu.WebHomeSheet
 type: XWiki Page
 space: "Menu"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907309000
-sync_date: 2026-07-21 11:03:19
+sync_date: 2026-08-16 19:45:53
 tags:
   - xwiki/documentation
   - space/menu
@@ -15,7 +15,7 @@ tags:
 - **Space:** Menu
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907309000
-- **Source:** [WebHomeSheet](https://wiki.systemaops.in/bin/view/Menu/xwiki:Menu.WebHomeSheet)
+- **Source:** [WebHomeSheet](https://wiki.systemaops.in/bin/view/Menu/Menu.WebHomeSheet)
 
 ---
 

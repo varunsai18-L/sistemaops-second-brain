@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:Blog.BlogPostsMigration
+id: xwiki-Blog.BlogPostsMigration
 type: XWiki Page
 space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907541000
-sync_date: 2026-07-21 11:03:54
+sync_date: 2026-08-16 19:46:09
 tags:
   - xwiki/documentation
   - space/blog
@@ -15,7 +15,7 @@ tags:
 - **Space:** Blog
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781907541000
-- **Source:** [Blog posts migration](https://wiki.systemaops.in/bin/view/Blog/xwiki:Blog.BlogPostsMigration)
+- **Source:** [Blog posts migration](https://wiki.systemaops.in/bin/view/Blog/Blog.BlogPostsMigration)
 
 ---
 
@@ -69,3 +69,4 @@ obj.name=doc.fullName and obj.className='Blog.BlogPostClass' and doc.fullName no
 {{error}}You are not allowed to execute the blog posts migration{{/error}}
 #end
 {{/velocity}}
+

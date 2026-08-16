@@ -11,10 +11,14 @@
             "id": "db7f975f44db18ca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "07-Employees/Employee - Blesson.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Employee - Blesson"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:employee",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -351,34 +354,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "db7f975f44db18ca",
+  "active": "4676bf7f2705ec00",
   "lastOpenFiles": [
-    "07-Employees/Employee - Hiten Vinodbhai Katariya.md",
-    "07-Employees/Employee - Gona Gowtham Sai.md",
-    "07-Employees/Employee - Diya Panjwani.md",
-    "07-Employees/Employee - Dev Dharmesh Patel.md",
-    "07-Employees/Employee - Ann Luvis.md",
-    "07-Employees/Employee - Adabala Seetha Sriram.md",
-    "07-Employees/00 - Master Employee Directory Index.md",
-    "07-Employees/Employee - Dhanush.md",
-    "07-Employees/Employee - Admin.md",
-    "00 - CEO Dashboard.md",
-    "04-Projects/Odoo Tasks/Task - S00033 - Wiring Services (374).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Painting (375).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Furniture Assembly (376).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Flooring Services (377).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Plumbing Services (378).md",
-    "04-Projects/Odoo Tasks/Task - S00033 - Wiring Services (401).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Painting (402).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Furniture Assembly (403).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Flooring Services (404).md",
-    "04-Projects/Odoo Tasks/Task - S00034 - Plumbing Services (405).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  Hair Salon (216).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry Software reseller (215).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  Clinical appointment (318).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Bar & Pub (273).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  Contractor Scheduling (320).md",
-    "04-Projects/Odoo Tasks/Task - Odoo Industry  IT Hardware & Support (211).md",
+    "15-Automation/__pycache__/sync_xwiki.cpython-314.pyc",
+    "09-Documentation/XWiki/Help.Applications.Movies.Code/Code.md",
+    "09-Documentation/XWiki/JobMacro/Translations.md",
+    "09-Documentation/XWiki/JobMacro/Job Progress Macro.md",
+    "09-Documentation/XWiki/LDAPUserImport/LDAPUserImportUIX.md",
+    "09-Documentation/XWiki/LDAPUserImport/LDAPUserImportService.md",
+    "09-Documentation/XWiki/Help.Applications.Contributors.Code/Contributors Template Provider.md",
+    "09-Documentation/XWiki/Help.Applications.Contributors/Preferences.md",
+    "09-Documentation/XWiki/Help.Applications.Movies/Movies.md",
+    "09-Documentation/XWiki/Help.Applications.Movies.Code/MoviesSheet.md",
+    "09-Documentation/XWiki/Help.Applications.Movies.Code/MoviesClass.md",
+    "09-Documentation/XWiki/Help.Applications.Movies.Code/MoviesTranslations.md",
+    "09-Documentation/XWiki/PanelsCode/ApplicationsPanelBlackListClass.md",
+    "09-Documentation/XWiki/PanelsCode/ApplicationsPanelConfigurationAjax.md",
+    "09-Documentation/XWiki/PanelsCode/PanelsCode.md",
+    "09-Documentation/XWiki/PanelsCode/NavigationConfigurationSection.md",
+    "09-Documentation/XWiki/LDAPUserImport/LDAPUserImportConfigClass.md",
+    "09-Documentation/XWiki/PanelsCode/NavigationConfigurationSheet.md",
+    "09-Documentation/XWiki/PanelsCode/ApplicationsPanelConfiguration Sheet.md",
+    "09-Documentation/XWiki/PanelsCode/RequireJSConfig.md",
+    "09-Documentation/XWiki/PanelsCode/Translations.md",
+    "09-Documentation/XWiki/PanelsCode/NavigationConfigurationClass.md",
+    "09-Documentation/XWiki/PanelsCode/ApplicationsPanelOrderClass.md",
+    "09-Documentation/XWiki/PanelsCode/ApplicationsPanelConfigurable.md",
+    "09-Documentation/XWiki/PanelsCode/Page Administration.md",
+    "09-Documentation/XWiki/Help.Applications.Movies.Code/Movies Template Provider.md",
+    "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "04-Projects/rfq-knowledge/attachments/deployment_diagram.svg",

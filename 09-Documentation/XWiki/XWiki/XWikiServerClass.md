@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:XWiki.XWikiServerClass
+id: xwiki-XWiki.XWikiServerClass
 type: XWiki Page
 space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781903476000
-sync_date: 2026-07-21 11:00:21
+sync_date: 2026-08-16 19:44:32
 tags:
   - xwiki/documentation
   - space/xwiki
@@ -15,6 +15,8 @@ tags:
 - **Space:** XWiki
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781903476000
-- **Source:** [XWikiServerClass](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.XWikiServerClass)
+- **Source:** [XWikiServerClass](https://wiki.systemaops.in/bin/view/XWiki/XWiki.XWikiServerClass)
 
 ---
+
+

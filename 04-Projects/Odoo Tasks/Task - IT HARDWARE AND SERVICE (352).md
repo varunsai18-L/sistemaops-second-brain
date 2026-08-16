@@ -5,7 +5,7 @@ project: "App deployment"
 stage: "Migration"
 assignees: "Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-16 14:54:49
+sync_date: 2026-08-16 19:44:12
 tags:
   - odoo/task
   - project/app-deployment
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[App deployment]]
 - **Odoo Stage:** Migration
 - **Assignees:** Vakeel Rakesh
-- **Last Sync:** 2026-08-16 14:54:49
+- **Last Sync:** 2026-08-16 19:44:12
 
 ## Description
 IT Hardwarehttp://10.99.0.9:8091

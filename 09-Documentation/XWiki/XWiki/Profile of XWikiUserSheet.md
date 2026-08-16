@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:XWiki.XWikiUserSheet
+id: xwiki-XWiki.XWikiUserSheet
 type: XWiki Page
 space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906372000
-sync_date: 2026-07-21 11:01:46
+sync_date: 2026-08-16 19:45:05
 tags:
   - xwiki/documentation
   - space/xwiki
@@ -15,7 +15,7 @@ tags:
 - **Space:** XWiki
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781906372000
-- **Source:** [Profile of XWikiUserSheet](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.XWikiUserSheet)
+- **Source:** [Profile of XWikiUserSheet](https://wiki.systemaops.in/bin/view/XWiki/XWiki.XWikiUserSheet)
 
 ---
 

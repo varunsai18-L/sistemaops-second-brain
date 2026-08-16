@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:XWiki.ColorThemePropertyDisplayer
+id: xwiki-XWiki.ColorThemePropertyDisplayer
 type: XWiki Page
 space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906201000
-sync_date: 2026-07-21 11:01:20
+sync_date: 2026-08-16 19:44:58
 tags:
   - xwiki/documentation
   - space/xwiki
@@ -15,7 +15,7 @@ tags:
 - **Space:** XWiki
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781906201000
-- **Source:** [ColorThemePropertyDisplayer](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.ColorThemePropertyDisplayer)
+- **Source:** [ColorThemePropertyDisplayer](https://wiki.systemaops.in/bin/view/XWiki/XWiki.ColorThemePropertyDisplayer)
 
 ---
 
@@ -138,3 +138,4 @@ tags:
   </div>
 {{/html}}
 {{/velocity}}
+

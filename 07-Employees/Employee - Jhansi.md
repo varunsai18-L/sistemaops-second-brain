@@ -1,38 +1,40 @@
 ---
-id: odoo-emp-68
-type: Employee Profile
-name: "Jhansi"
-job_title: "Technical Project manager"
-department: "Administration"
-manager: "Rohit Thumu"
-email: "jhansichintapalli5757@gmail.com"
-phone: "7013017215"
-location: "Office"
-last_updated: 2026-07-25 17:31:53
-sync_date: 2026-08-12 21:58:40
-capacity_utilization: 70.0
-tags:
-  - employee
-  - department/administration
----
-# 👤 Employee Profile: Jhansi
+        id: odoo-emp-68
+        type: Employee Profile
+        name: "Jhansi"
+        job_title: "Technical Project manager"
+        department: "Administration"
+        manager: "Rohit Thumu"
+        email: "jhansichintapalli5757@gmail.com"
+        phone: "7013017215"
+        location: "Office"
+        capacity_utilization: 0
+        last_updated: 2026-07-25 17:31:53
+        sync_date: 2026-08-16 19:44:13
+        tags:
+          - employee
+          - department/administration
+          - capacity/0-0
+        ---
+        # 👤 Employee Profile: Jhansi
 
-## 📋 A to Z Details
-- **Full Name:** Jhansi
-- **Job Title:** Technical Project manager
-- **Department:** [[Administration]]
-- **Manager / Supervisor:** [[Rohit Thumu]]
-- **Work Email:** [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com)
-- **Work Phone:** 7013017215
-- **Location:** Office
+        ## 📋 A to Z Details
+        - **Full Name:** Jhansi
+        - **Job Title:** Technical Project manager
+        - **Department:** [[Administration]]
+        - **Manager / Supervisor:** [[Rohit Thumu]]
+        - **Work Email:** [jhansichintapalli5757@gmail.com](mailto:jhansichintapalli5757@gmail.com)
+        - **Work Phone:** 7013017215
+        - **Location:** Office
+        - **Capacity Utilization:** 0%
 
----
+        ---
+        ## 🎯 Certifications
+        No certifications listed
 
-## 🎯 Certifications
-- ISO 9001
-- PMP
-## 🎯 Assigned Tasks & Projects
-- Search assigned tasks in Obsidian: `assignees:"Jhansi"` or `[[Jhansi]]`
+        ## 🎯 Assigned Tasks & Projects
+        - Search assigned tasks in Obsidian: `assignees:"Jhansi"` or `[[Jhansi]]`
 
----
-*Synced from Odoo HR Module on 2026-08-12 21:58:40*
+        ---
+        *Synced from Odoo HR Module on 2026-08-16 19:44:13*
+        

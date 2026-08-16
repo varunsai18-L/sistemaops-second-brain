@@ -5,7 +5,7 @@ project: "AI Workflow Automation - N8N "
 stage: "Delivered"
 assignees: "Nomika"
 last_updated: 2026-06-12 14:54:51
-sync_date: 2026-08-16 14:54:49
+sync_date: 2026-08-16 19:44:12
 tags:
   - odoo/task
   - project/ai-workflow-automation---n8n-
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[AI Workflow Automation - N8N ]]
 - **Odoo Stage:** Delivered
 - **Assignees:** Nomika
-- **Last Sync:** 2026-08-16 14:54:49
+- **Last Sync:** 2026-08-16 19:44:12
 
 ## Description
 Automated Employee Engagement & Reminder System using n8n Reads schedules from Google Sheets Calculates reminder timings automatically Generates professional reminder messages using AI Sends reminders to WhatsApp groups using WAHA runs completely automatically using scheduled workflowsArchitecture:Schedule Trigger -> Google Sheets -> IF Condition -> AI Agent -> WAHA API -> WhatsApp GroupFeatures:Check-In Reminder: Sends automated check-in reminders.Check-Out Reminder: Sends automated check-out reminders.Meeting Reminder: Automatically sends reminders before meeting time.Daily AI Insight: Shares AI news and insights with teams.Dynamic Scheduling Reminder timing is controlled from Google Sheets.Technologies Used:Technology | Purpose n8n Workflow | Automation Docker | Deployment WAHA API | WhatsApp Messaging Google Sheets | Data Storage Azure OpenAI | AI Message GenerationOverall_workflow.pdfsampleGoogleSheetDAta.png

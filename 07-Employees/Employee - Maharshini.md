@@ -1,33 +1,40 @@
 ---
-id: odoo-emp-55
-type: Employee Profile
-name: "Maharshini"
-job_title: "Intern"
-department: "General"
-manager: "Rohit Thumu"
-email: "maharshini09@gmail.com"
-phone: "N/A"
-location: "Office"
-last_updated: 2026-08-05 17:18:06
-sync_date: 2026-08-12 21:58:40
-tags:
-  - employee
-  - department/general
----
-# 👤 Employee Profile: Maharshini
+        id: odoo-emp-55
+        type: Employee Profile
+        name: "Maharshini"
+        job_title: "Intern"
+        department: "General"
+        manager: "Rohit Thumu"
+        email: "maharshini09@gmail.com"
+        phone: "N/A"
+        location: "Office"
+        capacity_utilization: 0
+        last_updated: 2026-08-14 04:10:40
+        sync_date: 2026-08-16 19:44:13
+        tags:
+          - employee
+          - department/general
+          - capacity/0-0
+        ---
+        # 👤 Employee Profile: Maharshini
 
-## 📋 A to Z Details
-- **Full Name:** Maharshini
-- **Job Title:** Intern
-- **Department:** [[General]]
-- **Manager / Supervisor:** [[Rohit Thumu]]
-- **Work Email:** [maharshini09@gmail.com](mailto:maharshini09@gmail.com)
-- **Work Phone:** N/A
-- **Location:** Office
+        ## 📋 A to Z Details
+        - **Full Name:** Maharshini
+        - **Job Title:** Intern
+        - **Department:** [[General]]
+        - **Manager / Supervisor:** [[Rohit Thumu]]
+        - **Work Email:** [maharshini09@gmail.com](mailto:maharshini09@gmail.com)
+        - **Work Phone:** N/A
+        - **Location:** Office
+        - **Capacity Utilization:** 0%
 
----
-## 🎯 Assigned Tasks & Projects
-- Search assigned tasks in Obsidian: `assignees:"Maharshini"` or `[[Maharshini]]`
+        ---
+        ## 🎯 Certifications
+        30, 62, 59, 3, 68, 88
 
----
-*Synced from Odoo HR Module on 2026-08-12 21:58:40*
+        ## 🎯 Assigned Tasks & Projects
+        - Search assigned tasks in Obsidian: `assignees:"Maharshini"` or `[[Maharshini]]`
+
+        ---
+        *Synced from Odoo HR Module on 2026-08-16 19:44:13*
+        

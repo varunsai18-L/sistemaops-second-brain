@@ -1,11 +1,11 @@
 ---
-id: xwiki-xwiki:XWiki.AdminSheet
+id: xwiki-XWiki.AdminSheet
 type: XWiki Page
 space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906188000
-sync_date: 2026-07-21 11:01:20
+sync_date: 2026-08-16 19:44:58
 tags:
   - xwiki/documentation
   - space/xwiki
@@ -15,7 +15,7 @@ tags:
 - **Space:** XWiki
 - **Author:** XWiki.superadmin
 - **Last Modified:** 1781906188000
-- **Source:** [Administration](https://wiki.systemaops.in/bin/view/XWiki/xwiki:XWiki.AdminSheet)
+- **Source:** [Administration](https://wiki.systemaops.in/bin/view/XWiki/XWiki.AdminSheet)
 
 ---
 
