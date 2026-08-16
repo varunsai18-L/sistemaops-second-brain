@@ -1,40 +1,39 @@
 ---
-        id: odoo-emp-25
-        type: Employee Profile
-        name: "Admin"
-        job_title: "Admin"
-        department: "Finance & Administration"
-        manager: "None"
-        email: "admin@systemaops.com"
-        phone: "N/A"
-        location: "Office"
-        capacity_utilization: 0
-        last_updated: 2026-07-20 16:28:06
-        sync_date: 2026-08-16 19:44:13
-        tags:
-          - employee
-          - department/finance-&-administration
-          - capacity/0-0
-        ---
-        # 👤 Employee Profile: Admin
+id: odoo-emp-25
+type: Employee Profile
+name: "Admin"
+job_title: "Admin"
+department: "Finance & Administration"
+manager: "None"
+email: "admin@systemaops.com"
+phone: "N/A"
+location: "Office"
+capacity_utilization: 0
+last_updated: 2026-07-20 16:28:06
+sync_date: 2026-08-16 20:00:40
+tags:
+  - employee
+  - department/finance-&-administration
+  - capacity/0-0
+---
+# 👤 Employee Profile: Admin
 
-        ## 📋 A to Z Details
-        - **Full Name:** Admin
-        - **Job Title:** Admin
-        - **Department:** [[Finance & Administration]]
-        - **Manager / Supervisor:** [[None]]
-        - **Work Email:** [admin@systemaops.com](mailto:admin@systemaops.com)
-        - **Work Phone:** N/A
-        - **Location:** Office
-        - **Capacity Utilization:** 0%
+## 📋 A to Z Details
+- **Full Name:** Admin
+- **Job Title:** Admin
+- **Department:** [[Finance & Administration]]
+- **Manager / Supervisor:** [[None]]
+- **Work Email:** [admin@systemaops.com](mailto:admin@systemaops.com)
+- **Work Phone:** N/A
+- **Location:** Office
+- **Capacity Utilization:** 0%
 
-        ---
-        ## 🎯 Certifications
-        No certifications listed
+---
+## 🎯 Certifications
+No certifications listed
 
-        ## 🎯 Assigned Tasks & Projects
-        - Search assigned tasks in Obsidian: `assignees:"Admin"` or `[[Admin]]`
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Admin"` or `[[Admin]]`
 
-        ---
-        *Synced from Odoo HR Module on 2026-08-16 19:44:13*
-        
+---
+*Synced from Odoo HR Module on 2026-08-16 20:00:40*

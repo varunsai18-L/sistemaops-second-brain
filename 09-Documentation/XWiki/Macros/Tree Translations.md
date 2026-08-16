@@ -5,7 +5,7 @@ space: "Macros"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781905506000
-sync_date: 2026-08-16 19:44:43
+sync_date: 2026-08-16 20:01:12
 tags:
   - xwiki/documentation
   - space/macros

@@ -1,40 +1,39 @@
 ---
-        id: odoo-emp-22
-        type: Employee Profile
-        name: "Rohit Thumu"
-        job_title: "Chief Executive Officer"
-        department: "Leadership & Operations"
-        manager: "None"
-        email: "thumurohit@systemaops.com"
-        phone: "+4917685248689"
-        location: "Office"
-        capacity_utilization: 0
-        last_updated: 2026-06-06 18:57:39
-        sync_date: 2026-08-16 19:44:13
-        tags:
-          - employee
-          - department/leadership-&-operations
-          - capacity/0-0
-        ---
-        # 👤 Employee Profile: Rohit Thumu
+id: odoo-emp-22
+type: Employee Profile
+name: "Rohit Thumu"
+job_title: "Chief Executive Officer"
+department: "Leadership & Operations"
+manager: "None"
+email: "thumurohit@systemaops.com"
+phone: "+4917685248689"
+location: "Office"
+capacity_utilization: 75.0
+last_updated: 2026-06-06 18:57:39
+sync_date: 2026-08-16 20:00:40
+tags:
+  - employee
+  - department/leadership-&-operations
+  - capacity/75-0
+---
+# 👤 Employee Profile: Rohit Thumu
 
-        ## 📋 A to Z Details
-        - **Full Name:** Rohit Thumu
-        - **Job Title:** Chief Executive Officer
-        - **Department:** [[Leadership & Operations]]
-        - **Manager / Supervisor:** [[None]]
-        - **Work Email:** [thumurohit@systemaops.com](mailto:thumurohit@systemaops.com)
-        - **Work Phone:** +4917685248689
-        - **Location:** Office
-        - **Capacity Utilization:** 0%
+## 📋 A to Z Details
+- **Full Name:** Rohit Thumu
+- **Job Title:** Chief Executive Officer
+- **Department:** [[Leadership & Operations]]
+- **Manager / Supervisor:** [[None]]
+- **Work Email:** [thumurohit@systemaops.com](mailto:thumurohit@systemaops.com)
+- **Work Phone:** +4917685248689
+- **Location:** Office
+- **Capacity Utilization:** 75.0%
 
-        ---
-        ## 🎯 Certifications
-        No certifications listed
+---
+## 🎯 Certifications
+ISO 9001, PMP, Six Sigma
 
-        ## 🎯 Assigned Tasks & Projects
-        - Search assigned tasks in Obsidian: `assignees:"Rohit Thumu"` or `[[Rohit Thumu]]`
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"Rohit Thumu"` or `[[Rohit Thumu]]`
 
-        ---
-        *Synced from Odoo HR Module on 2026-08-16 19:44:13*
-        
+---
+*Synced from Odoo HR Module on 2026-08-16 20:00:40*

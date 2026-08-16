@@ -5,7 +5,7 @@ name: "SystemaOps"
 email: "info@systemaops.com"
 phone: "+49 17685248689"
 last_updated: 2026-07-30 17:55:41
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

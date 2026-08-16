@@ -5,7 +5,7 @@ name: "Shangai Pterocarpus Furniture Co., Ltd."
 email: "ptero@example.com"
 phone: "+86 21 1234 5678"
 last_updated: 2026-06-06 08:11:13
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

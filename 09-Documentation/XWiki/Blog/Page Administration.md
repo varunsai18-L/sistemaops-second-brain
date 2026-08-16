@@ -5,7 +5,7 @@ space: "Blog"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907459000
-sync_date: 2026-08-16 19:46:02
+sync_date: 2026-08-16 20:02:28
 tags:
   - xwiki/documentation
   - space/blog

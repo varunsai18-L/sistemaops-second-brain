@@ -5,7 +5,7 @@ space: "Help.Applications.Contributors"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781909454000
-sync_date: 2026-08-16 19:45:54
+sync_date: 2026-08-16 20:02:20
 tags:
   - xwiki/documentation
   - space/help.applications.contributors

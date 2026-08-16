@@ -5,7 +5,7 @@ name: "Tata Steel"
 email: "accounts@tatasteel.in"
 phone: "N/A"
 last_updated: 2026-07-17 13:14:13
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

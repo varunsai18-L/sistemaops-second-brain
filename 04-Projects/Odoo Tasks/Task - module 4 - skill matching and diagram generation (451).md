@@ -5,7 +5,7 @@ project: "RFQ Analzser"
 stage: "Backlog"
 assignees: "Thulasi Jyothi Reddy"
 last_updated: 2026-06-11 16:27:47
-sync_date: 2026-08-16 19:44:12
+sync_date: 2026-08-16 20:00:40
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Thulasi Jyothi Reddy
-- **Last Sync:** 2026-08-16 19:44:12
+- **Last Sync:** 2026-08-16 20:00:40
 
 ## Description
 No description provided.

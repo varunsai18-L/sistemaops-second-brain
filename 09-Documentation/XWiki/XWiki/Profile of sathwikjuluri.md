@@ -5,7 +5,7 @@ space: "XWiki"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1782127306000
-sync_date: 2026-08-16 19:45:48
+sync_date: 2026-08-16 20:02:15
 tags:
   - xwiki/documentation
   - space/xwiki

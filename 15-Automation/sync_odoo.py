@@ -255,6 +255,29 @@ tags:
     cleanup_stale_files(tasks_folder, [f"Task - {safe_filename(t['name'])} ({t['id']}).md" for t in tasks])
     print(f"Synced {synced_count} Project Tasks to 04-Projects/Odoo Tasks/")
 
+def read_existing_employee_data(emp_folder, name):
+    """Read capacity/cert data from an existing vault file so values aren't
+    lost when the Odoo DB no longer exposes the custom fields."""
+    cap = None
+    certs = None
+    file_path = os.path.join(emp_folder, f"Employee - {name}.md")
+    if not os.path.exists(file_path):
+        return None, None
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        m = re.search(r'capacity_utilization:\s*([0-9.]+)', content)
+        if m:
+            cap = float(m.group(1))
+        m = re.search(r'##\s*🎯?\s*Certifications\s*\n(.*?)(?:\n##\s*|\n---|\Z)', content, re.DOTALL)
+        if m:
+            certs = [c.strip().lstrip('- ').strip() for c in m.group(1).splitlines() if c.strip()]
+            certs = [c for c in certs if c and c.lower() != 'no certifications listed']
+    except Exception:
+        pass
+    return cap, certs
+
+
 def sync_employees(models, uid):
     print("Syncing Employee Directory from Odoo...")
     emp_folder = os.path.join(VAULT_PATH, "07-Employees")
@@ -305,7 +328,7 @@ def sync_employees(models, uid):
         location = emp['work_location_id'][1] if emp.get('work_location_id') else "Office"
         capacity_utilization = emp.get('capacity_percentage') or 0
         last_updated = emp.get('write_date', 'N/A')
-        
+
         # Employee ID Mapping: Odoo ID -> Internal Mapping
         emp_id_mapping[odoo_id] = {
             "odoo_id": odoo_id,
@@ -329,6 +352,15 @@ def sync_employees(models, uid):
                 else:
                     skill_name = str(skill_ref)
                 certifications.append(skill_name)
+
+        # If the Odoo DB no longer provides capacity/cert fields, preserve the
+        # last known values from the existing vault file instead of wiping them.
+        if not capacity_utilization and not certifications:
+            saved_cap, saved_certs = read_existing_employee_data(emp_folder, name)
+            if saved_cap is not None:
+                capacity_utilization = saved_cap
+            if saved_certs:
+                certifications = saved_certs
         
         emp_list.append({
             "odoo_id": odoo_id,
@@ -343,45 +375,45 @@ def sync_employees(models, uid):
         })
 
         md_content = f"""---
-        id: odoo-emp-{emp_id}
-        type: Employee Profile
-        name: "{name}"
-        job_title: "{job_title}"
-        department: "{department}"
-        manager: "{manager}"
-        email: "{email}"
-        phone: "{phone}"
-        location: "{location}"
-        capacity_utilization: {capacity_utilization or 0}
-        last_updated: {last_updated}
-        sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-        tags:
-          - employee
-          - department/{department.lower().replace(" ", "-")}
-          - capacity/{str(float(capacity_utilization or 0)).replace(".", "-")}
-        ---
-        # 👤 Employee Profile: {name}
+id: odoo-emp-{emp_id}
+type: Employee Profile
+name: "{name}"
+job_title: "{job_title}"
+department: "{department}"
+manager: "{manager}"
+email: "{email}"
+phone: "{phone}"
+location: "{location}"
+capacity_utilization: {capacity_utilization or 0}
+last_updated: {last_updated}
+sync_date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+tags:
+  - employee
+  - department/{department.lower().replace(" ", "-")}
+  - capacity/{str(float(capacity_utilization or 0)).replace(".", "-")}
+---
+# 👤 Employee Profile: {name}
 
-        ## 📋 A to Z Details
-        - **Full Name:** {name}
-        - **Job Title:** {job_title}
-        - **Department:** [[{department}]]
-        - **Manager / Supervisor:** [[{manager}]]
-        - **Work Email:** [{email}](mailto:{email})
-        - **Work Phone:** {phone}
-        - **Location:** {location}
-        - **Capacity Utilization:** {capacity_utilization or 0}%
+## 📋 A to Z Details
+- **Full Name:** {name}
+- **Job Title:** {job_title}
+- **Department:** [[{department}]]
+- **Manager / Supervisor:** [[{manager}]]
+- **Work Email:** [{email}](mailto:{email})
+- **Work Phone:** {phone}
+- **Location:** {location}
+- **Capacity Utilization:** {capacity_utilization or 0}%
 
-        ---
-        ## 🎯 Certifications
-        {', '.join(certifications) if certifications else 'No certifications listed'}
+---
+## 🎯 Certifications
+{', '.join(certifications) if certifications else 'No certifications listed'}
 
-        ## 🎯 Assigned Tasks & Projects
-        - Search assigned tasks in Obsidian: `assignees:"{name}"` or `[[{name}]]`
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"{name}"` or `[[{name}]]`
 
-        ---
-        *Synced from Odoo HR Module on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
-        """
+---
+*Synced from Odoo HR Module on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
+"""
         filename = f"Employee - {name}.md"
         file_path = os.path.join(emp_folder, filename)
         
@@ -393,19 +425,19 @@ def sync_employees(models, uid):
 
     # Create Master Index for 1-click access with capacity and cert info
     index_md = f"""---
-    tags:
-      - employee/index
-      - directory
-    type: Master Directory
-    ---
+tags:
+  - employee/index
+  - directory
+type: Master Directory
+---
 
-    # 📁 Master Employee Directory Index (A to Z)
+# 📁 Master Employee Directory Index (A to Z)
 
-    Click any employee below to view their complete A to Z details:
+Click any employee below to view their complete A to Z details:
 
-    | Employee Name | Job Title | Department | Capacity | Certifications | Email | Profile Link |
-    |---|---|---|---|---|---|---|
-    """
+| Employee Name | Job Title | Department | Capacity | Certifications | Email | Profile Link |
+|---|---|---|---|---|---|---|
+"""
     for e in sorted(emp_list, key=lambda x: x['name']):
         cert_display = ', '.join(e['certifications'][:3]) + ("..." if len(e['certifications']) > 3 else "")
         index_md += f"| {e['name']} | {e['job_title']} | {e['department']} | {e['capacity_utilization']}% | {cert_display} | {e['email']} | [[Employee - {e['name']}]]|\n"

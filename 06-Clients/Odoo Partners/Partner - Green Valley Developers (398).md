@@ -5,7 +5,7 @@ name: "Green Valley Developers"
 email: "finance@greenvalley.in"
 phone: "+91 98400 12346"
 last_updated: 2026-07-20 13:09:11
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

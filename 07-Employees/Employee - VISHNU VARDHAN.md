@@ -1,40 +1,39 @@
 ---
-        id: odoo-emp-52
-        type: Employee Profile
-        name: "VISHNU VARDHAN"
-        job_title: "Associate Developer"
-        department: "Product & Technology"
-        manager: "Rohit Thumu"
-        email: "vishnu02896@gmail.com"
-        phone: "8367696306"
-        location: "Home"
-        capacity_utilization: 0
-        last_updated: 2026-07-31 02:04:30
-        sync_date: 2026-08-16 19:44:13
-        tags:
-          - employee
-          - department/product-&-technology
-          - capacity/0-0
-        ---
-        # 👤 Employee Profile: VISHNU VARDHAN
+id: odoo-emp-52
+type: Employee Profile
+name: "VISHNU VARDHAN"
+job_title: "Associate Developer"
+department: "Product & Technology"
+manager: "Rohit Thumu"
+email: "vishnu02896@gmail.com"
+phone: "8367696306"
+location: "Home"
+capacity_utilization: 0
+last_updated: 2026-07-31 02:04:30
+sync_date: 2026-08-16 20:00:40
+tags:
+  - employee
+  - department/product-&-technology
+  - capacity/0-0
+---
+# 👤 Employee Profile: VISHNU VARDHAN
 
-        ## 📋 A to Z Details
-        - **Full Name:** VISHNU VARDHAN
-        - **Job Title:** Associate Developer
-        - **Department:** [[Product & Technology]]
-        - **Manager / Supervisor:** [[Rohit Thumu]]
-        - **Work Email:** [vishnu02896@gmail.com](mailto:vishnu02896@gmail.com)
-        - **Work Phone:** 8367696306
-        - **Location:** Home
-        - **Capacity Utilization:** 0%
+## 📋 A to Z Details
+- **Full Name:** VISHNU VARDHAN
+- **Job Title:** Associate Developer
+- **Department:** [[Product & Technology]]
+- **Manager / Supervisor:** [[Rohit Thumu]]
+- **Work Email:** [vishnu02896@gmail.com](mailto:vishnu02896@gmail.com)
+- **Work Phone:** 8367696306
+- **Location:** Home
+- **Capacity Utilization:** 0%
 
-        ---
-        ## 🎯 Certifications
-        No certifications listed
+---
+## 🎯 Certifications
+No certifications listed
 
-        ## 🎯 Assigned Tasks & Projects
-        - Search assigned tasks in Obsidian: `assignees:"VISHNU VARDHAN"` or `[[VISHNU VARDHAN]]`
+## 🎯 Assigned Tasks & Projects
+- Search assigned tasks in Obsidian: `assignees:"VISHNU VARDHAN"` or `[[VISHNU VARDHAN]]`
 
-        ---
-        *Synced from Odoo HR Module on 2026-08-16 19:44:13*
-        
+---
+*Synced from Odoo HR Module on 2026-08-16 20:00:40*

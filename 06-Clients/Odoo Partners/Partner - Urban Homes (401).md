@@ -5,7 +5,7 @@ name: "Urban Homes"
 email: "accounts@urbanhomes.in"
 phone: "+91 98400 12349"
 last_updated: 2026-07-20 13:17:26
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

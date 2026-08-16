@@ -5,7 +5,7 @@ name: "UltraTech Cement"
 email: "sales@ultratechcement.in"
 phone: "+91 98800 11111"
 last_updated: 2026-07-20 13:21:39
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

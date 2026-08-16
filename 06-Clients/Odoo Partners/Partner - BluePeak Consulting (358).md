@@ -5,7 +5,7 @@ name: "BluePeak Consulting"
 email: "billing@bluepeakconsulting.in"
 phone: "+91 11 4302 8890"
 last_updated: 2026-07-27 13:25:42
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---

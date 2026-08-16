@@ -5,7 +5,7 @@ space: "AppWithinMinutes"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906760000
-sync_date: 2026-08-16 19:45:26
+sync_date: 2026-08-16 20:01:53
 tags:
   - xwiki/documentation
   - space/appwithinminutes

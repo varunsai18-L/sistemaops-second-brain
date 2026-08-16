@@ -5,7 +5,7 @@ space: "XWiki.Notifications.Code"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906578000
-sync_date: 2026-08-16 19:45:08
+sync_date: 2026-08-16 20:01:36
 tags:
   - xwiki/documentation
   - space/xwiki.notifications.code

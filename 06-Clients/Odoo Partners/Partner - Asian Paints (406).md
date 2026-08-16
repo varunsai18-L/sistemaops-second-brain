@@ -5,7 +5,7 @@ name: "Asian Paints"
 email: "support@asianpaints.com"
 phone: "+91 98800 11114"
 last_updated: 2026-07-20 14:40:14
-sync_date: 2026-08-16 19:44:11
+sync_date: 2026-08-16 20:00:38
 tags:
   - client/partner
 ---
