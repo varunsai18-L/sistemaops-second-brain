@@ -19,8 +19,10 @@ Click any employee below to view their complete A to Z details:
 | Blesson | Chief Technical Officer - Strategy, Growth & Direction | Leadership & Operations | 82.5% | ISO 9001, PMP | blessonkr@gmail.com | [[Employee - Blesson]]|
 | Chetana Santhi Manapragada | Intern | Product & Technology | 0.0% |  | chetanasanthi.m@gmail.com | [[Employee - Chetana Santhi Manapragada]]|
 | Dev sharma | Intern | Product & Technology | 65.0% | ISO 9001 | devsharma26827@gmail.com | [[Employee - Dev sharma]]|
+| Divyanshi Gupta | Intern | Product & Technology | 0.0% |  | divyanshipdn@gmail.com | [[Employee - Divyanshi Gupta]]|
 | Diya Panjwani | Intern | Product & Technology | 0.0% |  | diyapanjwani00@gmail.com | [[Employee - Diya Panjwani]]|
 | Eshika Mathur | Intern | Product & Technology | 0.0% |  | eshikamathur01@gmail.com | [[Employee - Eshika Mathur]]|
+| Gnana sai Chinta | Intern | Product & Technology | 0.0% |  | gnanasaichinta@gmail.com | [[Employee - Gnana sai Chinta]]|
 | Gona Gowtham Sai | Intern | Product & Technology | 58.0% | ISO 9001 | gonagowtham94@gmail.com | [[Employee - Gona Gowtham Sai]]|
 | Gowra Mallesh | Intern | Product & Technology | 0.0% |  | gowramallesh2@gmail.com | [[Employee - Gowra Mallesh]]|
 | Hari Vijaykumar Patel | Intern | Product & Technology | 0.0% |  | patelhariv18@gmail.com | [[Employee - Hari Vijaykumar Patel]]|
@@ -29,6 +31,7 @@ Click any employee below to view their complete A to Z details:
 | Hruthwik Thota | AI Research & Automation Engineer | Product & Technology | 0.0% | 30, 38, 88 | thotahruthwik007@gmail.com | [[Employee - Hruthwik Thota]]|
 | Jhansi | Technical Project manager | Administration | 70.0% | ISO 9001, PMP | jhansichintapalli5757@gmail.com | [[Employee - Jhansi]]|
 | Ketan Malviya | Intern | Product & Technology | 0.0% |  | ketanmalviya9424840@gmail.com | [[Employee - Ketan Malviya]]|
+| Khushi Gupta | Intern | Product & Technology | 0.0% |  | Khushiguptafbd@gmail.com | [[Employee - Khushi Gupta]]|
 | Koushik Indra | AI Research & Automation Associate | Product & Technology | 0.0% |  | indrakoushik1@gmail.com | [[Employee - Koushik Indra]]|
 | Kumar Nirupam | Intern | Product & Technology | 0.0% | 70 | kumar.nirupam24@gmail.com | [[Employee - Kumar Nirupam]]|
 | Lasya Ram | Intern | Product & Technology | 0.0% | 30, 84, 39... | lassireddyram@gmail.com | [[Employee - Lasya Ram]]|
@@ -38,13 +41,16 @@ Click any employee below to view their complete A to Z details:
 | Narayana Shankar | Intern | Product & Technology | 0.0% |  | bandishankar373@gmail.com | [[Employee - Narayana Shankar]]|
 | Neha Sharma | Intern | Product & Technology | 0.0% |  | sharmaneha98884@gmail.com | [[Employee - Neha Sharma]]|
 | Nidhi | Intern | Product & Technology | 0.0% |  | kushwahganesh2006@gmail.com | [[Employee - Nidhi]]|
+| Niraja  Venkayala | Intern | Product & Technology | 0.0% |  | vniraja7847@gmail.com | [[Employee - Niraja  Venkayala]]|
 | Nomika | Intern | Product & Technology | 0.0% | 74, 88, 89 | nomikamittal@gmail.com | [[Employee - Nomika]]|
 | Patrick Deva | Intern | Product & Technology | 0.0% |  | patrickdeva8@gmail.com | [[Employee - Patrick Deva]]|
 | Pawan Dubey | Intern | Product & Technology | 0.0% |  | pawandubey6204385@gmail.com | [[Employee - Pawan Dubey]]|
 | Pradeepkonda | Developer Associate | General | 0.0% |  | pradeepkonda1418@gmail.com | [[Employee - Pradeepkonda]]|
 | RAGHAVENDHRA KARING | AI Research & Automation Associate | General | 0.0% |  | raghavendhrakaring@gmail.com | [[Employee - RAGHAVENDHRA KARING]]|
 | Rohit Thumu | Chief Executive Officer | Leadership & Operations | 75.0% | ISO 9001, PMP, Six Sigma | thumurohit@systemaops.com | [[Employee - Rohit Thumu]]|
+| Shashank Sai Surampudi | Intern | Product & Technology | 0.0% |  | sshashanksai@gmail.com | [[Employee - Shashank Sai Surampudi]]|
 | Shirshendu Baral | Development Lead | Leadership & Operations | 0.0% |  | shirshendu.baral@gmail.com | [[Employee - Shirshendu Baral]]|
+| Shreya Bhavani | Intern | Product & Technology | 0.0% |  | shreya29036@gmail.com | [[Employee - Shreya Bhavani]]|
 | Sravan Dandu | Front End and UI UX Engineer | SEO Focus | Product & Technology | 0.0% |  | sravandandu456@gmail.com | [[Employee - Sravan Dandu]]|
 | Srilalita | Chief Financial Officer, Growth and Operations | Finance & Administration | 0.0% |  | N/A | [[Employee - Srilalita]]|
 | Sukhpreet singh | Intern | Product & Technology | 0.0% |  | Silassukh@gmail.com | [[Employee - Sukhpreet singh]]|
@@ -62,4 +68,4 @@ Click any employee below to view their complete A to Z details:
 | kalyani kodi | Intern | Product & Technology | 0.0% | 75, 69, 87... | kalyanikodi565@gmail.com | [[Employee - kalyani kodi]]|
 
 ---
-*Total Active Employees: 49 | Last Synced: 2026-08-16 20:00:40*
+*Total Active Employees: 55 | Last Synced: 2026-08-19 20:21:58*

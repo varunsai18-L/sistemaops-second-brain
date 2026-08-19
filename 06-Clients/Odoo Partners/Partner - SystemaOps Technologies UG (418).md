@@ -5,7 +5,7 @@ name: "SystemaOps Technologies UG"
 email: "rohitthumu111@gmail.com"
 phone: "+49 176 85248689"
 last_updated: 2026-07-30 17:59:14
-sync_date: 2026-08-16 20:00:38
+sync_date: 2026-08-19 20:21:56
 tags:
   - client/partner
 ---

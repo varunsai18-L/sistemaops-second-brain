@@ -5,7 +5,7 @@ name: "My Company (San Francisco)"
 email: "info@yourcompany.com"
 phone: "+1 555-555-5556"
 last_updated: 2026-06-06 08:11:13
-sync_date: 2026-08-16 20:00:38
+sync_date: 2026-08-19 20:21:56
 tags:
   - client/partner
 ---

@@ -10,7 +10,7 @@ phone: "N/A"
 location: "Office"
 capacity_utilization: 82.5
 last_updated: 2026-06-12 09:46:21
-sync_date: 2026-08-16 20:00:40
+sync_date: 2026-08-19 20:21:58
 tags:
   - employee
   - department/leadership-&-operations
@@ -36,4 +36,4 @@ ISO 9001, PMP
 - Search assigned tasks in Obsidian: `assignees:"Blesson"` or `[[Blesson]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-16 20:00:40*
+*Synced from Odoo HR Module on 2026-08-19 20:21:58*

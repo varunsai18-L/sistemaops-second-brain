@@ -5,7 +5,7 @@ space: "Panels"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906972000
-sync_date: 2026-08-16 20:02:12
+sync_date: 2026-08-19 20:23:24
 tags:
   - xwiki/documentation
   - space/panels

@@ -5,7 +5,7 @@ space: "LDAPUserImport"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907379000
-sync_date: 2026-08-16 20:02:16
+sync_date: 2026-08-19 20:23:27
 tags:
   - xwiki/documentation
   - space/ldapuserimport

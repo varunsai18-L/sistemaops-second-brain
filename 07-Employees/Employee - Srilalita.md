@@ -10,7 +10,7 @@ phone: "N/A"
 location: "Office"
 capacity_utilization: 0
 last_updated: 2026-02-12 00:29:01
-sync_date: 2026-08-16 20:00:40
+sync_date: 2026-08-19 20:21:58
 tags:
   - employee
   - department/finance-&-administration
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Srilalita"` or `[[Srilalita]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-16 20:00:40*
+*Synced from Odoo HR Module on 2026-08-19 20:21:58*

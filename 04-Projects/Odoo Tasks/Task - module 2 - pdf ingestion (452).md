@@ -5,7 +5,7 @@ project: "RFQ Analzser"
 stage: "Backlog"
 assignees: "Palak Nagar"
 last_updated: 2026-06-16 12:39:46
-sync_date: 2026-08-16 20:00:40
+sync_date: 2026-08-19 20:21:57
 tags:
   - odoo/task
   - project/rfq-analzser
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[RFQ Analzser]]
 - **Odoo Stage:** Backlog
 - **Assignees:** Palak Nagar
-- **Last Sync:** 2026-08-16 20:00:40
+- **Last Sync:** 2026-08-19 20:21:57
 
 ## Description
 No description provided.

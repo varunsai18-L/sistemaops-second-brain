@@ -9,8 +9,8 @@ email: "patrickdeva8@gmail.com"
 phone: "9345132412"
 location: "Home"
 capacity_utilization: 0
-last_updated: 2026-08-15 03:33:35
-sync_date: 2026-08-16 20:00:40
+last_updated: 2026-08-19 12:45:28
+sync_date: 2026-08-19 20:21:58
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Patrick Deva"` or `[[Patrick Deva]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-16 20:00:40*
+*Synced from Odoo HR Module on 2026-08-19 20:21:58*

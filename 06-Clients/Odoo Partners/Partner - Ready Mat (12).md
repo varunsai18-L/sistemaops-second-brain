@@ -5,7 +5,7 @@ name: "Ready Mat"
 email: "ready.mat28@example.com"
 phone: "(803)-873-6126"
 last_updated: 2026-06-06 08:11:13
-sync_date: 2026-08-16 20:00:38
+sync_date: 2026-08-19 20:21:56
 tags:
   - client/partner
 ---

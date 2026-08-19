@@ -5,7 +5,7 @@ name: "Sunitha kotamarathi"
 email: "sunita@eduventurecareers.net"
 phone: "+91 93245 59813"
 last_updated: 2026-06-12 18:46:58
-sync_date: 2026-08-16 20:00:38
+sync_date: 2026-08-19 20:21:56
 tags:
   - client/partner
 ---

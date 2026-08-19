@@ -9,8 +9,8 @@ email: "sriramadabala350@gmail.com"
 phone: "8499971123"
 location: "Remote"
 capacity_utilization: 0
-last_updated: 2026-08-14 17:11:48
-sync_date: 2026-08-16 20:00:40
+last_updated: 2026-08-17 16:56:08
+sync_date: 2026-08-19 20:21:58
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Adabala Seetha Sriram"` or `[[Adabala Seetha Sriram]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-16 20:00:40*
+*Synced from Odoo HR Module on 2026-08-19 20:21:58*

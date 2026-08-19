@@ -5,7 +5,7 @@ space: "Menu"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907320000
-sync_date: 2026-08-16 20:02:19
+sync_date: 2026-08-19 20:23:31
 tags:
   - xwiki/documentation
   - space/menu

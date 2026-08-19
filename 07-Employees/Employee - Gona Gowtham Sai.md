@@ -9,8 +9,8 @@ email: "gonagowtham94@gmail.com"
 phone: "N/A"
 location: "Office"
 capacity_utilization: 58.0
-last_updated: 2026-08-14 16:24:59
-sync_date: 2026-08-16 20:00:40
+last_updated: 2026-08-18 16:58:35
+sync_date: 2026-08-19 20:21:58
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ ISO 9001
 - Search assigned tasks in Obsidian: `assignees:"Gona Gowtham Sai"` or `[[Gona Gowtham Sai]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-16 20:00:40*
+*Synced from Odoo HR Module on 2026-08-19 20:21:58*

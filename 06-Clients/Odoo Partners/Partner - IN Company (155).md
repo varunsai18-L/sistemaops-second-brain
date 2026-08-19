@@ -5,7 +5,7 @@ name: "IN Company"
 email: "info@company.inexample.com"
 phone: "+91 81234 56789"
 last_updated: 2026-06-06 08:11:13
-sync_date: 2026-08-16 20:00:38
+sync_date: 2026-08-19 20:21:56
 tags:
   - client/partner
 ---
