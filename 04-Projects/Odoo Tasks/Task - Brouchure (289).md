@@ -5,7 +5,7 @@ project: "Digital Presence : Presentations"
 stage: "Ideas"
 assignees: "52, VISHNU VARDHAN"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-19 20:21:57
+sync_date: 2026-08-19 20:26:13
 tags:
   - odoo/task
   - project/digital-presence-:-presentations
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Digital Presence : Presentations]]
 - **Odoo Stage:** Ideas
 - **Assignees:** 52, VISHNU VARDHAN
-- **Last Sync:** 2026-08-19 20:21:57
+- **Last Sync:** 2026-08-19 20:26:13
 
 ## Description
 No description provided.

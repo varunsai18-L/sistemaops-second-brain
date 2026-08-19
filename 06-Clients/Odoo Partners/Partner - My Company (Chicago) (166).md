@@ -5,7 +5,7 @@ name: "My Company (Chicago)"
 email: "chicago@yourcompany.com"
 phone: "+1 312 349 3030"
 last_updated: 2026-06-12 18:46:58
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

@@ -5,7 +5,7 @@ name: "The Jackson Group"
 email: "jackson.group82@example.com"
 phone: "(334)-502-1024"
 last_updated: 2026-06-06 08:11:13
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

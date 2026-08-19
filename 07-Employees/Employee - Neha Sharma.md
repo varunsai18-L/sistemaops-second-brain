@@ -10,7 +10,7 @@ phone: "08439141734"
 location: "Office"
 capacity_utilization: 0
 last_updated: 2026-08-19 13:29:46
-sync_date: 2026-08-19 20:21:58
+sync_date: 2026-08-19 20:26:14
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Neha Sharma"` or `[[Neha Sharma]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:21:58*
+*Synced from Odoo HR Module on 2026-08-19 20:26:14*

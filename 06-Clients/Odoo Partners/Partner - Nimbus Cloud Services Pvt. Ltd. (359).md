@@ -5,7 +5,7 @@ name: "Nimbus Cloud Services Pvt. Ltd."
 email: "billing@nimbuscloud.in"
 phone: "+91 80 6123 4400"
 last_updated: 2026-07-01 17:04:33
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

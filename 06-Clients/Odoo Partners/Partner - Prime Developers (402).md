@@ -5,7 +5,7 @@ name: "Prime Developers"
 email: "finance@primedevelopers.in"
 phone: "+91 98400 12350"
 last_updated: 2026-07-20 13:19:13
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

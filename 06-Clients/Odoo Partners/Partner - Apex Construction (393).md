@@ -5,7 +5,7 @@ name: "Apex Construction"
 email: "finance@apexconstruction.in"
 phone: "N/A"
 last_updated: 2026-07-17 13:12:14
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

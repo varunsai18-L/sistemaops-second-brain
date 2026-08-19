@@ -10,7 +10,7 @@ phone: "+4917685248689"
 location: "Office"
 capacity_utilization: 75.0
 last_updated: 2026-06-06 18:57:39
-sync_date: 2026-08-19 20:21:58
+sync_date: 2026-08-19 20:26:14
 tags:
   - employee
   - department/leadership-&-operations
@@ -36,4 +36,4 @@ ISO 9001, PMP, Six Sigma
 - Search assigned tasks in Obsidian: `assignees:"Rohit Thumu"` or `[[Rohit Thumu]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:21:58*
+*Synced from Odoo HR Module on 2026-08-19 20:26:14*

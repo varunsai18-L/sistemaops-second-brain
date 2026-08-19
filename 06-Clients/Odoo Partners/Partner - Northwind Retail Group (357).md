@@ -5,7 +5,7 @@ name: "Northwind Retail Group"
 email: "finance@northwindretail.in"
 phone: "+91 22 4098 7711"
 last_updated: 2026-07-01 17:04:32
-sync_date: 2026-08-19 20:21:56
+sync_date: 2026-08-19 20:26:12
 tags:
   - client/partner
 ---

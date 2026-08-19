@@ -10,7 +10,7 @@ phone: "N/A"
 location: "Office"
 capacity_utilization: 0
 last_updated: 2026-06-12 09:51:29
-sync_date: 2026-08-19 20:21:58
+sync_date: 2026-08-19 20:26:14
 tags:
   - employee
   - department/leadership-&-operations
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Shirshendu Baral"` or `[[Shirshendu Baral]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:21:58*
+*Synced from Odoo HR Module on 2026-08-19 20:26:14*
