@@ -10,7 +10,7 @@ phone: "8790231947"
 location: "Remote"
 capacity_utilization: 0
 last_updated: 2026-08-08 11:34:11
-sync_date: 2026-08-19 20:26:14
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Mitali Singh"` or `[[Mitali Singh]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

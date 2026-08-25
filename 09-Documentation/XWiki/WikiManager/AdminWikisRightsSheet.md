@@ -5,7 +5,7 @@ space: "WikiManager"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781906621000
-sync_date: 2026-08-19 20:22:52
+sync_date: 2026-08-25 21:13:32
 tags:
   - xwiki/documentation
   - space/wikimanager

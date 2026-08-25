@@ -41,7 +41,6 @@ Click any employee below to view their complete A to Z details:
 | Narayana Shankar | Intern | Product & Technology | 0.0% |  | bandishankar373@gmail.com | [[Employee - Narayana Shankar]]|
 | Neha Sharma | Intern | Product & Technology | 0.0% |  | sharmaneha98884@gmail.com | [[Employee - Neha Sharma]]|
 | Nidhi | Intern | Product & Technology | 0.0% |  | kushwahganesh2006@gmail.com | [[Employee - Nidhi]]|
-| Niraja  Venkayala | Intern | Product & Technology | 0.0% |  | vniraja7847@gmail.com | [[Employee - Niraja  Venkayala]]|
 | Nomika | Intern | Product & Technology | 0.0% | 74, 88, 89 | nomikamittal@gmail.com | [[Employee - Nomika]]|
 | Patrick Deva | Intern | Product & Technology | 0.0% |  | patrickdeva8@gmail.com | [[Employee - Patrick Deva]]|
 | Pawan Dubey | Intern | Product & Technology | 0.0% |  | pawandubey6204385@gmail.com | [[Employee - Pawan Dubey]]|
@@ -59,6 +58,7 @@ Click any employee below to view their complete A to Z details:
 | Tuhina Debnath | Intern | Product & Technology | 0.0% | 30, 7, 39... | debnathtuhina01@gmail.com | [[Employee - Tuhina Debnath]]|
 | Uday Charan | UI UX Engineer | Front End Development and SEO | Product & Technology | 0.0% | 40, 59, 58... | udaycharanmengarthi1@gmail.com | [[Employee - Uday Charan]]|
 | Uma | Intern | Product & Technology | 0.0% |  | umasharma162137@gmail.com | [[Employee - Uma]]|
+| V.Niraja | Intern | Product & Technology | 0.0% |  | vniraja7847@gmail.com | [[Employee - V.Niraja]]|
 | VARNA GEORGE | Intern | Product & Technology | 0.0% | 30, 22, 27... | varnamoonjely@gmail.com | [[Employee - VARNA GEORGE]]|
 | VISHNU VARDHAN | Associate Developer | Product & Technology | 0.0% |  | vishnu02896@gmail.com | [[Employee - VISHNU VARDHAN]]|
 | Vakeel Rakesh | Workflow & Process Automation Engineer | Administration | 0.0% | 40, 22, 27... | rakeshvakeel000@gmail.com | [[Employee - Vakeel Rakesh]]|
@@ -68,4 +68,4 @@ Click any employee below to view their complete A to Z details:
 | kalyani kodi | Intern | Product & Technology | 0.0% | 75, 69, 87... | kalyanikodi565@gmail.com | [[Employee - kalyani kodi]]|
 
 ---
-*Total Active Employees: 55 | Last Synced: 2026-08-19 20:26:14*
+*Total Active Employees: 55 | Last Synced: 2026-08-25 21:12:33*

@@ -9,8 +9,8 @@ email: "chetanasanthi.m@gmail.com"
 phone: "9177712515"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-19 14:10:36
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-19 18:37:39
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Chetana Santhi Manapragada"` or `[[Chetana Santhi Manapragada]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

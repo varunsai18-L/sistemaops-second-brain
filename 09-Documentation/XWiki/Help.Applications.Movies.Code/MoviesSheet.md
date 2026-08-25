@@ -5,7 +5,7 @@ space: "Help.Applications.Movies.Code"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781909447000
-sync_date: 2026-08-19 20:23:31
+sync_date: 2026-08-25 21:14:16
 tags:
   - xwiki/documentation
   - space/help.applications.movies.code

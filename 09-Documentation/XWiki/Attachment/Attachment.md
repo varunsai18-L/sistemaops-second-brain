@@ -5,7 +5,7 @@ space: "Attachment"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781905337000
-sync_date: 2026-08-19 20:22:24
+sync_date: 2026-08-25 21:13:01
 tags:
   - xwiki/documentation
   - space/attachment

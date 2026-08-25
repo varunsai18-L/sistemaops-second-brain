@@ -5,7 +5,7 @@ space: "Attachment.Code"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781903489000
-sync_date: 2026-08-19 20:22:18
+sync_date: 2026-08-25 21:12:55
 tags:
   - xwiki/documentation
   - space/attachment.code

@@ -9,8 +9,8 @@ email: "maharshini09@gmail.com"
 phone: "N/A"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-19 13:59:46
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-25 15:38:13
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/general
@@ -36,4 +36,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Maharshini"` or `[[Maharshini]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

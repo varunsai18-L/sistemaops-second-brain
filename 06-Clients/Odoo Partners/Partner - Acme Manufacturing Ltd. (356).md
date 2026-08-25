@@ -5,7 +5,7 @@ name: "Acme Manufacturing Ltd."
 email: "accounts.payable@acmemfg.in"
 phone: "+91 80 4512 1100"
 last_updated: 2026-07-01 17:04:31
-sync_date: 2026-08-19 20:26:12
+sync_date: 2026-08-25 21:12:29
 tags:
   - client/partner
 ---

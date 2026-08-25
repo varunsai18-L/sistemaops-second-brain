@@ -9,8 +9,8 @@ email: "indrakoushik1@gmail.com"
 phone: "+91 70936 61204"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-19 13:47:05
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-25 15:13:45
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Koushik Indra"` or `[[Koushik Indra]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

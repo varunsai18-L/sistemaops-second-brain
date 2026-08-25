@@ -5,7 +5,7 @@ space: "Help.SupportPanel"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781909135000
-sync_date: 2026-08-19 20:22:14
+sync_date: 2026-08-25 21:12:50
 tags:
   - xwiki/documentation
   - space/help.supportpanel

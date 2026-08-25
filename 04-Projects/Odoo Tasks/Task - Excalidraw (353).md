@@ -5,7 +5,7 @@ project: "App deployment"
 stage: "Migration"
 assignees: "Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-19 20:26:13
+sync_date: 2026-08-25 21:12:32
 tags:
   - odoo/task
   - project/app-deployment
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[App deployment]]
 - **Odoo Stage:** Migration
 - **Assignees:** Vakeel Rakesh
-- **Last Sync:** 2026-08-19 20:26:13
+- **Last Sync:** 2026-08-25 21:12:32
 
 ## Description
 Excalidrawhttp://10.99.0.9:3000

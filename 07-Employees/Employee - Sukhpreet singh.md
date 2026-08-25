@@ -9,8 +9,8 @@ email: "Silassukh@gmail.com"
 phone: "N/A"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-08 09:16:19
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-25 14:08:03
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Sukhpreet singh"` or `[[Sukhpreet singh]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

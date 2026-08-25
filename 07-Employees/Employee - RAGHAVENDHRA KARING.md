@@ -9,8 +9,8 @@ email: "raghavendhrakaring@gmail.com"
 phone: "7032909996"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-18 17:29:15
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-21 16:41:39
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/general
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"RAGHAVENDHRA KARING"` or `[[RAGHAVENDHRA KARING]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

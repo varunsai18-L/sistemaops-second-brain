@@ -5,7 +5,7 @@ project: "Deploy Odoo"
 stage: "None"
 assignees: "Unassigned"
 last_updated: 2026-07-24 12:35:28
-sync_date: 2026-08-19 20:26:13
+sync_date: 2026-08-25 21:12:32
 tags:
   - odoo/task
   - project/deploy-odoo
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Deploy Odoo]]
 - **Odoo Stage:** None
 - **Assignees:** Unassigned
-- **Last Sync:** 2026-08-19 20:26:13
+- **Last Sync:** 2026-08-25 21:12:32
 
 ## Description
 No description provided.

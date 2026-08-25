@@ -5,7 +5,7 @@ space: "PanelsCode"
 author: "XWiki.superadmin"
 version: "1.1"
 last_modified: 1781907281000
-sync_date: 2026-08-19 20:23:29
+sync_date: 2026-08-25 21:14:14
 tags:
   - xwiki/documentation
   - space/panelscode

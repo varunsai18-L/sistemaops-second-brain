@@ -5,7 +5,7 @@ name: "Apex Construction"
 email: "accounts@apexconstruction.in"
 phone: "+91 98400 12348"
 last_updated: 2026-07-22 12:01:54
-sync_date: 2026-08-19 20:26:12
+sync_date: 2026-08-25 21:12:29
 tags:
   - client/partner
 ---

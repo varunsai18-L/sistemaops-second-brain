@@ -5,7 +5,7 @@ project: "Internal"
 stage: "Internal"
 assignees: "Rohit Thumu, Vakeel Rakesh"
 last_updated: 2026-06-06 06:03:34
-sync_date: 2026-08-19 20:26:13
+sync_date: 2026-08-25 21:12:32
 tags:
   - odoo/task
   - project/internal
@@ -16,7 +16,7 @@ tags:
 - **Project:** [[Internal]]
 - **Odoo Stage:** Internal
 - **Assignees:** Rohit Thumu, Vakeel Rakesh
-- **Last Sync:** 2026-08-19 20:26:13
+- **Last Sync:** 2026-08-25 21:12:32
 
 ## Description
 This project involves collaborative development of AI training datasets to accelerate AI model development and ensure regulatory compliance. Key focus areas include:

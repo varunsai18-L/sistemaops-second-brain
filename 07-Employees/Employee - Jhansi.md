@@ -10,7 +10,7 @@ phone: "7013017215"
 location: "Office"
 capacity_utilization: 70.0
 last_updated: 2026-07-25 17:31:53
-sync_date: 2026-08-19 20:26:14
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/administration
@@ -36,4 +36,4 @@ ISO 9001, PMP
 - Search assigned tasks in Obsidian: `assignees:"Jhansi"` or `[[Jhansi]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

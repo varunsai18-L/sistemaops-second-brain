@@ -9,8 +9,8 @@ email: "kushwahganesh2006@gmail.com"
 phone: "6397956342"
 location: "Remote"
 capacity_utilization: 0
-last_updated: 2026-08-19 13:34:03
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-25 14:09:36
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ No certifications listed
 - Search assigned tasks in Obsidian: `assignees:"Nidhi"` or `[[Nidhi]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

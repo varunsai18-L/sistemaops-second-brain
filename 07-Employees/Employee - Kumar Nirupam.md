@@ -9,8 +9,8 @@ email: "kumar.nirupam24@gmail.com"
 phone: "N/A"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-19 14:09:55
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-21 15:06:53
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Kumar Nirupam"` or `[[Kumar Nirupam]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

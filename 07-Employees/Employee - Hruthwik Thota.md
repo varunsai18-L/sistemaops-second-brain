@@ -9,8 +9,8 @@ email: "thotahruthwik007@gmail.com"
 phone: "6303326883"
 location: "Home"
 capacity_utilization: 0
-last_updated: 2026-08-19 13:23:02
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-24 16:35:41
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Hruthwik Thota"` or `[[Hruthwik Thota]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*

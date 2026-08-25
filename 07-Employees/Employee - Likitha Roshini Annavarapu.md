@@ -9,8 +9,8 @@ email: "likitharoshiniannavarapu@gmail.com"
 phone: "8019514149"
 location: "Office"
 capacity_utilization: 0
-last_updated: 2026-08-19 13:31:01
-sync_date: 2026-08-19 20:26:14
+last_updated: 2026-08-25 13:31:06
+sync_date: 2026-08-25 21:12:33
 tags:
   - employee
   - department/product-&-technology
@@ -36,4 +36,4 @@ tags:
 - Search assigned tasks in Obsidian: `assignees:"Likitha Roshini Annavarapu"` or `[[Likitha Roshini Annavarapu]]`
 
 ---
-*Synced from Odoo HR Module on 2026-08-19 20:26:14*
+*Synced from Odoo HR Module on 2026-08-25 21:12:33*
